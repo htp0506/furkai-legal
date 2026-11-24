@@ -3,3 +3,4 @@ __pycache__/
 assets/voices/*.onnx
 assets/voices/*.onnx.json
 videolar/.tmp_*/
+videolar/
