@@ -50,12 +50,57 @@ Bu dosya `tools/export_docs.py` ile senaryo kaynaklarından (`episodes/`) otomat
 
 - [Ders 24 · Hava kuralları ve doğru karar](#ders-24)
 
+**MODÜL 7 · TERMİK**
+
+- [Ders 25 · Hava hızı ve yer hızı](#ders-25)
+- [Ders 26 · Termikte dönüş: 5 adım](#ders-26)
+- [Ders 27 · Termik nasıl bulunur?](#ders-27)
+- [Ders 28 · Kalabalık termikte kurallar](#ders-28)
+
+**MODÜL 8 · İLERİ MANEVRA**
+
+- [Ders 29 · Derin spiral ve tam spiral](#ders-29)
+- [Ders 30 · Derin stol ve tam stol](#ders-30)
+- [Ders 31 · Wingover](#ders-31)
+
+**MODÜL 9 · KALKIŞ+**
+
+- [Ders 32 · Kalkışın üç yolu](#ders-32)
+- [Ders 33 · Kobra kalkış](#ders-33)
+- [Ders 34 · Yer hakimiyeti](#ders-34)
+- [Ders 35 · Kalkıştan önce alanı ve rüzgarı oku](#ders-35)
+- [Ders 36 · Koşmadan önce 5 saniye](#ders-36)
+- [Ders 37 · İpler karıştı: nasıl çözülür?](#ders-37)
+
+**MODÜL 10 · İNİŞ+**
+
+- [Ders 38 · İnişi havada planla](#ders-38)
+- [Ders 39 · Frenin konumu: çeyrek, yarım, tam](#ders-39)
+
+**MODÜL 11 · METEOROLOJİ+**
+
+- [Ders 40 · Rüzgarı 5 yoldan oku](#ders-40)
+- [Ders 41 · Türbülans nereden gelir?](#ders-41)
+- [Ders 42 · Toz hortumu](#ders-42)
+- [Ders 43 · Yağmurda uçulur mu?](#ders-43)
+- [Ders 44 · Yükseldikçe neden üşürsün?](#ders-44)
+- [Ders 45 · Eğitim neden sabah erken?](#ders-45)
+
+**MODÜL 12 · PİLOT**
+
+- [Ders 46 · Kanat sınıfları: A, B, C, D](#ders-46)
+- [Ders 47 · Ekipman bakımı: ipler ve yedek](#ders-47)
+- [Ders 48 · Pilot sağlığı: DEATH kuralı](#ders-48)
+- [Ders 49 · NOTAM ve hava sahası](#ders-49)
+- [Ders 50 · P2 ve P3: pilotluk seviyeleri](#ders-50)
+- [Ders 51 · Teorik dersler ve ilk uçuş](#ders-51)
+
 ---
 
 <a id="ders-01"></a>
 ## Ders 01 · Yamaç paraşütü nasıl uçar?
 
-*MODÜL 1 · TEMELLER* · Ekranda: **NASIL UÇAR?** / MOTORSUZ UÇUŞ
+*MODÜL 1 · TEMELLER* · Ekranda: **NASIL UÇAR?** / MOTORSUZ UÇUŞ · Süre: **44 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -71,7 +116,7 @@ Bu dosya `tools/export_docs.py` ile senaryo kaynaklarından (`episodes/`) otomat
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 01/24 · Yamaç paraşütü nasıl uçar?
+🪂 Ders 01/51 · Yamaç paraşütü nasıl uçar?
 
 Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 
@@ -92,7 +137,7 @@ Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 <a id="ders-02"></a>
 ## Ders 02 · Kanadın anatomisi
 
-*MODÜL 1 · TEMELLER* · Ekranda: **KANADIN ANATOMİSİ** / PARÇA PARÇA
+*MODÜL 1 · TEMELLER* · Ekranda: **KANADIN ANATOMİSİ** / PARÇA PARÇA · Süre: **44 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -108,7 +153,7 @@ Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 02/24 · Kanadın anatomisi
+🪂 Ders 02/51 · Kanadın anatomisi
 
 Kanadını parça parça tanımadan, ona güvenemezsin.
 
@@ -129,7 +174,7 @@ Kanadını parça parça tanımadan, ona güvenemezsin.
 <a id="ders-03"></a>
 ## Ders 03 · Uçuş ekipmanı
 
-*MODÜL 1 · TEMELLER* · Ekranda: **UÇUŞ EKİPMANI** / ÇANTANDA NE OLMALI?
+*MODÜL 1 · TEMELLER* · Ekranda: **UÇUŞ EKİPMANI** / ÇANTANDA NE OLMALI? · Süre: **43 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -146,7 +191,7 @@ Kanadını parça parça tanımadan, ona güvenemezsin.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 03/24 · Uçuş ekipmanı
+🪂 Ders 03/51 · Uçuş ekipmanı
 
 Uçuş çantanda bunlar yoksa, kalkışa çıkma.
 
@@ -163,7 +208,7 @@ Uçuş çantanda bunlar yoksa, kalkışa çıkma.
 <a id="ders-04"></a>
 ## Ders 04 · Hücum açısı
 
-*MODÜL 1 · TEMELLER* · Ekranda: **HÜCUM AÇISI** / HER ŞEYİN ANAHTARI
+*MODÜL 1 · TEMELLER* · Ekranda: **HÜCUM AÇISI** / HER ŞEYİN ANAHTARI · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -179,7 +224,7 @@ Uçuş çantanda bunlar yoksa, kalkışa çıkma.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 04/24 · Hücum açısı
+🪂 Ders 04/51 · Hücum açısı
 
 Kanadının en önemli ayarı: hücum açısı.
 
@@ -200,7 +245,7 @@ Kanadının en önemli ayarı: hücum açısı.
 <a id="ders-05"></a>
 ## Ders 05 · Rüzgarı oku: rüzgar tulumu
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **RÜZGARI OKU** / RÜZGAR TULUMU
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **RÜZGARI OKU** / RÜZGAR TULUMU · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -216,7 +261,7 @@ Kanadının en önemli ayarı: hücum açısı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 05/24 · Rüzgarı oku: rüzgar tulumu
+🪂 Ders 05/51 · Rüzgarı oku: rüzgar tulumu
 
 Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
 
@@ -237,7 +282,7 @@ Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
 <a id="ders-06"></a>
 ## Ders 06 · Yamaç (dinamik) kaldırması
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **YAMAÇ KALDIRMASI** / DİNAMİK KALDIRMA
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **YAMAÇ KALDIRMASI** / DİNAMİK KALDIRMA · Süre: **42 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -253,7 +298,7 @@ Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 06/24 · Yamaç (dinamik) kaldırması
+🪂 Ders 06/51 · Yamaç (dinamik) kaldırması
 
 Rüzgar dağa çarptığında sana bedava yükseklik verir.
 
@@ -274,7 +319,7 @@ Rüzgar dağa çarptığında sana bedava yükseklik verir.
 <a id="ders-07"></a>
 ## Ders 07 · Termik nedir?
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **TERMİK** / GÜNEŞİN ASANSÖRÜ
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **TERMİK** / GÜNEŞİN ASANSÖRÜ · Süre: **46 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -291,7 +336,7 @@ Rüzgar dağa çarptığında sana bedava yükseklik verir.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 07/24 · Termik nedir?
+🪂 Ders 07/51 · Termik nedir?
 
 Bulutlara kadar yükselmenin yolu: termik.
 
@@ -312,7 +357,7 @@ Bulutlara kadar yükselmenin yolu: termik.
 <a id="ders-08"></a>
 ## Ders 08 · Rotor ve türbülans
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **ROTOR** / GÖRÜNMEYEN TEHLİKE
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **ROTOR** / GÖRÜNMEYEN TEHLİKE · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -328,7 +373,7 @@ Bulutlara kadar yükselmenin yolu: termik.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 08/24 · Rotor ve türbülans
+🪂 Ders 08/51 · Rotor ve türbülans
 
 Gökyüzünde görünmeyen bir girdap var: rotor.
 
@@ -349,7 +394,7 @@ Gökyüzünde görünmeyen bir girdap var: rotor.
 <a id="ders-09"></a>
 ## Ders 09 · Fırtına bulutu: Kümülonimbüs
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **FIRTINA BULUTU** / KÜMÜLONİMBÜS
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **FIRTINA BULUTU** / KÜMÜLONİMBÜS · Süre: **37 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -365,7 +410,7 @@ Gökyüzünde görünmeyen bir girdap var: rotor.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 09/24 · Fırtına bulutu: Kümülonimbüs
+🪂 Ders 09/51 · Fırtına bulutu: Kümülonimbüs
 
 Bu bulutu gördüysen, hemen in.
 
@@ -386,7 +431,7 @@ Bu bulutu gördüysen, hemen in.
 <a id="ders-10"></a>
 ## Ders 10 · Uçuş öncesi 5 nokta kontrol
 
-*MODÜL 3 · KALKIŞ* · Ekranda: **5 NOKTA KONTROL** / HER KALKIŞTAN ÖNCE
+*MODÜL 3 · KALKIŞ* · Ekranda: **5 NOKTA KONTROL** / HER KALKIŞTAN ÖNCE · Süre: **38 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -402,7 +447,7 @@ Bu bulutu gördüysen, hemen in.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 10/24 · Uçuş öncesi 5 nokta kontrol
+🪂 Ders 10/51 · Uçuş öncesi 5 nokta kontrol
 
 Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
 
@@ -419,7 +464,7 @@ Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
 <a id="ders-11"></a>
 ## Ders 11 · Önden kalkış
 
-*MODÜL 3 · KALKIŞ* · Ekranda: **ÖNDEN KALKIŞ** / HAFİF RÜZGARDA
+*MODÜL 3 · KALKIŞ* · Ekranda: **ÖNDEN KALKIŞ** / HAFİF RÜZGARDA · Süre: **46 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -436,7 +481,7 @@ Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 11/24 · Önden kalkış
+🪂 Ders 11/51 · Önden kalkış
 
 Hafif rüzgarda kalkışın adı: önden kalkış.
 
@@ -457,7 +502,7 @@ Hafif rüzgarda kalkışın adı: önden kalkış.
 <a id="ders-12"></a>
 ## Ders 12 · Ters kalkış
 
-*MODÜL 3 · KALKIŞ* · Ekranda: **TERS KALKIŞ** / GÜÇLÜ RÜZGARDA
+*MODÜL 3 · KALKIŞ* · Ekranda: **TERS KALKIŞ** / GÜÇLÜ RÜZGARDA · Süre: **44 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -473,7 +518,7 @@ Hafif rüzgarda kalkışın adı: önden kalkış.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 12/24 · Ters kalkış
+🪂 Ders 12/51 · Ters kalkış
 
 Rüzgar artınca yüzünü kanadına dön: ters kalkış.
 
@@ -494,7 +539,7 @@ Rüzgar artınca yüzünü kanadına dön: ters kalkış.
 <a id="ders-13"></a>
 ## Ders 13 · Fren ve hız kontrolü
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **FREN VE HIZ** / ELLERİN = HIZ AYARI
+*MODÜL 4 · UÇUŞ* · Ekranda: **FREN VE HIZ** / ELLERİN = HIZ AYARI · Süre: **42 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -510,7 +555,7 @@ Rüzgar artınca yüzünü kanadına dön: ters kalkış.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 13/24 · Fren ve hız kontrolü
+🪂 Ders 13/51 · Fren ve hız kontrolü
 
 Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 
@@ -531,7 +576,7 @@ Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 <a id="ders-14"></a>
 ## Ders 14 · Dönüş tekniği
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **DÖNÜŞ TEKNİĞİ** / BAK · AĞIRLIK · FREN
+*MODÜL 4 · UÇUŞ* · Ekranda: **DÖNÜŞ TEKNİĞİ** / BAK · AĞIRLIK · FREN · Süre: **38 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -547,7 +592,7 @@ Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 14/24 · Dönüş tekniği
+🪂 Ders 14/51 · Dönüş tekniği
 
 Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 
@@ -568,7 +613,7 @@ Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 <a id="ders-15"></a>
 ## Ders 15 · Süzülme oranı ve hızlandırıcı
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **SÜZÜLME ORANI** / VE HIZLANDIRICI
+*MODÜL 4 · UÇUŞ* · Ekranda: **SÜZÜLME ORANI** / VE HIZLANDIRICI · Süre: **45 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -585,7 +630,7 @@ Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 15/24 · Süzülme oranı ve hızlandırıcı
+🪂 Ders 15/51 · Süzülme oranı ve hızlandırıcı
 
 Bin metreden kaç kilometre uzağa gidebilirsin?
 
@@ -606,7 +651,7 @@ Bin metreden kaç kilometre uzağa gidebilirsin?
 <a id="ders-16"></a>
 ## Ders 16 · Kulak katlama
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **KULAK KATLAMA** / HIZLI ALÇALMA
+*MODÜL 4 · UÇUŞ* · Ekranda: **KULAK KATLAMA** / HIZLI ALÇALMA · Süre: **46 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -623,7 +668,7 @@ Bin metreden kaç kilometre uzağa gidebilirsin?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 16/24 · Kulak katlama
+🪂 Ders 16/51 · Kulak katlama
 
 Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 
@@ -644,7 +689,7 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 <a id="ders-17"></a>
 ## Ders 17 · İniş yaklaşması
 
-*MODÜL 5 · İNİŞ* · Ekranda: **İNİŞ YAKLAŞMASI** / PİST DÜZENİ
+*MODÜL 5 · İNİŞ* · Ekranda: **İNİŞ YAKLAŞMASI** / PİST DÜZENİ · Süre: **39 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -661,7 +706,7 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 17/24 · İniş yaklaşması
+🪂 Ders 17/51 · İniş yaklaşması
 
 İyi iniş, iniş alanına varmadan başlar.
 
@@ -682,7 +727,7 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 <a id="ders-18"></a>
 ## Ders 18 · Palya (Flare)
 
-*MODÜL 5 · İNİŞ* · Ekranda: **PALYA** / FLARE · Süre: **50 sn**
+*MODÜL 5 · İNİŞ* · Ekranda: **PALYA** / FLARE · Süre: **51 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -701,7 +746,7 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 18/24 · Palya (Flare)
+🪂 Ders 18/51 · Palya (Flare)
 
 Palya, yani flare. Yumuşak inişin sırrı.
 
@@ -722,7 +767,7 @@ Palya, yani flare. Yumuşak inişin sırrı.
 <a id="ders-19"></a>
 ## Ders 19 · PLF: güvenli yuvarlanma
 
-*MODÜL 5 · İNİŞ* · Ekranda: **PLF** / GÜVENLİ YUVARLANMA
+*MODÜL 5 · İNİŞ* · Ekranda: **PLF** / GÜVENLİ YUVARLANMA · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -738,7 +783,7 @@ Palya, yani flare. Yumuşak inişin sırrı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 19/24 · PLF: güvenli yuvarlanma
+🪂 Ders 19/51 · PLF: güvenli yuvarlanma
 
 İnişin sert olacaksa, düşmeyi bilmek seni korur.
 
@@ -759,7 +804,7 @@ Palya, yani flare. Yumuşak inişin sırrı.
 <a id="ders-20"></a>
 ## Ders 20 · Asimetrik kapanma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **ASİMETRİK KAPANMA** / ÖNCE YÖN, SONRA KANAT
+*MODÜL 6 · ACİL DURUM* · Ekranda: **ASİMETRİK KAPANMA** / ÖNCE YÖN, SONRA KANAT · Süre: **45 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -776,7 +821,7 @@ Palya, yani flare. Yumuşak inişin sırrı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 20/24 · Asimetrik kapanma
+🪂 Ders 20/51 · Asimetrik kapanma
 
 Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 
@@ -797,7 +842,7 @@ Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 <a id="ders-21"></a>
 ## Ders 21 · Önden kapanma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **ÖNDEN KAPANMA** / FRONTAL KAPANMA
+*MODÜL 6 · ACİL DURUM* · Ekranda: **ÖNDEN KAPANMA** / FRONTAL KAPANMA · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -813,7 +858,7 @@ Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 21/24 · Önden kapanma
+🪂 Ders 21/51 · Önden kapanma
 
 Kanadının ön kenarı bir anda içe katlandı!
 
@@ -834,7 +879,7 @@ Kanadının ön kenarı bir anda içe katlandı!
 <a id="ders-22"></a>
 ## Ders 22 · Stol ve negatif
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **STOL & NEGATİF** / FAZLA FRENİN BEDELİ
+*MODÜL 6 · ACİL DURUM* · Ekranda: **STOL & NEGATİF** / FAZLA FRENİN BEDELİ · Süre: **48 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -851,7 +896,7 @@ Kanadının ön kenarı bir anda içe katlandı!
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 22/24 · Stol ve negatif
+🪂 Ders 22/51 · Stol ve negatif
 
 Kanadı durduran şey: fazla fren.
 
@@ -872,7 +917,7 @@ Kanadı durduran şey: fazla fren.
 <a id="ders-23"></a>
 ## Ders 23 · Yedek paraşüt atma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **YEDEK PARAŞÜT** / BAK · TUT · ÇEK · AT
+*MODÜL 6 · ACİL DURUM* · Ekranda: **YEDEK PARAŞÜT** / BAK · TUT · ÇEK · AT · Süre: **45 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -890,7 +935,7 @@ Kanadı durduran şey: fazla fren.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 23/24 · Yedek paraşüt atma
+🪂 Ders 23/51 · Yedek paraşüt atma
 
 Her şey ters gittiyse son çaren: yedek paraşüt.
 
@@ -911,7 +956,7 @@ Her şey ters gittiyse son çaren: yedek paraşüt.
 <a id="ders-24"></a>
 ## Ders 24 · Hava kuralları ve doğru karar
 
-*MODÜL 6 · KURALLAR* · Ekranda: **HAVA KURALLARI** / GÖKYÜZÜNDE TRAFİK
+*MODÜL 6 · KURALLAR* · Ekranda: **HAVA KURALLARI** / GÖKYÜZÜNDE TRAFİK · Süre: **34 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -927,7 +972,7 @@ Her şey ters gittiyse son çaren: yedek paraşüt.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 24/24 · Hava kuralları ve doğru karar
+🪂 Ders 24/51 · Hava kuralları ve doğru karar
 
 Gökyüzünün de trafik kuralları var.
 
@@ -941,4 +986,901 @@ Gökyüzünün de trafik kuralları var.
 ⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
 
 #yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #havakuralları #güvenlik
+```
+
+---
+
+<a id="ders-25"></a>
+## Ders 25 · Hava hızı ve yer hızı
+
+*MODÜL 7 · TERMİK* · Ekranda: **YER HIZI** / HAVA HIZI ≠ YER HIZI
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Hava hızı ile yer hızı aynı şey değil. |  |
+| 2 | groundspeed | Kanat havaya göre hep aynı hızda uçar. Örnek kanatta saatte 38 km. | HAVA HIZI · ≈ 38 km/sa |
+| 3 | groundspeed | Karşıdan 20 km rüzgar varsa, yere göre sadece 18 km/sa ile ilerlersin. | KARŞI RÜZGAR: YAVAŞ |
+| 4 | groundspeed | Rüzgar arkandaysa yer hızın 58 km/sa'e çıkar. | ARKA RÜZGAR: HIZLI |
+| 5 | groundspeed | Rüzgar kanadının hızını geçerse, ileri bakarken geriye gidersin. | RÜZGAR > HAVA HIZI |
+| 6 | groundspeed | Alçakta arka rüzgara dönersen yer hızın bir anda artar. İnişe yakın bunu asla yapma. | ALÇAKTA ARKA RÜZGARA DÖNME |
+| 7 | recap | Rüzgarı hesaba katan pilot, iniş alanını kaçırmaz. |  |
+| 8 | outro | Hiç ileri bakarken geri gittiğin oldu mu? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 25/51 · Hava hızı ve yer hızı
+
+Hava hızı ile yer hızı aynı şey değil.
+
+✅ Kanat havaya göre aynı hızda uçar
+✅ Karşı rüzgar yer hızını düşürür
+✅ Arka rüzgar yer hızını artırır
+✅ Rüzgar > hava hızı: geri gidersin
+
+💬 Hiç geri gittiğin oldu mu? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-26"></a>
+## Ders 26 · Termikte dönüş: 5 adım
+
+*MODÜL 7 · TERMİK* · Ekranda: **TERMİKTE DÖNÜŞ** / 5 ADIM
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Termiği buldun. Şimdi doğru dönmenin beş adımı. |  |
+| 2 | thermal_top | Bir: termiğin içinde kal. Geniş değil, dar bir daire çiz. | 1 · DAR DAİRE |
+| 3 | stage | İki: içteki freni çek ve ağırlığını içeri ver. | 2 · İÇ FREN + AĞIRLIK |
+| 4 | speedrange | Üç: hızını koru. Fazla fren çekersen kanat stol sınırına yaklaşır. | 3 · HIZINI KORU · FAZLA FREN = STOL |
+| 5 | thermal_top | Dört: termik rüzgarla sürüklenir. Daireni de onunla birlikte kaydır. | 4 · DAİREYİ KAYDIR |
+| 6 | stage | Beş: çıkarken frenleri eşitle. Önce çevreye, sonra iniş alanına bak. | 5 · FRENLER EŞİT · ÇEVREYE BAK |
+| 7 | recap | Dar dön, hızını koru, termikle birlikte kay. Gerisini vario söyler. |  |
+| 8 | outro | Termikte hangi yöne dönmeyi seversin? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 26/51 · Termikte dönüş: 5 adım
+
+Termiği buldun. Şimdi doğru dönmenin beş adımı.
+
+✅ Dar daire, termiğin içinde
+✅ İç fren + ağırlık içeri
+✅ Hızını koru, stola yaklaşma
+✅ Daireyi rüzgarla kaydır
+
+💬 Termikte hangi yöne dönmeyi seversin? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-27"></a>
+## Ders 27 · Termik nasıl bulunur?
+
+*MODÜL 7 · TERMİK* · Ekranda: **TERMİĞİ BUL** / 5 İPUCU
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Termik görünmez, ama izini bırakır. İşte beş ipucu. |  |
+| 2 | cards | Bir: kuşlara ve daire çizen kanatlara bak. Termiği çoktan bulmuşlardır. | 1 · DAİRE ÇİZENLER |
+| 3 | cards | İki: güneşe bakan yamaçlar ve kayalık alanlar daha çabuk ısınır. | 2 · GÜNEŞLİ YAMAÇ |
+| 4 | cards | Üç: kümülüs bulutunun tabanı, altındaki termiğin işaretidir. | 3 · KÜMÜLÜS |
+| 5 | cards | Dört: yerden kalkan toz ve uçuşan yapraklar, yükselen havayı gösterir. | 4 · TOZ VE YAPRAK |
+| 6 | thermal | Beş: varioyu dinle. Ötmeye başladığı yerde daireye gir. | 5 · VARİOYU DİNLE |
+| 7 | outro | Sen termiği en çok neyle bulursun? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 27/51 · Termik nasıl bulunur?
+
+Termik görünmez, ama izini bırakır. İşte beş ipucu.
+
+
+💬 Termiği en çok neyle bulursun? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-28"></a>
+## Ders 28 · Kalabalık termikte kurallar
+
+*MODÜL 7 · TERMİK* · Ekranda: **KALABALIK TERMİK** / 5 DİKKAT
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Aynı termikte on pilot varsa ne yaparsın? |  |
+| 2 | traffic | Bir: girmeden önce bak. Termikte kaç kişi var, hangi yöne dönüyorlar? | 1 · ÖNCE BAK |
+| 3 | traffic | İki: ilk giren pilot hangi yöne dönüyorsa sen de o yöne dön. Ters yöne dönmek çarpışma demektir. | 2 · AYNI YÖNE DÖN |
+| 4 | traffic | Üç: alttaki pilotun önceliği var. O, yukarıyı göremeyebilir. | 3 · ALTTAKİ ÖNCELİKLİ |
+| 5 | thermal_top | Dört: termik rüzgarla sürüklenir. İrtifanı ve iniş alanına uzaklığını takip et. | 4 · İNİŞ ALANINI UNUTMA |
+| 6 | statement | Beş: kalabalık çok fazlaysa zorlama. Başka bir termik ara. | 5 · KALABALIKSA UZAKLAŞ |
+| 7 | outro | Aynı termikte en fazla kaç kişi oldunuz? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 28/51 · Kalabalık termikte kurallar
+
+Aynı termikte on pilot varsa ne yaparsın?
+
+
+💬 Aynı termikte en fazla kaç kişi oldunuz? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-29"></a>
+## Ders 29 · Derin spiral ve tam spiral
+
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **SPİRAL** / DERİN VE TAM SPİRAL
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | En hızlı alçalma yöntemi: spiral. Peki bedeli ne? |  |
+| 2 | stage | Derin spiralde kanat yatar ve hızla döner. Alçalma saniyede on ila yirmi metreye çıkar. | DERİN SPİRAL · 10–20 m/s |
+| 3 | stage | Tam spiralde kanat neredeyse yere paralel olur. Ön kenar yere bakar. | TAM SPİRAL · ≈ 90° YATIŞ |
+| 4 | stage | Yük arttıkça kan baştan çekilir. Dört G'nin üstünde görme kararabilir, bilinç kaybı riski başlar. | G KUVVETİ |
+| 5 | stage | Bazı kanatlar bırakınca kendiliğinden çıkmaz. Çıkışı dış frenle yönet; en geç üç yüz metrede bitmiş olsun. | ÇIKIŞ · EN GEÇ 300 m |
+| 6 | statement | Spirali yalnızca güvenlik kursunda, su üstünde ve eğitmenle öğren. | SADECE SIV'DE |
+| 7 | recap | Spiral güçlü bir araçtır; saygı duymazsan seni yorar. |  |
+| 8 | outro | Spirali hiç denedin mi? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 29/51 · Derin spiral ve tam spiral
+
+En hızlı alçalma yöntemi: spiral. Peki bedeli ne?
+
+✅ Derin spiral: 10–20 m/s alçalma
+✅ Tam spiral: ≈ 90° yatış
+✅ 4 G üstü: bilinç kaybı riski
+✅ Çıkış en geç 300 m'de biter
+
+💬 Spirali hiç denedin mi? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-30"></a>
+## Ders 30 · Derin stol ve tam stol
+
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **DERİN STOL** / VE TAM STOL
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Derin stol ile tam stol aynı şey mi? |  |
+| 2 | stage | Derin stolde kanat şeklini korur ama ileri gitmez. Dikine, sessizce alçalırsın. | DERİN STOL · ŞEKİL VAR · HIZ YOK |
+| 3 | stage | Islak kanat, aşırı fren ya da yıpranmış kumaş derin stolu tetikleyebilir. | ISLAK KANAT = RİSK |
+| 4 | stage | Tam stolde kanat şeklini kaybeder ve pilotun arkasına yıkılır. Düşüş çok hızlıdır. | TAM STOL · ŞEKİL YOK |
+| 5 | compare | Derin stolde ellerini kaldır, gerekirse A askılarını hafifçe ileri it. Tam stolü ise yalnızca eğitmenle çalış. | ÇIKIŞ: ELLER YUKARI |
+| 6 | outro | Sence hangisi daha tehlikeli? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 30/51 · Derin stol ve tam stol
+
+Derin stol ile tam stol aynı şey mi?
+
+
+💬 Hangisini daha tehlikeli buluyorsun? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-31"></a>
+## Ders 31 · Wingover
+
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **WINGOVER** / SARKAÇ HAREKETİ
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kanat neden sağa sola sallanıyor? Buna wingover denir. |  |
+| 2 | stage | Wingover, kanadı frenlerle sağa sola, sarkaç gibi sallamaktır. | WINGOVER · SARKAÇ |
+| 3 | stage | Her salınımda yatış, hız ve alçalma artar. | YATIŞ ARTAR |
+| 4 | stage | Zamanlama kaçarsa kanat kapanabilir. Büyük salınımlarda risk hızla artar. | ZAMANLAMA KAÇARSA: KAPANMA |
+| 5 | statement | Wingover bir akro hazırlığıdır. Önce güvenlik kursu ve eğitmen gerekir. | ÖNCE SIV |
+| 6 | outro | Akro uçuşa ilgin var mı? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 31/51 · Wingover
+
+Kanat neden sağa sola sallanıyor? Buna wingover denir.
+
+
+💬 Akro uçuşa ilgin var mı? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-32"></a>
+## Ders 32 · Kalkışın üç yolu
+
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞIN 3 YOLU** / HANGİSİ NE ZAMAN?
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kalkışın üç yolu var. Hangisi ne zaman? |  |
+| 2 | launch | Düz kalkış: rüzgar hafifken. Kanat arkanda, yüzün vadiye dönük; koşarak kalkarsın. | 1 · DÜZ KALKIŞ · HAFİF RÜZGAR |
+| 3 | launch | Ters kalkış: rüzgar güçlüyken. Yüzün kanada dönük, kanadı görerek kaldırırsın. | 2 · TERS KALKIŞ · GÜÇLÜ RÜZGAR |
+| 4 | launch | Kobra kalkış: kanat yanda, istifli başlar. Dar alanlarda ve deneyimli pilotlar için. | 3 · KOBRA · DENEYİMLİ PİLOT |
+| 5 | recap | Doğru kalkış; rüzgara, alana ve deneyimine göre seçilir. |  |
+| 6 | outro | Senin favori kalkışın hangisi? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 32/51 · Kalkışın üç yolu
+
+Kalkışın üç yolu var. Hangisi ne zaman?
+
+✅ Hafif rüzgar: düz kalkış
+✅ Güçlü rüzgar: ters kalkış
+✅ Dar alan, deneyim: kobra
+✅ Seçimi rüzgar ve alan belirler
+
+💬 Senin favori kalkışın hangisi? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-33"></a>
+## Ders 33 · Kobra kalkış
+
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KOBRA KALKIŞ** / KANAT YANDAN KALKAR
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kobra kalkış: kanat yandan kalkar. |  |
+| 2 | launch | Kanat yanında, istifli yatar. Bir ucu açık kalır. | KANAT YANDA · İSTİFLİ |
+| 3 | launch | Bir elinde A kolonu, diğerinde fren. | A KOLONU + FREN |
+| 4 | launch | A ile açık ucu kaldır. Rüzgar kanadı yandan doldurur. | AÇIK UCU KALDIR |
+| 5 | launch | Kobra duruşu: kanat öne giderse fren, geri düşerse A kolonu. | KOBRA DURUŞU · ÖNE: FREN · GERİ: A |
+| 6 | launch | Kanat tepede, eller yukarıda. Son kontrolü yap, dön ve kalk. | KONTROL · DÖN · KALK |
+| 7 | statement | Kobra kalkış ileri seviyedir. Önce düz ve ters kalkışta ustalaş. | SADECE DENEYİMLİ PİLOT |
+| 8 | outro | Kobra kalkışı hiç denedin mi? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 33/51 · Kobra kalkış
+
+Kobra kalkış: kanat yandan kalkar.
+
+
+💬 Kobra kalkışı denedin mi? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-34"></a>
+## Ders 34 · Yer hakimiyeti
+
+*MODÜL 9 · KALKIŞ+* · Ekranda: **YER HAKİMİYETİ** / KANADI YERDE EVCİLLEŞTİR
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin. |  |
+| 2 | launch | Bir: şişir. Rüzgarla kanadı başının üstüne getir. | 1 · ŞİŞİR |
+| 3 | launch | İki: tut. Önce on saniye, sonra otuz saniye kanadı tepede tut. | 2 · TUT · 10 sn → 30 sn |
+| 4 | launch | Üç: düzelt. Kanat bir yana kayarsa altına adım at, frenle dengele. | 3 · DÜZELT |
+| 5 | launch | Dört: söndür. Frenleri ya da arka askıları çekerek kanadı kontrollü indir. | 4 · SÖNDÜR |
+| 6 | statement | Yer hakimiyeti iyi olan pilotun kalkışı da inişi de sakindir. Her fırsatta çalış. | HER FIRSATTA ÇALIŞ |
+| 7 | outro | Kanadı tepede kaç saniye tutabiliyorsun? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 34/51 · Yer hakimiyeti
+
+Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin.
+
+
+💬 Kanadı tepede kaç saniye tutabiliyorsun? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-35"></a>
+## Ders 35 · Kalkıştan önce alanı ve rüzgarı oku
+
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞTAN ÖNCE** / 4 KONTROL
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kalkıştan önce dört kontrol. Sonra hazırsın. |  |
+| 2 | checklist | Bir: alan temiz mi? Taş, diken ve çalı kanadına ve iplerine zarar verir. |  |
+| 3 | checklist | İki: rüzgarı en az beş dakika izle. Rüzgar değişir, ani darbeler sınırı aşabilir. | EN AZ 5 DAKİKA |
+| 4 | checklist | Üç: kalkış stilini seç. Hafif rüzgarda düz, güçlü rüzgarda ters. |  |
+| 5 | checklist | Dört: kanadı ser; hatları ve askıları kontrol et. |  |
+| 6 | sock | Rüzgar sınır içinde ve istikrarlıysa uç. Değilse bekle; beklemek de bir karardır. | İSTİKRARLI DEĞİLSE BEKLE |
+| 7 | outro | Kalkışta en uzun ne kadar bekledin? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 35/51 · Kalkıştan önce alanı ve rüzgarı oku
+
+Kalkıştan önce dört kontrol. Sonra hazırsın.
+
+
+💬 Kalkışta en uzun ne kadar bekledin? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-36"></a>
+## Ders 36 · Koşmadan önce 5 saniye
+
+*MODÜL 9 · KALKIŞ+* · Ekranda: **ÖNCE 5 SANİYE** / HEMEN KOŞMA
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kanat tepede. Hemen koşma: önce beş saniye. |  |
+| 2 | checklist | Bir: kanat tamamen dolu mu? |  |
+| 3 | checklist | İki: ipler düzgün mü, düğüm var mı? |  |
+| 4 | checklist | Üç: omzunun üstünden bak. Hava trafiği var mı? |  |
+| 5 | checklist | Dört: frenler ve askılar doğru elinde mi? |  |
+| 6 | checklist | Beş: her şey tamamsa kalk. | KALK! |
+| 7 | launch | Bir şey yolunda değilse vazgeç. Kanadı söndür, sakinleş ve yeniden dene. | VAZGEÇMEK DE BECERİDİR |
+| 8 | outro | Kalkıştan vazgeçtiğin oldu mu? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 36/51 · Koşmadan önce 5 saniye
+
+Kanat tepede. Hemen koşma: önce beş saniye.
+
+
+💬 Kalkıştan vazgeçtiğin oldu mu? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-37"></a>
+## Ders 37 · İpler karıştı: nasıl çözülür?
+
+*MODÜL 9 · KALKIŞ+* · Ekranda: **İPLER KARIŞTI** / NEREDEN BAŞLARSIN?
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | İpler karıştı. Nereden başlarsın? |  |
+| 2 | cards | En büyük hata: düğümü ortadan ya da yukarıdan çözmeye çalışmak. | HATA |
+| 3 | cards | Harnesi iplerin arasından geçirmek de düğümü büyütür. | HATA |
+| 4 | cards | Karışıklık kötüyse kanadı rüzgar almayan bir yere çek ve sakince yay. | DOĞRU |
+| 5 | cards | Askılardan başla. Her ipi aşağıdan yukarıya takip ederek ayır. | DOĞRU |
+| 6 | cards | Fren ipini ayrıca takip et; firar kenarına kadar serbest gitmeli. | DOĞRU |
+| 7 | cards | İçinde şüphe kalan bir düğüm varsa uçma. | ŞÜPHE VARSA UÇMA |
+| 8 | outro | Sizde ip karışıklığını en hızlı kim çözer? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 37/51 · İpler karıştı: nasıl çözülür?
+
+İpler karıştı. Nereden başlarsın?
+
+
+💬 İp karışıklığını en hızlı kim çözer? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-38"></a>
+## Ders 38 · İnişi havada planla
+
+*MODÜL 10 · İNİŞ+* · Ekranda: **İNİŞİ PLANLA** / YERE GELMEDEN
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | İnişi yere gelmeden planla. |  |
+| 2 | statement | Yerden iki yüz metrenin altında yaklaşık iki dakikan var. Planı bundan önce yap. | 200 m ALTI ≈ 2 DK |
+| 3 | cards | İniş alanı düz, büyük ve engelsiz olmalı. Ağaçtan, telden, binadan ve insandan uzak. | İYİ İNİŞ ALANI |
+| 4 | pattern | Dönüşlerini yüksekte bitir. | DÖNÜŞLER YÜKSEKTE |
+| 5 | pattern | Sonra rüzgara karşı uzun ve düz bir final uç. | UZUN, DÜZ FİNAL |
+| 6 | statement | Ve her zaman bir yedek iniş alanın olsun. | B PLANI |
+| 7 | recap | İyi iniş tesadüf değil, plandır. |  |
+| 8 | outro | Senin yedek iniş alanın neresi? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 38/51 · İnişi havada planla
+
+İnişi yere gelmeden planla.
+
+✅ 200 m altında ≈ 2 dakika
+✅ Düz, büyük, engelsiz alan
+✅ Dönüşler yüksekte, final uzun
+✅ Her zaman bir yedek alan
+
+💬 Senin yedek iniş alanın neresi? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-39"></a>
+## Ders 39 · Frenin konumu: çeyrek, yarım, tam
+
+*MODÜL 10 · İNİŞ+* · Ekranda: **FREN KONUMU** / ÇEYREK · YARIM · TAM
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Fren konumunu nereden anlarsın? Ellerinin yüksekliğinden. |  |
+| 2 | brakepos | Eller yukarıdayken kanat trim hızında, en verimli şekilde uçar. | ELLER YUKARI · TRİM |
+| 3 | brakepos | Çeyrek fren: eller omuz hizasında. | ÇEYREK FREN |
+| 4 | brakepos | Yarım fren: eller göğüs hizasında. | YARIM FREN |
+| 5 | brakepos | Tam fren: eller kalça hizasında. Burada kanat stola girebilir. | TAM FREN = STOL RİSKİ |
+| 6 | brakepos | Normal uçuşta verimli aralık, çeyrek ile yarım fren arasıdır. Tam freni yalnız palyanın sonunda kullan. | ÇEYREK – YARIM ARASI |
+| 7 | outro | Uçarken ellerin genelde nerede duruyor? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 39/51 · Frenin konumu: çeyrek, yarım, tam
+
+Fren konumunu nereden anlarsın? Ellerinin yüksekliğinden.
+
+
+💬 Uçarken ellerin genelde nerede? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-40"></a>
+## Ders 40 · Rüzgarı 5 yoldan oku
+
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **RÜZGARI OKU** / 5 YOL
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Rüzgarı hangi beş yoldan okursun? |  |
+| 2 | sock | Bir: rüzgar tulumu. Ağzı yönü, şişme oranı şiddeti gösterir. | 1 · RÜZGAR TULUMU |
+| 3 | cards | İki: yere serilen T panosu. Sadece yönü gösterir. | 2 · T PANOSU |
+| 4 | cards | Üç: ağaçların yatışı. Hem yönü hem şiddeti anlatır. | 3 · AĞAÇLAR |
+| 5 | cards | Dört: duman. Gidişi yönü, eğimi şiddeti gösterir. | 4 · DUMAN |
+| 6 | cards | Beş: su yüzeyi. Kırışan ve dalgalanan su, rüzgarın geldiğini haber verir. | 5 · SU YÜZEYİ |
+| 7 | sock | Standart bir tulumda yarı açık ≈ 10 km/sa, neredeyse yatay ≈ 20 km/sa demektir. | YARI AÇIK ≈ 10 · YATAY ≈ 20 |
+| 8 | outro | Sen rüzgarı en çok neyle okursun? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 40/51 · Rüzgarı 5 yoldan oku
+
+Rüzgarı hangi beş yoldan okursun?
+
+
+💬 Rüzgarı en çok neyle okursun? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-41"></a>
+## Ders 41 · Türbülans nereden gelir?
+
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **TÜRBÜLANS** / NEREDEN GELİR?
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Türbülans nereden gelir? Üç ana kaynaktan. |  |
+| 2 | thermal | Bir: ısınan hava. Termiklerin kenarı çalkantılıdır. | 1 · TERMİK |
+| 3 | ridge | İki: dağ, tepe ve vadi gibi yeryüzü şekilleri. Rüzgaraltında rotor oluşur. | 2 · YERYÜZÜ ŞEKİLLERİ |
+| 4 | statement | Üç: rüzgar kırılması. Rüzgarın yön ya da hız değiştirdiği yerlerde hava çalkalanır. | 3 · RÜZGAR KIRILMASI |
+| 5 | stage | Türbülansta hafif fren tut, kanadı hisset ve aktif pilotaj yap. | AKTİF PİLOTAJ |
+| 6 | recap | Türbülansın kaynağını bilen pilot, nerede bekleyeceğini de bilir. |  |
+| 7 | outro | En sert türbülansı nerede yaşadın? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 41/51 · Türbülans nereden gelir?
+
+Türbülans nereden gelir? Üç ana kaynaktan.
+
+✅ Termik: ısınan hava
+✅ Yeryüzü şekilleri: rotor
+✅ Rüzgar kırılması
+✅ Çözüm: hafif fren, aktif pilotaj
+
+💬 En sert türbülansı nerede yaşadın? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-42"></a>
+## Ders 42 · Toz hortumu
+
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **TOZ HORTUMU** / DUST DEVIL
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kalkış alanında bir anda hortum çıkabilir mi? Evet: toz hortumu. |  |
+| 2 | dustdevil | Sıcak, güneşli ve rüzgarın az olduğu günlerde zemin çok ısınır. | SICAK, SAKİN GÜN |
+| 3 | dustdevil | Isınan hava kopar ve dönerek yükselir. Toz ve kuru otları havaya kaldırır. | DÖNEN SICAK HAVA |
+| 4 | dustdevil | Yerdeki kanadı yakalarsa savurur; havadaysan sert türbülans yaşatır. | KANADI SAVURUR |
+| 5 | dustdevil | Görürsen kanadını söndür, üstüne çök ve geçmesini bekle. | SÖNDÜR · BEKLE |
+| 6 | dustdevil | Uçarken görürsen ondan uzak dur. Çevresinde güçlü ve düzensiz termik vardır. | UZAK DUR |
+| 7 | outro | Hiç toz hortumu gördün mü? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 42/51 · Toz hortumu
+
+Kalkış alanında bir anda hortum çıkabilir mi? Evet: toz hortumu.
+
+
+💬 Hiç toz hortumu gördün mü? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-43"></a>
+## Ders 43 · Yağmurda uçulur mu?
+
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **YAĞMURDA UÇULUR MU?** / ISLAK KANAT
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Yağmurda uçulur mu? |  |
+| 2 | stage | Hafif yağmurda kısa süre sorun olmayabilir. Ama en doğrusu hemen inmek. | HAFİF YAĞMUR: İN |
+| 3 | stage | Şiddetli yağmurda su kanadın içine dolar ve dışarı çıkamaz. Kanat ağırlaşır. | KANAT AĞIRLAŞIR |
+| 4 | airfoil | Islak kanat daha yavaş uçar ve derin stola girmeye yatkındır. | ISLAK KANAT = DERİN STOL RİSKİ |
+| 5 | stage | Islak kanatla frenleri derin çekme. Hızını koru ve ilk uygun yere in. | DERİN FREN YOK |
+| 6 | statement | Yerde de ıslak kanadı katlayıp bekletme. Gölgede, açık havada kurut. | KANADI KURUT |
+| 7 | outro | Hiç havada yağmura yakalandın mı? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 43/51 · Yağmurda uçulur mu?
+
+Yağmurda uçulur mu?
+
+
+💬 Yağmura yakalandığın oldu mu? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-44"></a>
+## Ders 44 · Yükseldikçe neden üşürsün?
+
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **YÜKSEKTE SOĞUK** / NEDEN ÜŞÜRSÜN?
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Yükseldikçe neden üşürsün? |  |
+| 2 | lapse | Yükseldikçe hava basıncı azalır. Hava genleşir ve soğur. | BASINÇ AZALIR |
+| 3 | lapse | Ortalama olarak her 1000 metrede sıcaklık yaklaşık 6,5 derece düşer. | 1000 m ≈ −6,5 °C |
+| 4 | lapse | Yerde 25 derece ise, 2000 metrede yaklaşık 12 derecedir. | 25 °C → ≈ 12 °C |
+| 5 | lapse | Bir de uçuş rüzgarı eklenince hissedilen sıcaklık daha da düşer. | RÜZGAR SOĞUĞU |
+| 6 | cards | Sıcak bir günde bile eldiven, rüzgarlık ve boyunluk al. | KATMANLI GİYİN |
+| 7 | outro | Havada en çok neren üşüyor? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 44/51 · Yükseldikçe neden üşürsün?
+
+Yükseldikçe neden üşürsün?
+
+
+💬 Havada en çok neren üşür? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-45"></a>
+## Ders 45 · Eğitim neden sabah erken?
+
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **NEDEN SABAH?** / EĞİTİM SAATİ
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Eğitim neden sabahın erken saatinde başlar? |  |
+| 2 | daytime | Sabah hava serindir. Rüzgar az ve sakindir. | SABAH: SAKİN |
+| 3 | daytime | Güneş yükseldikçe zemin ısınır ve termikler başlar. | TERMİK BAŞLAR |
+| 4 | daytime | Öğleye doğru hava hareketlenir. Türbülans ve ani rüzgarlar artar. | ÖĞLE: TÜRBÜLANS |
+| 5 | daytime | Akşamüstü hava yeniden sakinleşir ve ikinci eğitim penceresi açılır. | AKŞAM: YİNE SAKİN |
+| 6 | recap | Doğru saatte uçmak, öğrenmenin en kolay yoludur. |  |
+| 7 | outro | Sen sabah mı akşam mı uçmayı seversin? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 45/51 · Eğitim neden sabah erken?
+
+Eğitim neden sabahın erken saatinde başlar?
+
+✅ Sabah: serin ve sakin
+✅ Kuşluk: termikler başlar
+✅ Öğle: türbülans artar
+✅ Akşamüstü: yine sakin
+
+💬 Sabah mı akşam mı uçmayı seversin? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-46"></a>
+## Ders 46 · Kanat sınıfları: A, B, C, D
+
+*MODÜL 12 · PİLOT* · Ekranda: **KANAT SINIFLARI** / A · B · C · D
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Kanatlar dört sınıfa ayrılır. Hangisinden başlarsın? |  |
+| 2 | cards | A sınıfı: en affedici kanat. Eğitim ve ilk yıllar için. |  |
+| 3 | cards | B sınıfı: biraz daha hızlı ve hassas. Düzenli uçan, gelişen pilotlar için. |  |
+| 4 | cards | C sınıfı: performans kanadı. Deneyimli ve aktif pilotajı oturmuş pilotlar için. |  |
+| 5 | cards | D sınıfı: yarışma ve uzman kanadı. Hata affı çok azdır. | UZMANLAR İÇİN |
+| 6 | statement | Kanadını egon değil, uçuş saatin ve becerin seçsin. | EGO DEĞİL, BECERİ |
+| 7 | outro | Senin kanadın hangi sınıf? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 46/51 · Kanat sınıfları: A, B, C, D
+
+Kanatlar dört sınıfa ayrılır. Hangisinden başlarsın?
+
+
+💬 Senin kanadın hangi sınıf? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-47"></a>
+## Ders 47 · Ekipman bakımı: ipler ve yedek
+
+*MODÜL 12 · PİLOT* · Ekranda: **EKİPMAN BAKIMI** / İPLER VE YEDEK
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Ekipmanın da bakım ister. İşte dört kural. |  |
+| 2 | cards | İpler zamanla kısalır ya da uzar; kanadın ayarı bozulur. | 1 · İPLER |
+| 3 | cards | Üreticiler ip kontrolünü belirli saatlerde önerir; çoğu kanatta yaklaşık 100 saatte bir. | ≈ 100 SAATTE BİR KONTROL |
+| 4 | cards | Yedek paraşüt düzenli olarak açılır, havalandırılır ve yetkili biri tarafından yeniden katlanır. | 2 · YEDEK: 6–12 AYDA BİR |
+| 5 | cards | Kanadı güneşte uzun süre bekletme; UV ışığı kumaşı yıpratır. | 3 · UV |
+| 6 | cards | Islak kanadı ve ipleri kurutmadan katlama; nem kumaşı ve ipleri bozar. | 4 · NEM |
+| 7 | outro | Kanadını en son ne zaman kontrol ettirdin? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 47/51 · Ekipman bakımı: ipler ve yedek
+
+Ekipmanın da bakım ister. İşte dört kural.
+
+
+💬 Kanadını en son ne zaman kontrol ettirdin? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-48"></a>
+## Ders 48 · Pilot sağlığı: DEATH kuralı
+
+*MODÜL 12 · PİLOT* · Ekranda: **DEATH KURALI** / PİLOT SAĞLIĞI
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Uçmadan önce beş harflik kuralı hatırla. İngilizcede ölüm demek. |  |
+| 2 | cards | Bir: ilaç. Uyku yapan bir ilaç bile tepkini yavaşlatır. |  |
+| 3 | cards | İki: yorgunluk. Uykusuz pilot yanlış karar verir. |  |
+| 4 | cards | Üç: alkol. Uçuştan önce asla. |  |
+| 5 | cards | Dört: tütün. Sigara kandaki oksijeni azaltır; irtifada daha çabuk yorulursun. |  |
+| 6 | cards | Beş: açlık. Kan şekerin düşerse dikkatin dağılır. Yanına su ve atıştırmalık al. |  |
+| 7 | statement | Bunlardan biri bile varsa, o gün uçma. | BİRİ BİLE VARSA UÇMA |
+| 8 | outro | Uçmadan önce ne yersin? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 48/51 · Pilot sağlığı: DEATH kuralı
+
+Uçmadan önce beş harflik kuralı hatırla. İngilizcede ölüm demek.
+
+
+💬 Uçmadan önce ne yersin? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-49"></a>
+## Ders 49 · NOTAM ve hava sahası
+
+*MODÜL 12 · PİLOT* · Ekranda: **NOTAM** / HAVACILARA DUYURU
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Pilotlar uçmadan önce bir duyuru okur: NOTAM. |  |
+| 2 | statement | NOTAM, havacılara yapılan resmi duyurudur. | NOTAM |
+| 3 | cards | Bir bölgenin tatbikat, etkinlik ya da özel uçuş nedeniyle geçici olarak kapandığını haber verir. |  |
+| 4 | statement | Haritada yasak, tehlikeli ve kısıtlı bölgeler işaretlidir. Buralara izinsiz girilmez. | YASAK · TEHLİKELİ · KISITLI |
+| 5 | statement | Havaalanlarından ve kontrollü hava sahasından uzak dur. | KONTROLLÜ HAVA SAHASI |
+| 6 | statement | Uçuştan önce NOTAM'ları ve sahanın kurallarını kontrol et. Emin değilsen eğitmenine sor. | UÇMADAN ÖNCE KONTROL |
+| 7 | outro | NOTAM'ı daha önce duymuş muydun? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 49/51 · NOTAM ve hava sahası
+
+Pilotlar uçmadan önce bir duyuru okur: NOTAM.
+
+
+💬 NOTAM'ı daha önce duymuş muydun? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-50"></a>
+## Ders 50 · P2 ve P3: pilotluk seviyeleri
+
+*MODÜL 12 · PİLOT* · Ekranda: **P2 Mİ, P3 MÜ?** / PİLOTLUK SEVİYELERİ
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | P2 mi, P3 mü? Fark tek cümle: tek başına uçmak. |  |
+| 2 | cards | P2, eğitmen eşliğinde uçan öğrenci pilot seviyesidir. |  |
+| 3 | cards | P3 ise kendi kararını verebilen, tek başına uçan başlangıç pilotudur. |  |
+| 4 | statement | P2 sonunda kurs bitirme belgesi, P3 sonunda başlangıç pilot kartı alırsın. |  |
+| 5 | statement | P3 için daha fazla uçuş ve saat gerekir. Güncel şartları kulübünden öğren. |  |
+| 6 | statement | Her seviye bir öncekinin üstüne kurulur. Acele etme. | ADIM ADIM |
+| 7 | outro | Sen hangi seviyedesin? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 50/51 · P2 ve P3: pilotluk seviyeleri
+
+P2 mi, P3 mü? Fark tek cümle: tek başına uçmak.
+
+
+💬 Hangi seviyedesin? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+```
+
+---
+
+<a id="ders-51"></a>
+## Ders 51 · Teorik dersler ve ilk uçuş
+
+*MODÜL 12 · PİLOT* · Ekranda: **TEORİ DERSLERİ** / 6 DERS
+
+| # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
+|---|---|---|---|
+| 1 | hook | Yamaç paraşütünün de dersleri var: tam altı tane. |  |
+| 2 | cards | Sporun tarihi, ekipman, aerodinamik, sevk ve idare, hava trafik kuralları ve meteoroloji. |  |
+| 3 | statement | Sonunda yazılı bir sınav var. Geçmek için %75 gerekir. | %75 İLE GEÇ |
+| 4 | statement | Başlangıç pilotları genelde 75 ile 600 metre arası tepelerde uçar. | 75–600 m |
+| 5 | statement | Daha yükseğe çıkmak daha fazla bilgi ve tecrübe ister. Unutma: dağlar yarın da orada olacak. | ACELE ETME |
+| 6 | outro | Sence teori derslerinden hangisi en zor? Yorumlara yaz. |  |
+
+**Instagram açıklaması:**
+
+```text
+🪂 Ders 51/51 · Teorik dersler ve ilk uçuş
+
+Yamaç paraşütünün de dersleri var: tam altı tane.
+
+
+💬 Teori derslerinden hangisi en zor? Yorumlara yaz!
+🔖 Kaydet, uçuş arkadaşınla paylaş.
+⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
 ```

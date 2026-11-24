@@ -47,9 +47,12 @@ python tools/export_docs.py             # SENARYOLAR.md'yi yeniden üret
   "fler", "spid bar", "pe le fe" gibi yazımlar), `sub` (ekranda görünen altyazı), `k` (büyük ekran yazısı),
   `scene` ve `p` (sahne ve parametreleri).
 - **Marka:** `engine/brand.py` ya da ortam değişkenleri: `BRAND_LINE1`, `BRAND_LINE2`, `BRAND_HANDLE`, `BRAND_LOGO`.
-- **Ses:** Varsayılan ücretsiz Piper sesi `tr_TR-fettah-medium`. Orijinaldeki gibi profesyonel kadın sesi için ElevenLabs:
-  `ELEVEN_VOICE_ID=<ses kimliği> python -m engine.build all` (API anahtarı `xi-api-key` başlığıyla gönderilir; her cümle
-  `assets/voice_cache/eleven/` altında önbelleğe alınır, yeniden render ücretsizdir).
+- **Ses:** Kadın anlatıcı ElevenLabs **Matilda** (`XrExE9yKIg1WjnnlVkGX`, ücretsiz planda kullanılabilen çok dilli ses).
+  Ücretsiz plan ayda 10.000 karakter verdiği için şu an **Ders 1-16** Matilda, **Ders 17-51** yedek Piper sesiyle
+  (`tr_TR-fettah-medium`). Kota yenilenince kalanları tamamlamak için:
+  `ELEVEN_VOICE_ID=XrExE9yKIg1WjnnlVkGX python -m engine.build 17 18 19 ...` (aylık ~10.000 karakter ≈ 17-20 ders).
+  Her cümle `assets/voice_cache/eleven/` altında önbelleğe alınır; yeniden render kota harcamaz.
+  Ücretli planda (Starter+) yerli Türkçe sesler (ör. Elif, Derya) de kullanılabilir ve ticari lisans gelir.
 - **Müzik:** `assets/music/muzik_ana.mp3` (her ders parçanın farklı bir bölümünü kullanır).
 
 ## Yapı
