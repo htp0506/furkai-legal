@@ -100,7 +100,7 @@ Bu dosya `tools/export_docs.py` ile senaryo kaynaklarından (`episodes/`) otomat
 <a id="ders-01"></a>
 ## Ders 01 · Yamaç paraşütü nasıl uçar?
 
-*MODÜL 1 · TEMELLER* · Ekranda: **NASIL UÇAR?** / MOTORSUZ UÇUŞ · Süre: **44 sn**
+*MODÜL 1 · TEMELLER* · Ekranda: **NASIL UÇAR?** / MOTORSUZ UÇUŞ · Süre: **41 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -137,7 +137,7 @@ Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 <a id="ders-02"></a>
 ## Ders 02 · Kanadın anatomisi
 
-*MODÜL 1 · TEMELLER* · Ekranda: **KANADIN ANATOMİSİ** / PARÇA PARÇA · Süre: **44 sn**
+*MODÜL 1 · TEMELLER* · Ekranda: **KANADIN ANATOMİSİ** / PARÇA PARÇA · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -174,7 +174,7 @@ Kanadını parça parça tanımadan, ona güvenemezsin.
 <a id="ders-03"></a>
 ## Ders 03 · Uçuş ekipmanı
 
-*MODÜL 1 · TEMELLER* · Ekranda: **UÇUŞ EKİPMANI** / ÇANTANDA NE OLMALI? · Süre: **43 sn**
+*MODÜL 1 · TEMELLER* · Ekranda: **UÇUŞ EKİPMANI** / ÇANTANDA NE OLMALI? · Süre: **38 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -208,7 +208,7 @@ Uçuş çantanda bunlar yoksa, kalkışa çıkma.
 <a id="ders-04"></a>
 ## Ders 04 · Hücum açısı
 
-*MODÜL 1 · TEMELLER* · Ekranda: **HÜCUM AÇISI** / HER ŞEYİN ANAHTARI · Süre: **40 sn**
+*MODÜL 1 · TEMELLER* · Ekranda: **HÜCUM AÇISI** / HER ŞEYİN ANAHTARI · Süre: **35 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -282,7 +282,7 @@ Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
 <a id="ders-06"></a>
 ## Ders 06 · Yamaç (dinamik) kaldırması
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **YAMAÇ KALDIRMASI** / DİNAMİK KALDIRMA · Süre: **42 sn**
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **YAMAÇ KALDIRMASI** / DİNAMİK KALDIRMA · Süre: **39 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -319,7 +319,7 @@ Rüzgar dağa çarptığında sana bedava yükseklik verir.
 <a id="ders-07"></a>
 ## Ders 07 · Termik nedir?
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **TERMİK** / GÜNEŞİN ASANSÖRÜ · Süre: **46 sn**
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **TERMİK** / GÜNEŞİN ASANSÖRÜ · Süre: **44 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -357,7 +357,7 @@ Bulutlara kadar yükselmenin yolu: termik.
 <a id="ders-08"></a>
 ## Ders 08 · Rotor ve türbülans
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **ROTOR** / GÖRÜNMEYEN TEHLİKE · Süre: **40 sn**
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **ROTOR** / GÖRÜNMEYEN TEHLİKE · Süre: **36 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -394,7 +394,7 @@ Gökyüzünde görünmeyen bir girdap var: rotor.
 <a id="ders-09"></a>
 ## Ders 09 · Fırtına bulutu: Kümülonimbüs
 
-*MODÜL 2 · METEOROLOJİ* · Ekranda: **FIRTINA BULUTU** / KÜMÜLONİMBÜS · Süre: **37 sn**
+*MODÜL 2 · METEOROLOJİ* · Ekranda: **FIRTINA BULUTU** / KÜMÜLONİMBÜS · Süre: **35 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -431,7 +431,7 @@ Bu bulutu gördüysen, hemen in.
 <a id="ders-10"></a>
 ## Ders 10 · Uçuş öncesi 5 nokta kontrol
 
-*MODÜL 3 · KALKIŞ* · Ekranda: **5 NOKTA KONTROL** / HER KALKIŞTAN ÖNCE · Süre: **38 sn**
+*MODÜL 3 · KALKIŞ* · Ekranda: **5 NOKTA KONTROL** / HER KALKIŞTAN ÖNCE · Süre: **36 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -464,7 +464,7 @@ Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
 <a id="ders-11"></a>
 ## Ders 11 · Önden kalkış
 
-*MODÜL 3 · KALKIŞ* · Ekranda: **ÖNDEN KALKIŞ** / HAFİF RÜZGARDA · Süre: **46 sn**
+*MODÜL 3 · KALKIŞ* · Ekranda: **ÖNDEN KALKIŞ** / HAFİF RÜZGARDA · Süre: **43 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -502,7 +502,7 @@ Hafif rüzgarda kalkışın adı: önden kalkış.
 <a id="ders-12"></a>
 ## Ders 12 · Ters kalkış
 
-*MODÜL 3 · KALKIŞ* · Ekranda: **TERS KALKIŞ** / GÜÇLÜ RÜZGARDA · Süre: **44 sn**
+*MODÜL 3 · KALKIŞ* · Ekranda: **TERS KALKIŞ** / GÜÇLÜ RÜZGARDA · Süre: **42 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -539,7 +539,7 @@ Rüzgar artınca yüzünü kanadına dön: ters kalkış.
 <a id="ders-13"></a>
 ## Ders 13 · Fren ve hız kontrolü
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **FREN VE HIZ** / ELLERİN = HIZ AYARI · Süre: **42 sn**
+*MODÜL 4 · UÇUŞ* · Ekranda: **FREN VE HIZ** / ELLERİN = HIZ AYARI · Süre: **39 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -576,7 +576,7 @@ Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 <a id="ders-14"></a>
 ## Ders 14 · Dönüş tekniği
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **DÖNÜŞ TEKNİĞİ** / BAK · AĞIRLIK · FREN · Süre: **38 sn**
+*MODÜL 4 · UÇUŞ* · Ekranda: **DÖNÜŞ TEKNİĞİ** / BAK · AĞIRLIK · FREN · Süre: **36 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -613,7 +613,7 @@ Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 <a id="ders-15"></a>
 ## Ders 15 · Süzülme oranı ve hızlandırıcı
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **SÜZÜLME ORANI** / VE HIZLANDIRICI · Süre: **45 sn**
+*MODÜL 4 · UÇUŞ* · Ekranda: **SÜZÜLME ORANI** / VE HIZLANDIRICI · Süre: **41 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -651,7 +651,7 @@ Bin metreden kaç kilometre uzağa gidebilirsin?
 <a id="ders-16"></a>
 ## Ders 16 · Kulak katlama
 
-*MODÜL 4 · UÇUŞ* · Ekranda: **KULAK KATLAMA** / HIZLI ALÇALMA · Süre: **46 sn**
+*MODÜL 4 · UÇUŞ* · Ekranda: **KULAK KATLAMA** / HIZLI ALÇALMA · Süre: **45 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -842,7 +842,7 @@ Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 <a id="ders-21"></a>
 ## Ders 21 · Önden kapanma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **ÖNDEN KAPANMA** / FRONTAL KAPANMA · Süre: **40 sn**
+*MODÜL 6 · ACİL DURUM* · Ekranda: **ÖNDEN KAPANMA** / FRONTAL KAPANMA · Süre: **41 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -917,7 +917,7 @@ Kanadı durduran şey: fazla fren.
 <a id="ders-23"></a>
 ## Ders 23 · Yedek paraşüt atma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **YEDEK PARAŞÜT** / BAK · TUT · ÇEK · AT · Süre: **45 sn**
+*MODÜL 6 · ACİL DURUM* · Ekranda: **YEDEK PARAŞÜT** / BAK · TUT · ÇEK · AT · Süre: **46 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -993,7 +993,7 @@ Gökyüzünün de trafik kuralları var.
 <a id="ders-25"></a>
 ## Ders 25 · Hava hızı ve yer hızı
 
-*MODÜL 7 · TERMİK* · Ekranda: **YER HIZI** / HAVA HIZI ≠ YER HIZI
+*MODÜL 7 · TERMİK* · Ekranda: **YER HIZI** / HAVA HIZI ≠ YER HIZI · Süre: **39 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1030,7 +1030,7 @@ Hava hızı ile yer hızı aynı şey değil.
 <a id="ders-26"></a>
 ## Ders 26 · Termikte dönüş: 5 adım
 
-*MODÜL 7 · TERMİK* · Ekranda: **TERMİKTE DÖNÜŞ** / 5 ADIM
+*MODÜL 7 · TERMİK* · Ekranda: **TERMİKTE DÖNÜŞ** / 5 ADIM · Süre: **35 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1067,7 +1067,7 @@ Termiği buldun. Şimdi doğru dönmenin beş adımı.
 <a id="ders-27"></a>
 ## Ders 27 · Termik nasıl bulunur?
 
-*MODÜL 7 · TERMİK* · Ekranda: **TERMİĞİ BUL** / 5 İPUCU
+*MODÜL 7 · TERMİK* · Ekranda: **TERMİĞİ BUL** / 5 İPUCU · Süre: **32 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1099,7 +1099,7 @@ Termik görünmez, ama izini bırakır. İşte beş ipucu.
 <a id="ders-28"></a>
 ## Ders 28 · Kalabalık termikte kurallar
 
-*MODÜL 7 · TERMİK* · Ekranda: **KALABALIK TERMİK** / 5 DİKKAT
+*MODÜL 7 · TERMİK* · Ekranda: **KALABALIK TERMİK** / 5 DİKKAT · Süre: **34 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1131,7 +1131,7 @@ Aynı termikte on pilot varsa ne yaparsın?
 <a id="ders-29"></a>
 ## Ders 29 · Derin spiral ve tam spiral
 
-*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **SPİRAL** / DERİN VE TAM SPİRAL
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **SPİRAL** / DERİN VE TAM SPİRAL · Süre: **42 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1168,7 +1168,7 @@ En hızlı alçalma yöntemi: spiral. Peki bedeli ne?
 <a id="ders-30"></a>
 ## Ders 30 · Derin stol ve tam stol
 
-*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **DERİN STOL** / VE TAM STOL
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **DERİN STOL** / VE TAM STOL · Süre: **33 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1199,7 +1199,7 @@ Derin stol ile tam stol aynı şey mi?
 <a id="ders-31"></a>
 ## Ders 31 · Wingover
 
-*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **WINGOVER** / SARKAÇ HAREKETİ
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **WINGOVER** / SARKAÇ HAREKETİ · Süre: **27 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1230,7 +1230,7 @@ Kanat neden sağa sola sallanıyor? Buna wingover denir.
 <a id="ders-32"></a>
 ## Ders 32 · Kalkışın üç yolu
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞIN 3 YOLU** / HANGİSİ NE ZAMAN?
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞIN 3 YOLU** / HANGİSİ NE ZAMAN? · Süre: **30 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1265,7 +1265,7 @@ Kalkışın üç yolu var. Hangisi ne zaman?
 <a id="ders-33"></a>
 ## Ders 33 · Kobra kalkış
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **KOBRA KALKIŞ** / KANAT YANDAN KALKAR
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KOBRA KALKIŞ** / KANAT YANDAN KALKAR · Süre: **31 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1298,7 +1298,7 @@ Kobra kalkış: kanat yandan kalkar.
 <a id="ders-34"></a>
 ## Ders 34 · Yer hakimiyeti
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **YER HAKİMİYETİ** / KANADI YERDE EVCİLLEŞTİR
+*MODÜL 9 · KALKIŞ+* · Ekranda: **YER HAKİMİYETİ** / KANADI YERDE EVCİLLEŞTİR · Süre: **34 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1330,7 +1330,7 @@ Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin.
 <a id="ders-35"></a>
 ## Ders 35 · Kalkıştan önce alanı ve rüzgarı oku
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞTAN ÖNCE** / 4 KONTROL
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞTAN ÖNCE** / 4 KONTROL · Süre: **35 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1362,7 +1362,7 @@ Kalkıştan önce dört kontrol. Sonra hazırsın.
 <a id="ders-36"></a>
 ## Ders 36 · Koşmadan önce 5 saniye
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **ÖNCE 5 SANİYE** / HEMEN KOŞMA
+*MODÜL 9 · KALKIŞ+* · Ekranda: **ÖNCE 5 SANİYE** / HEMEN KOŞMA · Süre: **27 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1395,7 +1395,7 @@ Kanat tepede. Hemen koşma: önce beş saniye.
 <a id="ders-37"></a>
 ## Ders 37 · İpler karıştı: nasıl çözülür?
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **İPLER KARIŞTI** / NEREDEN BAŞLARSIN?
+*MODÜL 9 · KALKIŞ+* · Ekranda: **İPLER KARIŞTI** / NEREDEN BAŞLARSIN? · Süre: **34 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1428,7 +1428,7 @@ Kanat tepede. Hemen koşma: önce beş saniye.
 <a id="ders-38"></a>
 ## Ders 38 · İnişi havada planla
 
-*MODÜL 10 · İNİŞ+* · Ekranda: **İNİŞİ PLANLA** / YERE GELMEDEN
+*MODÜL 10 · İNİŞ+* · Ekranda: **İNİŞİ PLANLA** / YERE GELMEDEN · Süre: **30 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1465,7 +1465,7 @@ Kanat tepede. Hemen koşma: önce beş saniye.
 <a id="ders-39"></a>
 ## Ders 39 · Frenin konumu: çeyrek, yarım, tam
 
-*MODÜL 10 · İNİŞ+* · Ekranda: **FREN KONUMU** / ÇEYREK · YARIM · TAM
+*MODÜL 10 · İNİŞ+* · Ekranda: **FREN KONUMU** / ÇEYREK · YARIM · TAM · Süre: **32 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1497,7 +1497,7 @@ Fren konumunu nereden anlarsın? Ellerinin yüksekliğinden.
 <a id="ders-40"></a>
 ## Ders 40 · Rüzgarı 5 yoldan oku
 
-*MODÜL 11 · METEOROLOJİ+* · Ekranda: **RÜZGARI OKU** / 5 YOL
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **RÜZGARI OKU** / 5 YOL · Süre: **35 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1530,7 +1530,7 @@ Rüzgarı hangi beş yoldan okursun?
 <a id="ders-41"></a>
 ## Ders 41 · Türbülans nereden gelir?
 
-*MODÜL 11 · METEOROLOJİ+* · Ekranda: **TÜRBÜLANS** / NEREDEN GELİR?
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **TÜRBÜLANS** / NEREDEN GELİR? · Süre: **33 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1566,7 +1566,7 @@ Türbülans nereden gelir? Üç ana kaynaktan.
 <a id="ders-42"></a>
 ## Ders 42 · Toz hortumu
 
-*MODÜL 11 · METEOROLOJİ+* · Ekranda: **TOZ HORTUMU** / DUST DEVIL
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **TOZ HORTUMU** / DUST DEVIL · Süre: **33 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1598,7 +1598,7 @@ Kalkış alanında bir anda hortum çıkabilir mi? Evet: toz hortumu.
 <a id="ders-43"></a>
 ## Ders 43 · Yağmurda uçulur mu?
 
-*MODÜL 11 · METEOROLOJİ+* · Ekranda: **YAĞMURDA UÇULUR MU?** / ISLAK KANAT
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **YAĞMURDA UÇULUR MU?** / ISLAK KANAT · Süre: **31 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1630,7 +1630,7 @@ Yağmurda uçulur mu?
 <a id="ders-44"></a>
 ## Ders 44 · Yükseldikçe neden üşürsün?
 
-*MODÜL 11 · METEOROLOJİ+* · Ekranda: **YÜKSEKTE SOĞUK** / NEDEN ÜŞÜRSÜN?
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **YÜKSEKTE SOĞUK** / NEDEN ÜŞÜRSÜN? · Süre: **30 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1662,7 +1662,7 @@ Yükseldikçe neden üşürsün?
 <a id="ders-45"></a>
 ## Ders 45 · Eğitim neden sabah erken?
 
-*MODÜL 11 · METEOROLOJİ+* · Ekranda: **NEDEN SABAH?** / EĞİTİM SAATİ
+*MODÜL 11 · METEOROLOJİ+* · Ekranda: **NEDEN SABAH?** / EĞİTİM SAATİ · Süre: **29 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1698,7 +1698,7 @@ Eğitim neden sabahın erken saatinde başlar?
 <a id="ders-46"></a>
 ## Ders 46 · Kanat sınıfları: A, B, C, D
 
-*MODÜL 12 · PİLOT* · Ekranda: **KANAT SINIFLARI** / A · B · C · D
+*MODÜL 12 · PİLOT* · Ekranda: **KANAT SINIFLARI** / A · B · C · D · Süre: **32 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1730,7 +1730,7 @@ Kanatlar dört sınıfa ayrılır. Hangisinden başlarsın?
 <a id="ders-47"></a>
 ## Ders 47 · Ekipman bakımı: ipler ve yedek
 
-*MODÜL 12 · PİLOT* · Ekranda: **EKİPMAN BAKIMI** / İPLER VE YEDEK
+*MODÜL 12 · PİLOT* · Ekranda: **EKİPMAN BAKIMI** / İPLER VE YEDEK · Süre: **36 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1762,7 +1762,7 @@ Ekipmanın da bakım ister. İşte dört kural.
 <a id="ders-48"></a>
 ## Ders 48 · Pilot sağlığı: DEATH kuralı
 
-*MODÜL 12 · PİLOT* · Ekranda: **DEATH KURALI** / PİLOT SAĞLIĞI
+*MODÜL 12 · PİLOT* · Ekranda: **DEATH KURALI** / PİLOT SAĞLIĞI · Süre: **34 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1795,7 +1795,7 @@ Uçmadan önce beş harflik kuralı hatırla. İngilizcede ölüm demek.
 <a id="ders-49"></a>
 ## Ders 49 · NOTAM ve hava sahası
 
-*MODÜL 12 · PİLOT* · Ekranda: **NOTAM** / HAVACILARA DUYURU
+*MODÜL 12 · PİLOT* · Ekranda: **NOTAM** / HAVACILARA DUYURU · Süre: **35 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1827,7 +1827,7 @@ Pilotlar uçmadan önce bir duyuru okur: NOTAM.
 <a id="ders-50"></a>
 ## Ders 50 · P2 ve P3: pilotluk seviyeleri
 
-*MODÜL 12 · PİLOT* · Ekranda: **P2 Mİ, P3 MÜ?** / PİLOTLUK SEVİYELERİ
+*MODÜL 12 · PİLOT* · Ekranda: **P2 Mİ, P3 MÜ?** / PİLOTLUK SEVİYELERİ · Süre: **33 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1859,7 +1859,7 @@ P2 mi, P3 mü? Fark tek cümle: tek başına uçmak.
 <a id="ders-51"></a>
 ## Ders 51 · Teorik dersler ve ilk uçuş
 
-*MODÜL 12 · PİLOT* · Ekranda: **TEORİ DERSLERİ** / 6 DERS
+*MODÜL 12 · PİLOT* · Ekranda: **TEORİ DERSLERİ** / 6 DERS · Süre: **34 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
