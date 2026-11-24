@@ -52,6 +52,7 @@ def eleven_tts(text, voice_id=None, model=None, stability=0.55, similarity=0.8, 
     import hashlib
     import json
     import urllib.request
+    import urllib.error
     voice_id = voice_id or ELEVEN_VOICE
     model = model or ELEVEN_MODEL
     key = json.dumps([voice_id, model, text, stability, similarity, style, speed], ensure_ascii=False)
@@ -64,10 +65,14 @@ def eleven_tts(text, voice_id=None, model=None, stability=0.55, similarity=0.8, 
                            "voice_settings": {"stability": stability, "similarity_boost": similarity,
                                               "style": style, "use_speaker_boost": True, "speed": speed}}).encode()
         req = urllib.request.Request(
-            f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_192", data=body,
-            headers={"Content-Type": "application/json", "xi-api-key": os.environ.get("ELEVEN_API_KEY", "proxy-injected")})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            data = r.read()
+            f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128", data=body,
+            headers={"Content-Type": "application/json", "Accept": "audio/mpeg", "User-Agent": "curl/8.5.0",
+                     "xi-api-key": os.environ.get("ELEVEN_API_KEY", "proxy-injected")})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = r.read()
+        except urllib.error.HTTPError as e:
+            raise RuntimeError(f"ElevenLabs {e.code}: {e.read()[:300]!r}") from None
         with open(path + ".part", "wb") as f:
             f.write(data)
         os.replace(path + ".part", path)
@@ -76,10 +81,21 @@ def eleven_tts(text, voice_id=None, model=None, stability=0.55, similarity=0.8, 
     return _trim(_decode(path))
 
 
+# Piper için yazılan fonetik ipuçlarının ElevenLabs'te doğal okunan karşılıkları
+ELEVEN_FIX = [("yani fler", "yani flare"), ("spid barı", "speedbar'ı"), ("spid bar", "speedbar"),
+              ("Vingover", "Wingover"), ("vingover", "wingover")]
+
+
+def eleven_text(text):
+    for a, b in ELEVEN_FIX:
+        text = text.replace(a, b)
+    return text
+
+
 def tts(text, voice=DEFAULT_VOICE, speed=1.0, seed_noise=0.55):
     """Metni seslendir -> float32 mono @ 48 kHz. ELEVEN_VOICE_ID ayarlıysa ElevenLabs kullanılır."""
     if ELEVEN_VOICE:
-        return eleven_tts(text, speed=max(0.85, min(1.15, speed)))
+        return eleven_tts(eleven_text(text), speed=max(0.85, min(1.15, speed)))
     from piper import SynthesisConfig
     v = _voice(voice)
     cfg = SynthesisConfig(length_scale=1.0 / speed, noise_scale=seed_noise, noise_w_scale=0.7, normalize_audio=True)
