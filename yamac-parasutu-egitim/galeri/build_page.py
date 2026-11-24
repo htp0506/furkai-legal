@@ -6,6 +6,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, "/home/user/furkai-legal/yamac-parasutu-egitim")
 from episodes import SERIES  # noqa: E402
+from episodes.instagram import caption  # noqa: E402
 
 MODULES = [
     ("Temeller", range(1, 5)), ("Meteoroloji", range(5, 10)), ("Kalkış", range(10, 13)),
@@ -31,7 +32,7 @@ for ep in SERIES:
     n = ep["no"]
     f, d, s = meta[n]
     lessons.append(dict(no=n, title=ep["title"], mod=mod_of[n], file=f, dur=round(d, 1), size=s,
-                        url=urls.get(str(n), ""), temp=n in temp))
+                        url=urls.get(str(n), ""), temp=n in temp, caption=caption(n)))
 data = dict(lessons=lessons, modules=[dict(name=m, lessons=list(r)) for m, r in MODULES],
             voiceDate="24 Aralık")
 blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")

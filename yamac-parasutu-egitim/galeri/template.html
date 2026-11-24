@@ -15,6 +15,7 @@
   --accent-ink: #FFFFFF;
   --ring: #8E1B1B;
   --chip: #E1E9F0;
+  --ok: #15803D;
   /* oynatıcı her temada karanlık */
   --p-bg: #050B12;
   --p-ink: #F1F5F9;
@@ -28,13 +29,13 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #09131D; --surface: #112131; --ink: #E6EEF5; --muted: #8DA1B3; --line: #1F3447;
-    --accent: #FF7A33; --accent-ink: #1A0A00; --ring: #F08A80; --chip: #16283A;
+    --accent: #FF7A33; --accent-ink: #1A0A00; --ring: #F08A80; --chip: #16283A; --ok: #4ADE80;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #09131D; --surface: #112131; --ink: #E6EEF5; --muted: #8DA1B3; --line: #1F3447;
-  --accent: #FF7A33; --accent-ink: #1A0A00; --ring: #F08A80; --chip: #16283A;
+  --accent: #FF7A33; --accent-ink: #1A0A00; --ring: #F08A80; --chip: #16283A; --ok: #4ADE80;
   color-scheme: dark;
 }
 
@@ -129,6 +130,44 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
 .card:focus-visible .poster { outline: 3px solid var(--accent); outline-offset: 3px; }
 .chip:focus-visible, .pbtn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
+/* görünüm sekmeleri */
+.tabs { display: inline-flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--chip); justify-self: start; max-width: 100%; }
+.tab {
+  border: 0; cursor: pointer; font: inherit; font-weight: 600; font-size: 14px; color: var(--muted);
+  background: transparent; padding: 9px 14px; border-radius: 9px; white-space: nowrap;
+}
+.tab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.tab:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* açıklama listesi */
+.cap-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding-top: 20px; }
+.cap-count { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; }
+.cap-count b { color: var(--ink); }
+.meter { flex: 1 1 140px; height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; min-width: 0; }
+.meter i { display: block; height: 100%; width: 0; background: var(--ok); }
+.cap-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.cap { display: grid; gap: 10px; align-content: start; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; min-width: 0; scroll-margin-top: calc(env(safe-area-inset-top, 0px) + 16px); }
+.cap-head { display: flex; gap: 12px; align-items: center; min-width: 0; }
+.cap-head img { width: 44px; height: 78px; object-fit: cover; border-radius: 6px; flex: none; background: var(--chip); }
+.cap-meta { display: grid; gap: 2px; min-width: 0; }
+.cap-no { font-family: var(--f-display); font-weight: 700; font-size: 15px; letter-spacing: .05em; color: var(--accent); font-variant-numeric: tabular-nums; }
+.cap-title { font-weight: 600; font-size: 15px; line-height: 1.3; margin: 0; }
+.cap-mod { font-size: 12px; color: var(--muted); }
+.cap-done { margin-left: auto; align-self: start; font-size: 12px; font-weight: 600; color: var(--ok); white-space: nowrap; }
+.cap-text {
+  margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--f-body); font-size: 13.5px; line-height: 1.5;
+  background: var(--bg); border-radius: 10px; padding: 12px; user-select: text; -webkit-user-select: text;
+}
+.cap-actions { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; }
+.btn {
+  font: inherit; font-weight: 600; font-size: 14px; cursor: pointer; border-radius: 10px; min-height: 44px; padding: 8px 14px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); white-space: nowrap;
+}
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn[aria-pressed="true"] { border-color: var(--ok); color: var(--ok); }
+.cap.is-done .cap-text { opacity: .6; }
+.tag.done { color: var(--ok); border-color: var(--ok); }
+
 .note { border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: 13px; display: grid; gap: 6px; max-width: 70ch; }
 .note p { margin: 0; }
 
@@ -157,6 +196,7 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
 .pbtn:disabled { opacity: .4; cursor: default; }
 .pbtn.save { background: var(--p-accent); color: var(--p-accent-ink); border-color: var(--p-accent); }
 .pbtn.close { padding: 8px 14px; min-height: 40px; }
+.pbtn.wide { width: 100%; }
 .p-status { min-height: 1.5em; font-size: 14px; color: var(--p-ink); }
 .p-hint { font-size: 12.5px; color: var(--p-muted); margin: 0; }
 .bar { height: 4px; background: var(--p-line); border-radius: 2px; overflow: hidden; }
@@ -185,14 +225,34 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
     </div>
     <h1>Yamaç Paraşütü Eğitim Seti</h1>
     <div class="stats" id="stats"></div>
-    <p class="how">Bir derse dokun, video açılır. Altındaki <b>Telefona kaydet</b> düğmesiyle videoyu cihazına alırsın.</p>
+    <p class="how">Bir derse dokun, video açılır. <b>Telefona kaydet</b> ile videoyu cihazına al. Instagram metni ve hashtag'ler <b>Instagram açıklamaları</b> sekmesinde, tek dokunuşla kopyalanır.</p>
+    <div class="tabs" role="tablist" aria-label="Görünüm">
+      <button class="tab" role="tab" type="button" id="tab-videos" aria-selected="true" aria-controls="view-videos">Videolar</button>
+      <button class="tab" role="tab" type="button" id="tab-captions" aria-selected="false" aria-controls="view-captions">Instagram açıklamaları</button>
+    </div>
   </header>
 </div>
 
-<nav class="mods" aria-label="Modüller"><div class="mods-scroll" id="chips"></div></nav>
+<div id="view-videos" role="tabpanel" aria-labelledby="tab-videos">
+  <nav class="mods" aria-label="Modüller"><div class="mods-scroll" id="chips"></div></nav>
+  <div class="wrap">
+    <main id="list" class="wrap" style="padding-top:20px"></main>
+  </div>
+</div>
 
-<div class="wrap">
-  <main id="list" class="wrap" style="padding-top:20px"></main>
+<div id="view-captions" role="tabpanel" aria-labelledby="tab-captions" hidden>
+  <div class="wrap">
+    <div class="cap-bar">
+      <span class="cap-count" id="cap-count"></span>
+      <div class="meter" aria-hidden="true"><i id="cap-meter"></i></div>
+      <button class="btn" type="button" id="cap-next">Sıradaki</button>
+    </div>
+    <p class="how" style="margin:0">Her gönderide 5 hashtag var; Instagram artık gönderi başına en fazla 5 hashtag kabul ediyor. Paylaştığın dersi <b>Paylaştım</b> ile işaretle, sıradakini kolayca bul. İşaretler sadece bu cihazda tutulur.</p>
+    <div class="cap-list" id="cap-list"></div>
+  </div>
+</div>
+
+<div class="wrap" style="padding-top:28px">
   <footer class="note">
     <p>Videolar 1080×1920 (9:16), Reels ve Hikâye için hazır. Altyazı videonun içine işli.</p>
     <p id="voice-note"></p>
@@ -215,6 +275,7 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
       <button class="pbtn save" id="p-save" type="button" disabled>Telefona kaydet</button>
       <button class="pbtn" id="p-next" type="button" aria-label="Sonraki ders">Sonraki ›</button>
     </div>
+    <button class="pbtn wide" id="p-copy" type="button">Instagram açıklamasını kopyala</button>
     <div class="bar" id="p-bar" hidden><i id="p-bar-fill"></i></div>
     <div class="p-status" id="p-status" aria-live="polite"></div>
     <p class="p-hint" id="p-hint">iPhone'da açılan menüden “Videoyu Kaydet”i seç, video Fotoğraflar'a gelir. Android'de İndirilenler klasörüne kaydedilir.</p>
@@ -279,6 +340,8 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
       const t = document.createElement("span"); t.className = "card-title"; t.textContent = l.title;
       b.append(p, t);
       if (l.temp) { const tg = document.createElement("span"); tg.className = "tag"; tg.textContent = "Ses yenilenecek"; b.append(tg); }
+      const dn = document.createElement("span"); dn.className = "tag done"; dn.textContent = "✓ Paylaşıldı"; dn.hidden = true;
+      dn.dataset.doneFor = l.no; b.append(dn);
       b.addEventListener("click", () => openLesson(l.no, true));
       g.append(b);
     });
@@ -298,6 +361,104 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
     list.querySelectorAll("section").forEach(s => io.observe(s));
   }
   setActive("m1");
+
+  // paylaşıldı işaretleri (sadece bu cihazda)
+  const KEY = "dy-paylasilan";
+  let done = new Set();
+  try { done = new Set(JSON.parse(localStorage.getItem(KEY) || "[]")); } catch (e) {}
+  function saveDone() { try { localStorage.setItem(KEY, JSON.stringify([...done])); } catch (e) {} }
+
+  // panoya kopyalama
+  function flash(btn, text) {
+    const old = btn.dataset.label || btn.textContent;
+    btn.dataset.label = old; btn.textContent = text;
+    clearTimeout(btn._t); btn._t = setTimeout(() => { btn.textContent = btn.dataset.label; }, 2200);
+  }
+  function selectText(el) {
+    try { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {}
+  }
+  function legacyCopy(text) {
+    const ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.top = "0"; ta.style.opacity = "0";
+    document.body.append(ta); ta.select(); ta.setSelectionRange(0, text.length);
+    let ok = false; try { ok = document.execCommand("copy"); } catch (e) {}
+    ta.remove(); return ok;
+  }
+  function copyCaption(no, btn, onFail) {
+    const text = byNo.get(no).caption;
+    const ok = () => flash(btn, "Kopyalandı ✓");
+    const fail = () => { if (legacyCopy(text)) ok(); else onFail(); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(ok, fail);
+    } else { fail(); }
+  }
+
+  // açıklama listesi
+  const capList = $("cap-list");
+  L.forEach(l => {
+    const art = document.createElement("article"); art.className = "cap"; art.id = "cap-" + l.no;
+    const head = document.createElement("div"); head.className = "cap-head";
+    const img = document.createElement("img"); img.loading = "lazy"; img.alt = ""; img.src = "thumbs/" + pad(l.no) + ".jpg";
+    const meta = document.createElement("div"); meta.className = "cap-meta";
+    const no = document.createElement("span"); no.className = "cap-no"; no.textContent = "DERS " + pad(l.no);
+    const h = document.createElement("h3"); h.className = "cap-title"; h.textContent = l.title;
+    const md = document.createElement("span"); md.className = "cap-mod"; md.textContent = "Modül " + l.mod + " · " + M[l.mod - 1].name + " · " + fmt(l.dur);
+    meta.append(no, h, md);
+    const badge = document.createElement("span"); badge.className = "cap-done"; badge.textContent = "✓ Paylaşıldı"; badge.hidden = true;
+    head.append(img, meta, badge);
+    const pre = document.createElement("pre"); pre.className = "cap-text"; pre.textContent = l.caption;
+    const acts = document.createElement("div"); acts.className = "cap-actions";
+    const cp = document.createElement("button"); cp.className = "btn primary"; cp.type = "button"; cp.textContent = "Kopyala";
+    cp.addEventListener("click", () => copyCaption(l.no, cp, () => { selectText(pre); flash(cp, "Seçildi, Kopyala'ya dokun"); }));
+    const sh = document.createElement("button"); sh.className = "btn"; sh.type = "button"; sh.textContent = "Paylaştım";
+    sh.addEventListener("click", () => { if (done.has(l.no)) done.delete(l.no); else done.add(l.no); saveDone(); refreshDone(); });
+    const pv = document.createElement("button"); pv.className = "btn"; pv.type = "button"; pv.textContent = "Video";
+    pv.setAttribute("aria-label", "Ders " + l.no + " videosunu aç");
+    pv.addEventListener("click", () => openLesson(l.no, true));
+    acts.append(cp, sh, pv);
+    art.append(head, pre, acts);
+    art._parts = { badge, sh };
+    capList.append(art);
+  });
+
+  function nextUndone() { return L.find(l => !done.has(l.no)); }
+  function refreshDone() {
+    capList.querySelectorAll(".cap").forEach(a => {
+      const n = Number(a.id.slice(4)), d = done.has(n);
+      a.classList.toggle("is-done", d); a._parts.badge.hidden = !d;
+      a._parts.sh.setAttribute("aria-pressed", String(d)); a._parts.sh.textContent = d ? "Paylaşıldı ✓" : "Paylaştım";
+    });
+    list.querySelectorAll("[data-done-for]").forEach(t => { t.hidden = !done.has(Number(t.dataset.doneFor)); });
+    const c = $("cap-count"); c.textContent = "";
+    const b = document.createElement("b"); b.textContent = done.size + " / " + L.length;
+    c.append(b, " paylaşıldı");
+    $("cap-meter").style.width = (done.size / L.length * 100) + "%";
+    const nx = nextUndone();
+    $("cap-next").hidden = !nx;
+    if (nx) $("cap-next").textContent = "Sıradaki: Ders " + pad(nx.no) + " ›";
+  }
+  $("cap-next").addEventListener("click", () => {
+    const nx = nextUndone(); if (!nx) return;
+    document.getElementById("cap-" + nx.no).scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  });
+  refreshDone();
+
+  // sekmeler
+  let view = "videos";
+  function setView(v, push) {
+    view = v;
+    $("view-videos").hidden = v !== "videos"; $("view-captions").hidden = v !== "captions";
+    $("tab-videos").setAttribute("aria-selected", String(v === "videos"));
+    $("tab-captions").setAttribute("aria-selected", String(v === "captions"));
+    if (push) { try { history.replaceState(null, "", v === "captions" ? "#aciklamalar" : location.pathname + location.search); } catch (e) {} }
+  }
+  $("tab-videos").addEventListener("click", () => setView("videos", true));
+  $("tab-captions").addEventListener("click", () => setView("captions", true));
+  document.querySelector(".tabs").addEventListener("keydown", e => {
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+      const nv = view === "videos" ? "captions" : "videos"; setView(nv, true); $(nv === "videos" ? "tab-videos" : "tab-captions").focus();
+    }
+  });
 
   // kaydetme yeteneği
   let dl = null, dlChecked = false;
@@ -351,11 +512,21 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
     if (player.hidden) return;
     video.pause(); player.hidden = true; cur = null;
     document.documentElement.classList.remove("lock");
-    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
+    try { history.replaceState(null, "", view === "captions" ? "#aciklamalar" : location.pathname + location.search); } catch (e) {}
     if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
   }
 
   $("p-close").addEventListener("click", closePlayer);
+  $("p-copy").addEventListener("click", () => {
+    if (!cur) return;
+    const l = cur;
+    copyCaption(l.no, $("p-copy"), () => {
+      // kopyalama izni yoksa metni açıklamalar sekmesinde seçili göster
+      closePlayer(); setView("captions", true);
+      const art = document.getElementById("cap-" + l.no);
+      art.scrollIntoView({ block: "start" }); selectText(art.querySelector(".cap-text"));
+    });
+  });
   $("p-prev").addEventListener("click", () => cur && openLesson(cur.no - 1, true));
   $("p-next").addEventListener("click", () => cur && openLesson(cur.no + 1, true));
   document.addEventListener("keydown", e => {
@@ -410,7 +581,8 @@ h2 { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-heig
   function fromHash() {
     const m = /^#ders-(\d{1,2})$/.exec(location.hash);
     if (m && byNo.has(Number(m[1]))) openLesson(Number(m[1]), false);
-    else if (!location.hash) closePlayer();
+    else if (location.hash === "#aciklamalar") { closePlayer(); setView("captions", false); }
+    else if (!location.hash) { closePlayer(); setView("videos", false); }
   }
   window.addEventListener("hashchange", fromHash);
   fromHash();

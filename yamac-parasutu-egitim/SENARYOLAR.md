@@ -116,9 +116,10 @@ Bu dosya `tools/export_docs.py` ile senaryo kaynaklarından (`episodes/`) otomat
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 01/51 · Yamaç paraşütü nasıl uçar?
+🪂 Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 
-Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
+📚 Ders 01/51 · Yamaç paraşütü nasıl uçar?
+Modül 1: Temeller
 
 ✅ Kanat şeklini içindeki havadan alır
 ✅ İleri hız kaldırma kuvveti yaratır
@@ -126,10 +127,11 @@ Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 ✅ Yükselen hava seni yukarı taşır
 
 💬 İlk uçuşun nerede oldu? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #aerodinamik #nasılucar
+#yamaçparaşütü #paragliding #merzifon #aerodinamik #uçuşokulu
 ```
 
 ---
@@ -153,20 +155,22 @@ Motoru yok. Peki yamaç paraşütü nasıl uçuyor?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 02/51 · Kanadın anatomisi
+🪂 Kanadını parça parça tanımadan, ona güvenemezsin.
 
-Kanadını parça parça tanımadan, ona güvenemezsin.
+📚 Ders 02/51 · Kanadın anatomisi
+Modül 1: Temeller
 
 ✅ Hücum kenarı ve hücre ağızları
 ✅ Firar kenarı: frenle bükülür
-✅ A · B · C ve fren hatları
+🔸 A · B · C ve fren hatları
 ✅ Askılar ve karabinalar
 
 💬 Senin kanadının rengi ne? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #kanat #ekipman
+#yamaçparaşütü #paragliding #merzifon #paraglider #ekipman
 ```
 
 ---
@@ -191,16 +195,26 @@ Kanadını parça parça tanımadan, ona güvenemezsin.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 03/51 · Uçuş ekipmanı
+🪂 Uçuş çantanda bunlar yoksa, kalkışa çıkma.
 
-Uçuş çantanda bunlar yoksa, kalkışa çıkma.
+📚 Ders 03/51 · Uçuş ekipmanı
+Modül 1: Temeller
 
+1️⃣ Sertifikalı ve tam oturan kask
+2️⃣ Korumalı oturak (harness)
+3️⃣ Her uçuşta takılı yedek paraşüt
+4️⃣ Telsiz
+5️⃣ Vario
+6️⃣ Bot, eldiven ve kanca bıçağı
+
+👉 Yedek paraşütünü 6–12 ayda bir katlatmayı unutma.
 
 💬 Çantanda olmazsa olmaz ne var? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #ekipman #güvenlik
+#yamaçparaşütü #paragliding #merzifon #ekipman #güvenlik
 ```
 
 ---
@@ -224,9 +238,10 @@ Uçuş çantanda bunlar yoksa, kalkışa çıkma.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 04/51 · Hücum açısı
+🪂 Kanadının en önemli ayarı: hücum açısı.
 
-Kanadının en önemli ayarı: hücum açısı.
+📚 Ders 04/51 · Hücum açısı
+Modül 1: Temeller
 
 ✅ Veter ile bağıl rüzgar arasındaki açı
 ✅ Fren çek: açı büyür, kanat yavaşlar
@@ -234,10 +249,11 @@ Kanadının en önemli ayarı: hücum açısı.
 ✅ Çok küçük açı: kapanma
 
 💬 Sence en zor teknik hangisi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #aerodinamik #hücumaçısı
+#yamaçparaşütü #paragliding #merzifon #aerodinamik #uçuşokulu
 ```
 
 ---
@@ -261,20 +277,22 @@ Kanadının en önemli ayarı: hücum açısı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 05/51 · Rüzgarı oku: rüzgar tulumu
+🪂 Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
 
-Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
+📚 Ders 05/51 · Rüzgarı oku: rüzgar tulumu
+Modül 2: Meteoroloji
 
 ✅ Tulum rüzgarın geldiği yönü gösterir
-✅ Kalkış ve iniş rüzgara karşı
-✅ Sarkık · yarı şişkin · dimdik
-✅ Düzensizse uçma
+✅ Kalkış ve iniş rüzgara karşı yapılır
+✅ Sarkık · yarı şişkin · dimdik: şiddeti okur
+✅ Düzensiz ve sert esiyorsa uçma
 
 💬 Senin sahanda rüzgar nereden eser? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #meteoroloji #rüzgar
+#yamaçparaşütü #paragliding #merzifon #rüzgar #meteoroloji
 ```
 
 ---
@@ -298,20 +316,22 @@ Kalkıştan önce ilk bakacağın yer: rüzgar tulumu.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 06/51 · Yamaç (dinamik) kaldırması
+🪂 Rüzgar dağa çarptığında sana bedava yükseklik verir.
 
-Rüzgar dağa çarptığında sana bedava yükseklik verir.
+📚 Ders 06/51 · Yamaç (dinamik) kaldırması
+Modül 2: Meteoroloji
 
 ✅ Rüzgar yamaca çarpar, yukarı yönelir
 ✅ Kaldırma bandı: yamacın önü ve üstü
-✅ Dönüşler yamaçtan dışarı
-✅ Rüzgar artarsa: geri sürüklenme, rotor
+✅ Dönüşler her zaman yamaçtan dışarı
+✅ Rüzgar artarsa: geri sürüklenme ve rotor
 
 💬 En sevdiğin yamaç sahası hangisi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #meteoroloji #soaring
+#yamaçparaşütü #paragliding #merzifon #soaring #meteoroloji
 ```
 
 ---
@@ -336,20 +356,22 @@ Rüzgar dağa çarptığında sana bedava yükseklik verir.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 07/51 · Termik nedir?
+🪂 Bulutlara kadar yükselmenin yolu: termik.
 
-Bulutlara kadar yükselmenin yolu: termik.
+📚 Ders 07/51 · Termik nedir?
+Modül 2: Meteoroloji
 
 ✅ Güneş zemini farklı ısıtır
 ✅ Sıcak hava baloncuk gibi yükselir
 ✅ Daire çiz, varioyu dinle
-✅ Kümülüs termiğin işaretidir
+✅ Kümülüs bulutu termiğin işaretidir
 
 💬 Termikle en yüksek kaç metreye çıktın? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #termik #thermal
+#yamaçparaşütü #paragliding #merzifon #termik #thermal
 ```
 
 ---
@@ -373,20 +395,22 @@ Bulutlara kadar yükselmenin yolu: termik.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 08/51 · Rotor ve türbülans
+🪂 Gökyüzünde görünmeyen bir girdap var: rotor.
 
-Gökyüzünde görünmeyen bir girdap var: rotor.
+📚 Ders 08/51 · Rotor ve türbülans
+Modül 2: Meteoroloji
 
-✅ Engel arkasında dönen hava: rotor
+✅ Engelin arkasında dönen hava: rotor
 ✅ Dağ, ağaç, bina: hepsi rotor yapar
 ✅ Rüzgar arttıkça rotor büyür
 ✅ Rüzgaraltından uzak dur
 
 💬 Hiç rotora girdin mi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #rotor #türbülans
+#yamaçparaşütü #paragliding #merzifon #rotor #türbülans
 ```
 
 ---
@@ -410,20 +434,22 @@ Gökyüzünde görünmeyen bir girdap var: rotor.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 09/51 · Fırtına bulutu: Kümülonimbüs
+🪂 Bu bulutu gördüysen, hemen in.
 
-Bu bulutu gördüysen, hemen in.
+📚 Ders 09/51 · Fırtına bulutu: Kümülonimbüs
+Modül 2: Meteoroloji
 
 ✅ Dikey büyüyen, kararan bulut
 ✅ Örs şekli: kümülonimbüs
-✅ Bulut emmesi ve rüzgar cephesi
-✅ İlk işarette in
+✅ Bulut emmesi ve ani rüzgar cephesi
+✅ İlk işarette in, bekleme
 
 💬 Hava bozarken ilk neye bakarsın? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #meteoroloji #fırtına
+#yamaçparaşütü #paragliding #merzifon #meteoroloji #fırtına
 ```
 
 ---
@@ -447,16 +473,25 @@ Bu bulutu gördüysen, hemen in.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 10/51 · Uçuş öncesi 5 nokta kontrol
+🪂 Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
 
-Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
+📚 Ders 10/51 · Uçuş öncesi 5 nokta kontrol
+Modül 3: Kalkış
 
+1️⃣ Kask takılı, çene kayışı bağlı
+2️⃣ Bacak ve göğüs tokaları kapalı
+3️⃣ Yedek pimleri yerinde, kolu erişilebilir
+4️⃣ Hatlar açık; askılar ve frenler doğru tarafta
+5️⃣ Rüzgar uygun, önün ve hava sahası boş
+
+👉 Her uçuşta aynı sırayla, yüksek sesle say.
 
 💬 Sen kontrol listeni nasıl yapıyorsun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #güvenlik #checklist
+#yamaçparaşütü #paragliding #merzifon #güvenlik #checklist
 ```
 
 ---
@@ -481,20 +516,22 @@ Kalkıştan önce on saniye. Hayat kurtaran beş kontrol.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 11/51 · Önden kalkış
+🪂 Hafif rüzgarda kalkışın adı: önden kalkış.
 
-Hafif rüzgarda kalkışın adı: önden kalkış.
+📚 Ders 11/51 · Önden kalkış
+Modül 3: Kalkış
 
-✅ Hilal serim, sırt kanada dönük
+✅ Hilal serim, sırtın kanada dönük
 ✅ Öne eğil, kararlı koş
-✅ Tepede kanadı kontrol et
-✅ Şüphe varsa iptal
+✅ Kanat tepedeyken kontrol et
+✅ Şüphe varsa kalkışı iptal et
 
 💬 İlk kalkışında kaç deneme yaptın? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #kalkış #launch
+#yamaçparaşütü #paragliding #merzifon #kalkış #uçuşokulu
 ```
 
 ---
@@ -518,20 +555,22 @@ Hafif rüzgarda kalkışın adı: önden kalkış.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 12/51 · Ters kalkış
+🪂 Rüzgar artınca yüzünü kanadına dön: ters kalkış.
 
-Rüzgar artınca yüzünü kanadına dön: ters kalkış.
+📚 Ders 12/51 · Ters kalkış
+Modül 3: Kalkış
 
 ✅ Kanada dönük dur, askılar çapraz
-✅ A'ları yumuşak çek
-✅ Tepede frenle durdur
+✅ A askılarını yumuşak çek
+✅ Kanat tepede: frenle durdur
 ✅ Dön ve rüzgara karşı kalk
 
 💬 Yer hakimiyetine haftada kaç saat ayırıyorsun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #terskalkış #groundhandling
+#yamaçparaşütü #paragliding #merzifon #terskalkış #groundhandling
 ```
 
 ---
@@ -555,9 +594,10 @@ Rüzgar artınca yüzünü kanadına dön: ters kalkış.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 13/51 · Fren ve hız kontrolü
+🪂 Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 
-Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
+📚 Ders 13/51 · Fren ve hız kontrolü
+Modül 4: Uçuş Teknikleri
 
 ✅ Eller yukarı: trim hızı
 ✅ Biraz fren: minimum batış
@@ -565,10 +605,11 @@ Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 ✅ Türbülansta hafif fren
 
 💬 Kanadının trim hızını biliyor musun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #uçuştekniği #aktifpilotaj
+#yamaçparaşütü #paragliding #merzifon #uçuştekniği #aktifpilotaj
 ```
 
 ---
@@ -592,9 +633,10 @@ Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 14/51 · Dönüş tekniği
+🪂 Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 
-Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
+📚 Ders 14/51 · Dönüş tekniği
+Modül 4: Uçuş Teknikleri
 
 ✅ Bak: hava sahası boş mu?
 ✅ Ağırlığını dönüş tarafına ver
@@ -602,10 +644,11 @@ Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 ✅ Sert ve ani fren yok
 
 💬 Sağa mı sola mı dönmek daha rahat? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #uçuştekniği #dönüş
+#yamaçparaşütü #paragliding #merzifon #uçuştekniği #pilotaj
 ```
 
 ---
@@ -630,20 +673,22 @@ Güzel bir dönüş üç adımdır: bak, ağırlık ver, fren çek.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 15/51 · Süzülme oranı ve hızlandırıcı
+🪂 Bin metreden kaç kilometre uzağa gidebilirsin?
 
-Bin metreden kaç kilometre uzağa gidebilirsin?
+📚 Ders 15/51 · Süzülme oranı ve hızlandırıcı
+Modül 4: Uçuş Teknikleri
 
-✅ 1 : 9 → 1000 m'den ≈ 9 km
+✅ Süzülme 1:9 → 1000 m'den ≈ 9 km
 ✅ Karşı rüzgar mesafeyi kısaltır
 ✅ Hızlandırıcı: açı azalır, hız artar
-✅ Türbülansta ve alçakta kullanma
+✅ Türbülansta ve alçakta hızlandırıcı kullanma
 
 💬 En uzun süzülüşün kaç km? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #speedbar #süzülme
+#yamaçparaşütü #paragliding #merzifon #speedbar #süzülme
 ```
 
 ---
@@ -668,20 +713,22 @@ Bin metreden kaç kilometre uzağa gidebilirsin?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 16/51 · Kulak katlama
+🪂 Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 
-Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
+📚 Ders 16/51 · Kulak katlama
+Modül 4: Uçuş Teknikleri
 
 ✅ Dış A hatlarını çek: uçlar katlanır
 ✅ Alçalma hızı artar
-✅ Yön ağırlıkla
+✅ Yönü ağırlıkla verirsin
 ✅ İnişten önce bırak
 
 💬 Kulak katlamayı ilk nerede denedin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #bigears #kulakkatlama
+#yamaçparaşütü #paragliding #merzifon #bigears #kulakkatlama
 ```
 
 ---
@@ -689,7 +736,7 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 <a id="ders-17"></a>
 ## Ders 17 · İniş yaklaşması
 
-*MODÜL 5 · İNİŞ* · Ekranda: **İNİŞ YAKLAŞMASI** / PİST DÜZENİ · Süre: **39 sn**
+*MODÜL 5 · İNİŞ* · Ekranda: **İNİŞ YAKLAŞMASI** / PİST DÜZENİ · Süre: **36 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -706,20 +753,22 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 17/51 · İniş yaklaşması
+🪂 İyi iniş, iniş alanına varmadan başlar.
 
-İyi iniş, iniş alanına varmadan başlar.
+📚 Ders 17/51 · İniş yaklaşması
+Modül 5: İniş
 
-✅ İniş rüzgara karşı
+✅ İniş her zaman rüzgara karşı
 ✅ Fazla yüksekliği 8 çizerek erit
 ✅ Rüzgaraltı → baz → final
 ✅ Alçakta dönüş yok
 
 💬 İniş alanında en zor şey ne? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #iniş #landing
+#yamaçparaşütü #paragliding #merzifon #iniş #landing
 ```
 
 ---
@@ -727,7 +776,7 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 <a id="ders-18"></a>
 ## Ders 18 · Palya (Flare)
 
-*MODÜL 5 · İNİŞ* · Ekranda: **PALYA** / FLARE · Süre: **51 sn**
+*MODÜL 5 · İNİŞ* · Ekranda: **PALYA** / FLARE · Süre: **49 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -746,20 +795,22 @@ Hızlıca alçalman gerektiğinde ilk tekniğin: kulak katlama.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 18/51 · Palya (Flare)
+🪂 Palya, yani flare. Yumuşak inişin sırrı.
 
-Palya, yani flare. Yumuşak inişin sırrı.
+📚 Ders 18/51 · Palya (Flare)
+Modül 5: İniş
 
 ✅ Finalde eller yukarı, dik pozisyon
 ✅ Dalışa kontra: yeterli fren
-✅ Kademeli palya, yerde tam fren
+✅ Kademeli palya, yere değerken tam fren
 ✅ Zamanlamayı eğitmenle çalış
 
 💬 Hangi şehrin pilotusun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #palya #flare #iniş
+#yamaçparaşütü #paragliding #merzifon #palya #iniş
 ```
 
 ---
@@ -767,7 +818,7 @@ Palya, yani flare. Yumuşak inişin sırrı.
 <a id="ders-19"></a>
 ## Ders 19 · PLF: güvenli yuvarlanma
 
-*MODÜL 5 · İNİŞ* · Ekranda: **PLF** / GÜVENLİ YUVARLANMA · Süre: **40 sn**
+*MODÜL 5 · İNİŞ* · Ekranda: **PLF** / GÜVENLİ YUVARLANMA · Süre: **37 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -783,20 +834,24 @@ Palya, yani flare. Yumuşak inişin sırrı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 19/51 · PLF: güvenli yuvarlanma
+🪂 İnişin sert olacaksa, düşmeyi bilmek seni korur.
 
-İnişin sert olacaksa, düşmeyi bilmek seni korur.
+📚 Ders 19/51 · PLF: güvenli yuvarlanma
+Modül 5: İniş
 
 ✅ Ayaklar ve dizler bitişik
 ✅ Dizler hafif bükük
 ✅ Ayak → baldır → kalça → sırt
-✅ Elle dayanma
+✅ Elle yere dayanma
 
-💬 Sen PLF çalıştın mı? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+👉 Yerde, alçak bir basamaktan atlayarak çalış.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #plf #güvenlik
+💬 Sen hiç PLF çalıştın mı? Yorumlara yaz!
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #merzifon #plf #güvenlik
 ```
 
 ---
@@ -804,7 +859,7 @@ Palya, yani flare. Yumuşak inişin sırrı.
 <a id="ders-20"></a>
 ## Ders 20 · Asimetrik kapanma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **ASİMETRİK KAPANMA** / ÖNCE YÖN, SONRA KANAT · Süre: **45 sn**
+*MODÜL 6 · ACİL DURUM* · Ekranda: **ASİMETRİK KAPANMA** / ÖNCE YÖN, SONRA KANAT · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -821,9 +876,10 @@ Palya, yani flare. Yumuşak inişin sırrı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 20/51 · Asimetrik kapanma
+🪂 Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 
-Kanadının bir tarafı aniden kapandı. Ne yaparsın?
+📚 Ders 20/51 · Asimetrik kapanma
+Modül 6: Acil Durumlar ve Kurallar
 
 ✅ Önce yön: ağırlık açık tarafa
 ✅ Açık tarafa dozunda fren
@@ -831,10 +887,11 @@ Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 ✅ Sonra kapanan tarafı pompala
 
 💬 Hiç kapanma yaşadın mı? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #kapanma #sivkursu
+#yamaçparaşütü #paragliding #merzifon #kapanma #sivkursu
 ```
 
 ---
@@ -842,7 +899,7 @@ Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 <a id="ders-21"></a>
 ## Ders 21 · Önden kapanma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **ÖNDEN KAPANMA** / FRONTAL KAPANMA · Süre: **41 sn**
+*MODÜL 6 · ACİL DURUM* · Ekranda: **ÖNDEN KAPANMA** / FRONTAL KAPANMA · Süre: **39 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -858,20 +915,22 @@ Kanadının bir tarafı aniden kapandı. Ne yaparsın?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 21/51 · Önden kapanma
+🪂 Kanadının ön kenarı bir anda içe katlandı!
 
-Kanadının ön kenarı bir anda içe katlandı!
+📚 Ders 21/51 · Önden kapanma
+Modül 6: Acil Durumlar ve Kurallar
 
-✅ Düşük açı: hücum kenarı katlanır
+✅ Düşük hücum açısı: ön kenar katlanır
 ✅ Çoğu kanat kendiliğinden açılır
 ✅ Kısa simetrik fren, dalışa kontra
 ✅ Önlem: aktif pilotaj
 
 💬 Aktif pilotajı nasıl öğrendin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #kapanma #aktifpilotaj
+#yamaçparaşütü #paragliding #merzifon #kapanma #aktifpilotaj
 ```
 
 ---
@@ -879,7 +938,7 @@ Kanadının ön kenarı bir anda içe katlandı!
 <a id="ders-22"></a>
 ## Ders 22 · Stol ve negatif
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **STOL & NEGATİF** / FAZLA FRENİN BEDELİ · Süre: **48 sn**
+*MODÜL 6 · ACİL DURUM* · Ekranda: **STOL & NEGATİF** / FAZLA FRENİN BEDELİ · Süre: **45 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -896,20 +955,22 @@ Kanadının ön kenarı bir anda içe katlandı!
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 22/51 · Stol ve negatif
+🪂 Kanadı durduran şey: fazla fren.
 
-Kanadı durduran şey: fazla fren.
+📚 Ders 22/51 · Stol ve negatif
+Modül 6: Acil Durumlar ve Kurallar
 
 ✅ Derin fren: tam stol
-✅ Belirti: yumuşak fren, sessizlik
-✅ Tek taraf fazla fren: negatif
+✅ Belirti: yumuşayan fren, sessizlik
+✅ Tek tarafa fazla fren: negatif
 ✅ Önlem: alçakta yavaş uçma
 
 💬 Sence en tehlikeli hata hangisi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #stol #negatif
+#yamaçparaşütü #paragliding #merzifon #stol #sivkursu
 ```
 
 ---
@@ -917,7 +978,7 @@ Kanadı durduran şey: fazla fren.
 <a id="ders-23"></a>
 ## Ders 23 · Yedek paraşüt atma
 
-*MODÜL 6 · ACİL DURUM* · Ekranda: **YEDEK PARAŞÜT** / BAK · TUT · ÇEK · AT · Süre: **46 sn**
+*MODÜL 6 · ACİL DURUM* · Ekranda: **YEDEK PARAŞÜT** / BAK · TUT · ÇEK · AT · Süre: **43 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -935,20 +996,22 @@ Kanadı durduran şey: fazla fren.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 23/51 · Yedek paraşüt atma
+🪂 Her şey ters gittiyse son çaren: yedek paraşüt.
 
-Her şey ters gittiyse son çaren: yedek paraşüt.
+📚 Ders 23/51 · Yedek paraşüt atma
+Modül 6: Acil Durumlar ve Kurallar
 
 ✅ Tereddüt etme
 ✅ Bak · Tut · Çek · At
 ✅ Ana kanadı topla
-✅ PLF ile in, düzenli çalış
+✅ PLF ile in ve düzenli çalış
 
 💬 Yedeğini en son ne zaman katlattın? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #yedekparaşüt #güvenlik
+#yamaçparaşütü #paragliding #merzifon #yedekparaşüt #güvenlik
 ```
 
 ---
@@ -956,7 +1019,7 @@ Her şey ters gittiyse son çaren: yedek paraşüt.
 <a id="ders-24"></a>
 ## Ders 24 · Hava kuralları ve doğru karar
 
-*MODÜL 6 · KURALLAR* · Ekranda: **HAVA KURALLARI** / GÖKYÜZÜNDE TRAFİK · Süre: **34 sn**
+*MODÜL 6 · KURALLAR* · Ekranda: **HAVA KURALLARI** / GÖKYÜZÜNDE TRAFİK · Süre: **31 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -972,20 +1035,22 @@ Her şey ters gittiyse son çaren: yedek paraşüt.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 24/51 · Hava kuralları ve doğru karar
+🪂 Gökyüzünün de trafik kuralları var.
 
-Gökyüzünün de trafik kuralları var.
+📚 Ders 24/51 · Hava kuralları ve doğru karar
+Modül 6: Acil Durumlar ve Kurallar
 
 ✅ Karşılaşmada ikiniz de sağa
-✅ Yamaç sağdaki önceliklidir
-✅ Termikte ilk girenin yönü
+✅ Yamaç sağınızdaysa öncelik sizde
+✅ Termikte ilk girenin yönüne dön
 ✅ Alçaktaki pilot önceliklidir
 
 💬 Hangi ders sana en çok yardım etti? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü #havakuralları #güvenlik
+#yamaçparaşütü #paragliding #merzifon #havakuralları #güvenlik
 ```
 
 ---
@@ -993,7 +1058,7 @@ Gökyüzünün de trafik kuralları var.
 <a id="ders-25"></a>
 ## Ders 25 · Hava hızı ve yer hızı
 
-*MODÜL 7 · TERMİK* · Ekranda: **YER HIZI** / HAVA HIZI ≠ YER HIZI · Süre: **39 sn**
+*MODÜL 7 · TERMİK* · Ekranda: **YER HIZI** / HAVA HIZI ≠ YER HIZI · Süre: **36 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1009,20 +1074,22 @@ Gökyüzünün de trafik kuralları var.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 25/51 · Hava hızı ve yer hızı
+🪂 Hava hızı ile yer hızı aynı şey değil.
 
-Hava hızı ile yer hızı aynı şey değil.
+📚 Ders 25/51 · Hava hızı ve yer hızı
+Modül 7: Termik ve Navigasyon
 
-✅ Kanat havaya göre aynı hızda uçar
+✅ Kanat havaya göre hep aynı hızda uçar
 ✅ Karşı rüzgar yer hızını düşürür
 ✅ Arka rüzgar yer hızını artırır
-✅ Rüzgar > hava hızı: geri gidersin
+✅ Rüzgar hava hızından fazlaysa geri gidersin
 
 💬 Hiç geri gittiğin oldu mu? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #rüzgar #uçuştekniği
 ```
 
 ---
@@ -1046,20 +1113,22 @@ Hava hızı ile yer hızı aynı şey değil.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 26/51 · Termikte dönüş: 5 adım
+🪂 Termiği buldun. Şimdi doğru dönmenin beş adımı.
 
-Termiği buldun. Şimdi doğru dönmenin beş adımı.
+📚 Ders 26/51 · Termikte dönüş: 5 adım
+Modül 7: Termik ve Navigasyon
 
 ✅ Dar daire, termiğin içinde
-✅ İç fren + ağırlık içeri
+✅ İç fren ve ağırlık içeri
 ✅ Hızını koru, stola yaklaşma
-✅ Daireyi rüzgarla kaydır
+✅ Daireyi rüzgarla birlikte kaydır
 
 💬 Termikte hangi yöne dönmeyi seversin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #termik #thermalling
 ```
 
 ---
@@ -1082,16 +1151,23 @@ Termiği buldun. Şimdi doğru dönmenin beş adımı.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 27/51 · Termik nasıl bulunur?
+🪂 Termik görünmez ama izini bırakır. İşte beş ipucu.
 
-Termik görünmez, ama izini bırakır. İşte beş ipucu.
+📚 Ders 27/51 · Termik nasıl bulunur?
+Modül 7: Termik ve Navigasyon
 
+1️⃣ Daire çizen kuşlar ve kanatlar
+2️⃣ Güneşe bakan yamaçlar ve kayalıklar
+3️⃣ Kümülüs bulutunun tabanı
+4️⃣ Havalanan toz ve yapraklar
+5️⃣ Vario ötmeye başladığı yerde daireye gir
 
 💬 Termiği en çok neyle bulursun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #termik #xc
 ```
 
 ---
@@ -1114,16 +1190,23 @@ Termik görünmez, ama izini bırakır. İşte beş ipucu.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 28/51 · Kalabalık termikte kurallar
+🪂 Aynı termikte on pilot varsa ne yaparsın?
 
-Aynı termikte on pilot varsa ne yaparsın?
+📚 Ders 28/51 · Kalabalık termikte kurallar
+Modül 7: Termik ve Navigasyon
 
+1️⃣ Girmeden önce bak: kaç kişi, hangi yön?
+2️⃣ İlk girenle aynı yöne dön
+3️⃣ Alttaki pilot önceliklidir
+4️⃣ Sürüklenmeyi ve iniş alanını takip et
+5️⃣ Çok kalabalıksa başka termik ara
 
 💬 Aynı termikte en fazla kaç kişi oldunuz? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #termik #havakuralları
 ```
 
 ---
@@ -1131,7 +1214,7 @@ Aynı termikte on pilot varsa ne yaparsın?
 <a id="ders-29"></a>
 ## Ders 29 · Derin spiral ve tam spiral
 
-*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **SPİRAL** / DERİN VE TAM SPİRAL · Süre: **42 sn**
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **SPİRAL** / DERİN VE TAM SPİRAL · Süre: **40 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1147,20 +1230,24 @@ Aynı termikte on pilot varsa ne yaparsın?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 29/51 · Derin spiral ve tam spiral
+🪂 En hızlı alçalma yöntemi: spiral. Peki bedeli ne?
 
-En hızlı alçalma yöntemi: spiral. Peki bedeli ne?
+📚 Ders 29/51 · Derin spiral ve tam spiral
+Modül 8: İleri Manevralar
 
 ✅ Derin spiral: 10–20 m/s alçalma
 ✅ Tam spiral: ≈ 90° yatış
 ✅ 4 G üstü: bilinç kaybı riski
 ✅ Çıkış en geç 300 m'de biter
 
-💬 Spirali hiç denedin mi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+👉 Spirali yalnızca eğitmen eşliğinde, güvenlik kursunda çalış.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+💬 Spirali hiç denedin mi? Yorumlara yaz!
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
+
+#yamaçparaşütü #paragliding #merzifon #spiral #sivkursu
 ```
 
 ---
@@ -1168,7 +1255,7 @@ En hızlı alçalma yöntemi: spiral. Peki bedeli ne?
 <a id="ders-30"></a>
 ## Ders 30 · Derin stol ve tam stol
 
-*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **DERİN STOL** / VE TAM STOL · Süre: **33 sn**
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **DERİN STOL** / VE TAM STOL · Süre: **30 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1182,16 +1269,24 @@ En hızlı alçalma yöntemi: spiral. Peki bedeli ne?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 30/51 · Derin stol ve tam stol
+🪂 Derin stol ile tam stol aynı şey mi?
 
-Derin stol ile tam stol aynı şey mi?
+📚 Ders 30/51 · Derin stol ve tam stol
+Modül 8: İleri Manevralar
 
+✅ Derin stol: kanat şekilli ama ileri gitmez
+✅ Islak kanat, aşırı fren, yıpranmış kumaş tetikler
+✅ Tam stol: kanat şeklini kaybeder, arkaya yıkılır
+✅ Derin stolden çıkış: eller yukarı, gerekirse A'ları hafif it
+
+👉 Tam stolü yalnızca eğitmenle çalış.
 
 💬 Hangisini daha tehlikeli buluyorsun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #stol #sivkursu
 ```
 
 ---
@@ -1199,7 +1294,7 @@ Derin stol ile tam stol aynı şey mi?
 <a id="ders-31"></a>
 ## Ders 31 · Wingover
 
-*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **WINGOVER** / SARKAÇ HAREKETİ · Süre: **27 sn**
+*MODÜL 8 · İLERİ MANEVRA* · Ekranda: **WINGOVER** / SARKAÇ HAREKETİ · Süre: **25 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1213,16 +1308,22 @@ Derin stol ile tam stol aynı şey mi?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 31/51 · Wingover
+🪂 Kanat neden sağa sola sallanıyor? Buna wingover denir.
 
-Kanat neden sağa sola sallanıyor? Buna wingover denir.
+📚 Ders 31/51 · Wingover
+Modül 8: İleri Manevralar
 
+✅ Frenlerle sarkaç gibi salınım
+✅ Her salınımda yatış ve hız artar
+✅ Zamanlama kaçarsa kapanma riski
+✅ Önce güvenlik kursu (SIV) ve eğitmen
 
 💬 Akro uçuşa ilgin var mı? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #wingover #akro
 ```
 
 ---
@@ -1230,7 +1331,7 @@ Kanat neden sağa sola sallanıyor? Buna wingover denir.
 <a id="ders-32"></a>
 ## Ders 32 · Kalkışın üç yolu
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞIN 3 YOLU** / HANGİSİ NE ZAMAN? · Süre: **30 sn**
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞIN 3 YOLU** / HANGİSİ NE ZAMAN? · Süre: **29 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1244,20 +1345,22 @@ Kanat neden sağa sola sallanıyor? Buna wingover denir.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 32/51 · Kalkışın üç yolu
+🪂 Kalkışın üç yolu var. Hangisi ne zaman?
 
-Kalkışın üç yolu var. Hangisi ne zaman?
+📚 Ders 32/51 · Kalkışın üç yolu
+Modül 9: Kalkış Ustalığı
 
-✅ Hafif rüzgar: düz kalkış
+✅ Hafif rüzgar: önden (düz) kalkış
 ✅ Güçlü rüzgar: ters kalkış
-✅ Dar alan, deneyim: kobra
+✅ Dar alan ve deneyim: kobra
 ✅ Seçimi rüzgar ve alan belirler
 
 💬 Senin favori kalkışın hangisi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #kalkış #groundhandling
 ```
 
 ---
@@ -1265,7 +1368,7 @@ Kalkışın üç yolu var. Hangisi ne zaman?
 <a id="ders-33"></a>
 ## Ders 33 · Kobra kalkış
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **KOBRA KALKIŞ** / KANAT YANDAN KALKAR · Süre: **31 sn**
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KOBRA KALKIŞ** / KANAT YANDAN KALKAR · Süre: **30 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1281,16 +1384,24 @@ Kalkışın üç yolu var. Hangisi ne zaman?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 33/51 · Kobra kalkış
+🪂 Kobra kalkış: kanat yandan kalkar.
 
-Kobra kalkış: kanat yandan kalkar.
+📚 Ders 33/51 · Kobra kalkış
+Modül 9: Kalkış Ustalığı
 
+✅ Kanat yanda, istifli; bir ucu açık
+✅ Bir elde A kolonu, diğerinde fren
+✅ Öne giderse fren, geri düşerse A
+✅ Tepede kontrol et, dön ve kalk
+
+👉 İleri seviyedir: önce düz ve ters kalkışta ustalaş.
 
 💬 Kobra kalkışı denedin mi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #kobrakalkış #groundhandling
 ```
 
 ---
@@ -1313,16 +1424,24 @@ Kobra kalkış: kanat yandan kalkar.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 34/51 · Yer hakimiyeti
+🪂 Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin.
 
-Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin.
+📚 Ders 34/51 · Yer hakimiyeti
+Modül 9: Kalkış Ustalığı
 
+1️⃣ Şişir: kanadı başının üstüne getir
+2️⃣ Tut: önce 10, sonra 30 saniye
+3️⃣ Düzelt: altına adım at, frenle dengele
+4️⃣ Söndür: kontrollü indir
+
+👉 Yer hakimiyeti iyi olanın kalkışı da inişi de sakindir.
 
 💬 Kanadı tepede kaç saniye tutabiliyorsun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #groundhandling #yerhakimiyeti
 ```
 
 ---
@@ -1330,7 +1449,7 @@ Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin.
 <a id="ders-35"></a>
 ## Ders 35 · Kalkıştan önce alanı ve rüzgarı oku
 
-*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞTAN ÖNCE** / 4 KONTROL · Süre: **35 sn**
+*MODÜL 9 · KALKIŞ+* · Ekranda: **KALKIŞTAN ÖNCE** / 4 KONTROL · Süre: **33 sn**
 
 | # | Sahne | Seslendirme (altyazı) | Ekran yazısı |
 |---|---|---|---|
@@ -1345,16 +1464,24 @@ Pilot olmak istiyorsan, önce kanadı yerde evcilleştirirsin.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 35/51 · Kalkıştan önce alanı ve rüzgarı oku
+🪂 Kalkıştan önce dört kontrol. Sonra hazırsın.
 
-Kalkıştan önce dört kontrol. Sonra hazırsın.
+📚 Ders 35/51 · Kalkıştan önce alanı ve rüzgarı oku
+Modül 9: Kalkış Ustalığı
 
+1️⃣ Alan temiz mi? Taş, diken, çalı
+2️⃣ Rüzgarı en az 5 dakika izle
+3️⃣ Stili seç: hafifte düz, güçlüde ters
+4️⃣ Kanadı ser; hat ve askıları kontrol et
+
+👉 Rüzgar istikrarlı değilse bekle. Beklemek de bir karardır.
 
 💬 Kalkışta en uzun ne kadar bekledin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #kalkış #güvenlik
 ```
 
 ---
@@ -1378,16 +1505,25 @@ Kalkıştan önce dört kontrol. Sonra hazırsın.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 36/51 · Koşmadan önce 5 saniye
+🪂 Kanat tepede. Hemen koşma: önce beş saniye.
 
-Kanat tepede. Hemen koşma: önce beş saniye.
+📚 Ders 36/51 · Koşmadan önce 5 saniye
+Modül 9: Kalkış Ustalığı
 
+1️⃣ Kanat tamamen dolu mu?
+2️⃣ İpler düzgün, düğüm yok mu?
+3️⃣ Omzunun üstünden bak: trafik var mı?
+4️⃣ Fren ve askılar doğru elde mi?
+5️⃣ Her şey tamamsa kalk
+
+👉 Bir şey yolunda değilse vazgeç. Vazgeçmek de beceridir.
 
 💬 Kalkıştan vazgeçtiğin oldu mu? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #kalkış #güvenlik
 ```
 
 ---
@@ -1411,16 +1547,25 @@ Kanat tepede. Hemen koşma: önce beş saniye.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 37/51 · İpler karıştı: nasıl çözülür?
+🪂 İpler karıştı. Nereden başlarsın?
 
-İpler karıştı. Nereden başlarsın?
+📚 Ders 37/51 · İpler karıştı: nasıl çözülür?
+Modül 9: Kalkış Ustalığı
 
+❌ Düğümü ortadan ya da yukarıdan çözmek
+❌ Harnesi iplerin arasından geçirmek
+✅ Kanadı rüzgarsız yere çek, sakince yay
+✅ Askılardan başla, her ipi aşağıdan yukarı takip et
+✅ Fren ipini firar kenarına kadar kontrol et
+
+👉 İçinde şüphe kalan bir düğüm varsa uçma.
 
 💬 İp karışıklığını en hızlı kim çözer? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #ekipman #groundhandling
 ```
 
 ---
@@ -1444,20 +1589,22 @@ Kanat tepede. Hemen koşma: önce beş saniye.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 38/51 · İnişi havada planla
+🪂 İnişi yere gelmeden planla.
 
-İnişi yere gelmeden planla.
+📚 Ders 38/51 · İnişi havada planla
+Modül 10: İniş Ustalığı
 
-✅ 200 m altında ≈ 2 dakika
-✅ Düz, büyük, engelsiz alan
+✅ 200 m altında ≈ 2 dakikan var
+✅ Düz, büyük, engelsiz alan seç
 ✅ Dönüşler yüksekte, final uzun
 ✅ Her zaman bir yedek alan
 
 💬 Senin yedek iniş alanın neresi? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #iniş #landing
 ```
 
 ---
@@ -1480,16 +1627,24 @@ Kanat tepede. Hemen koşma: önce beş saniye.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 39/51 · Frenin konumu: çeyrek, yarım, tam
+🪂 Fren konumunu nereden anlarsın? Ellerinin yüksekliğinden.
 
-Fren konumunu nereden anlarsın? Ellerinin yüksekliğinden.
+📚 Ders 39/51 · Frenin konumu: çeyrek, yarım, tam
+Modül 10: İniş Ustalığı
 
+✅ Eller yukarı: trim hızı
+✅ Çeyrek fren: omuz hizası
+✅ Yarım fren: göğüs hizası
+✅ Tam fren: kalça hizası, stol riski
+
+👉 Normal uçuşta çeyrek ile yarım fren arası; tam fren sadece palyanın sonunda.
 
 💬 Uçarken ellerin genelde nerede? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #fren #uçuştekniği
 ```
 
 ---
@@ -1513,16 +1668,25 @@ Fren konumunu nereden anlarsın? Ellerinin yüksekliğinden.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 40/51 · Rüzgarı 5 yoldan oku
+🪂 Rüzgarı hangi beş yoldan okursun?
 
-Rüzgarı hangi beş yoldan okursun?
+📚 Ders 40/51 · Rüzgarı 5 yoldan oku
+Modül 11: Meteoroloji+
 
+1️⃣ Rüzgar tulumu: yön ve şiddet
+2️⃣ T panosu: sadece yön
+3️⃣ Ağaçların yatışı
+4️⃣ Dumanın gidişi ve eğimi
+5️⃣ Su yüzeyindeki kırışıklık
+
+👉 Standart tulum yarı açık ≈ 10 km/sa, neredeyse yatay ≈ 20 km/sa.
 
 💬 Rüzgarı en çok neyle okursun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #rüzgar #meteoroloji
 ```
 
 ---
@@ -1545,9 +1709,10 @@ Rüzgarı hangi beş yoldan okursun?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 41/51 · Türbülans nereden gelir?
+🪂 Türbülans nereden gelir? Üç ana kaynaktan.
 
-Türbülans nereden gelir? Üç ana kaynaktan.
+📚 Ders 41/51 · Türbülans nereden gelir?
+Modül 11: Meteoroloji+
 
 ✅ Termik: ısınan hava
 ✅ Yeryüzü şekilleri: rotor
@@ -1555,10 +1720,11 @@ Türbülans nereden gelir? Üç ana kaynaktan.
 ✅ Çözüm: hafif fren, aktif pilotaj
 
 💬 En sert türbülansı nerede yaşadın? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #türbülans #meteoroloji
 ```
 
 ---
@@ -1581,16 +1747,22 @@ Türbülans nereden gelir? Üç ana kaynaktan.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 42/51 · Toz hortumu
+🪂 Kalkış alanında bir anda hortum çıkabilir mi? Evet: toz hortumu.
 
-Kalkış alanında bir anda hortum çıkabilir mi? Evet: toz hortumu.
+📚 Ders 42/51 · Toz hortumu
+Modül 11: Meteoroloji+
 
+✅ Sıcak, güneşli ve rüzgarsız günlerde oluşur
+✅ Dönen sıcak hava toz ve otu kaldırır
+✅ Yerdeysen kanadı söndür, üstüne çök, bekle
+✅ Havadaysan uzak dur: çevresi sert termik
 
 💬 Hiç toz hortumu gördün mü? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #tozhortumu #meteoroloji
 ```
 
 ---
@@ -1613,16 +1785,24 @@ Kalkış alanında bir anda hortum çıkabilir mi? Evet: toz hortumu.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 43/51 · Yağmurda uçulur mu?
+🪂 Yağmurda uçulur mu?
 
-Yağmurda uçulur mu?
+📚 Ders 43/51 · Yağmurda uçulur mu?
+Modül 11: Meteoroloji+
 
+✅ Hafif yağmurda bile en doğrusu inmek
+✅ Su kanadın içine dolar, kanat ağırlaşır
+✅ Islak kanat derin stola yatkındır
+✅ Derin fren yok: hızını koru, ilk uygun yere in
+
+👉 Islak kanadı katlayıp bekletme; gölgede, açık havada kurut.
 
 💬 Yağmura yakalandığın oldu mu? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #yağmur #güvenlik
 ```
 
 ---
@@ -1645,16 +1825,24 @@ Yağmurda uçulur mu?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 44/51 · Yükseldikçe neden üşürsün?
+🪂 Yükseldikçe neden üşürsün?
 
-Yükseldikçe neden üşürsün?
+📚 Ders 44/51 · Yükseldikçe neden üşürsün?
+Modül 11: Meteoroloji+
 
+✅ Yükseldikçe basınç düşer, hava soğur
+✅ Her 1000 m'de ≈ 6,5 °C düşüş
+✅ Yerde 25 °C ise 2000 m'de ≈ 12 °C
+✅ Uçuş rüzgarı hissedileni daha da düşürür
+
+👉 Sıcak günde bile eldiven, rüzgarlık ve boyunluk al.
 
 💬 Havada en çok neren üşür? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #meteoroloji #irtifa
 ```
 
 ---
@@ -1677,20 +1865,22 @@ Yükseldikçe neden üşürsün?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 45/51 · Eğitim neden sabah erken?
+🪂 Eğitim neden sabahın erken saatinde başlar?
 
-Eğitim neden sabahın erken saatinde başlar?
+📚 Ders 45/51 · Eğitim neden sabah erken?
+Modül 11: Meteoroloji+
 
 ✅ Sabah: serin ve sakin
 ✅ Kuşluk: termikler başlar
 ✅ Öğle: türbülans artar
-✅ Akşamüstü: yine sakin
+✅ Akşamüstü: hava yine sakinleşir
 
 💬 Sabah mı akşam mı uçmayı seversin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #meteoroloji #uçuşeğitimi
 ```
 
 ---
@@ -1713,16 +1903,24 @@ Eğitim neden sabahın erken saatinde başlar?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 46/51 · Kanat sınıfları: A, B, C, D
+🪂 Kanatlar dört sınıfa ayrılır. Hangisinden başlarsın?
 
-Kanatlar dört sınıfa ayrılır. Hangisinden başlarsın?
+📚 Ders 46/51 · Kanat sınıfları: A, B, C, D
+Modül 12: Pilot ve Ekipman
 
+✅ A: en affedici; eğitim ve ilk yıllar
+✅ B: biraz daha hızlı ve hassas
+✅ C: performans; deneyimli pilotlar
+✅ D: yarışma ve uzman kanadı
+
+👉 Kanadını egon değil, uçuş saatin ve becerin seçsin.
 
 💬 Senin kanadın hangi sınıf? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #paraglider #ekipman
 ```
 
 ---
@@ -1745,16 +1943,22 @@ Kanatlar dört sınıfa ayrılır. Hangisinden başlarsın?
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 47/51 · Ekipman bakımı: ipler ve yedek
+🪂 Ekipmanın da bakım ister. İşte dört kural.
 
-Ekipmanın da bakım ister. İşte dört kural.
+📚 Ders 47/51 · Ekipman bakımı: ipler ve yedek
+Modül 12: Pilot ve Ekipman
 
+1️⃣ İpler: çoğu kanatta ≈ 100 saatte bir kontrol
+2️⃣ Yedek: 6–12 ayda bir yetkili kişi katlasın
+3️⃣ UV: kanadı güneşte bekletme
+4️⃣ Nem: ıslak kanadı kurutmadan katlama
 
 💬 Kanadını en son ne zaman kontrol ettirdin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #ekipman #bakım
 ```
 
 ---
@@ -1778,16 +1982,25 @@ Ekipmanın da bakım ister. İşte dört kural.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 48/51 · Pilot sağlığı: DEATH kuralı
+🪂 Uçmadan önce beş harflik kuralı hatırla: DEATH.
 
-Uçmadan önce beş harflik kuralı hatırla. İngilizcede ölüm demek.
+📚 Ders 48/51 · Pilot sağlığı: DEATH kuralı
+Modül 12: Pilot ve Ekipman
 
+🔸 D · İlaç (Drugs): uyku yapanı bile tepkini yavaşlatır
+🔸 E · Yorgunluk (Exhaustion): uykusuz pilot yanlış karar verir
+🔸 A · Alkol (Alcohol): uçuştan önce asla
+🔸 T · Tütün (Tobacco): kandaki oksijeni azaltır
+🔸 H · Açlık (Hunger): yanına su ve atıştırmalık al
+
+👉 Bunlardan biri bile varsa, o gün uçma.
 
 💬 Uçmadan önce ne yersin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #pilotsağlığı #güvenlik
 ```
 
 ---
@@ -1810,16 +2023,24 @@ Uçmadan önce beş harflik kuralı hatırla. İngilizcede ölüm demek.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 49/51 · NOTAM ve hava sahası
+🪂 Pilotlar uçmadan önce bir duyuru okur: NOTAM.
 
-Pilotlar uçmadan önce bir duyuru okur: NOTAM.
+📚 Ders 49/51 · NOTAM ve hava sahası
+Modül 12: Pilot ve Ekipman
 
+✅ NOTAM: havacılara yapılan resmi duyuru
+✅ Geçici kapanan bölgeleri bildirir
+✅ Yasak, tehlikeli, kısıtlı bölgelere izinsiz girme
+✅ Havaalanı ve kontrollü hava sahasından uzak dur
+
+👉 Uçmadan önce kontrol et; emin değilsen eğitmenine sor.
 
 💬 NOTAM'ı daha önce duymuş muydun? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #notam #havasahası
 ```
 
 ---
@@ -1842,16 +2063,24 @@ Pilotlar uçmadan önce bir duyuru okur: NOTAM.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 50/51 · P2 ve P3: pilotluk seviyeleri
+🪂 P2 mi, P3 mü? Fark tek cümle: tek başına uçmak.
 
-P2 mi, P3 mü? Fark tek cümle: tek başına uçmak.
+📚 Ders 50/51 · P2 ve P3: pilotluk seviyeleri
+Modül 12: Pilot ve Ekipman
 
+✅ P2: eğitmen eşliğinde uçan öğrenci pilot
+✅ P3: kendi kararını veren, tek başına uçan pilot
+✅ P2 sonunda kurs belgesi, P3 sonunda pilot kartı
+✅ Güncel şartları kulübünden öğren
+
+👉 Her seviye bir öncekinin üstüne kurulur. Acele etme.
 
 💬 Hangi seviyedesin? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #uçuşokulu #pilotluk
 ```
 
 ---
@@ -1873,14 +2102,22 @@ P2 mi, P3 mü? Fark tek cümle: tek başına uçmak.
 **Instagram açıklaması:**
 
 ```text
-🪂 Ders 51/51 · Teorik dersler ve ilk uçuş
+🪂 Yamaç paraşütünün de dersleri var: tam altı tane.
 
-Yamaç paraşütünün de dersleri var: tam altı tane.
+📚 Ders 51/51 · Teorik dersler ve ilk uçuş
+Modül 12: Pilot ve Ekipman
 
+✅ Tarih, ekipman, aerodinamik
+✅ Sevk ve idare, hava trafik kuralları, meteoroloji
+✅ Yazılı sınav: geçme notu %75
+✅ Başlangıçta 75–600 m'lik tepeler
+
+👉 Unutma: dağlar yarın da orada olacak.
 
 💬 Teori derslerinden hangisi en zor? Yorumlara yaz!
-🔖 Kaydet, uçuş arkadaşınla paylaş.
-⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.
+🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.
+📍 Derin Yamaç Spor Kulübü · Merzifon
+⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.
 
-#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü 
+#yamaçparaşütü #paragliding #merzifon #uçuşokulu #ilkuçuş
 ```

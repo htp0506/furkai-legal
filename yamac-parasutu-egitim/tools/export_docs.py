@@ -10,17 +10,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from episodes import SERIES, MODULES  # noqa: E402
-
-BASE_TAGS = "#yamaçparaşütü #paragliding #yamacparasutu #uçuşokulu #paraglidingturkey #merzifon #amasya #derinyamaçsporkulübü"
-TOPIC_TAGS = {
-    1: "#aerodinamik #nasılucar", 2: "#kanat #ekipman", 3: "#ekipman #güvenlik", 4: "#aerodinamik #hücumaçısı",
-    5: "#meteoroloji #rüzgar", 6: "#meteoroloji #soaring", 7: "#termik #thermal", 8: "#rotor #türbülans",
-    9: "#meteoroloji #fırtına", 10: "#güvenlik #checklist", 11: "#kalkış #launch", 12: "#terskalkış #groundhandling",
-    13: "#uçuştekniği #aktifpilotaj", 14: "#uçuştekniği #dönüş", 15: "#speedbar #süzülme", 16: "#bigears #kulakkatlama",
-    17: "#iniş #landing", 18: "#palya #flare #iniş", 19: "#plf #güvenlik", 20: "#kapanma #sivkursu",
-    21: "#kapanma #aktifpilotaj", 22: "#stol #negatif", 23: "#yedekparaşüt #güvenlik", 24: "#havakuralları #güvenlik",
-}
-
+from episodes.instagram import caption  # noqa: E402
 
 def load(no):
     e = [x for x in SERIES if x["no"] == no][0]
@@ -40,19 +30,6 @@ def duration(no, ep):
         with open(meta) as f:
             return json.load(f)["duration"]
     return None
-
-
-def caption(no, e, ep):
-    recap = next((b["p"]["items"] for b in ep["beats"] if b.get("scene") == "recap"), [])
-    q = next((b["p"]["q"] for b in ep["beats"] if b.get("scene") == "outro"), "")
-    hook = ep["beats"][0].get("sub", ep["beats"][0]["say"])
-    lines = [f"🪂 Ders {no:02d}/{len(SERIES)} · {e['title']}", "", hook, ""]
-    for it in recap:
-        lines.append(f"✅ {it}")
-    lines += ["", f"💬 {q} Yorumlara yaz!", "🔖 Kaydet, uçuş arkadaşınla paylaş.",
-              "⚠️ Bu video bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.", "",
-              f"{BASE_TAGS} {TOPIC_TAGS.get(no, '')}"]
-    return "\n".join(lines)
 
 
 def main():
@@ -79,11 +56,20 @@ def main():
             scene = b.get("scene", scene)
             sub = b.get("sub", b["say"]).replace("|", "/")
             md.append(f"| {i} | {scene} | {sub} | {kick_text(b.get('k'))} |")
-        md += ["", "**Instagram açıklaması:**", "", "```text", caption(no, e, ep), "```"]
+        md += ["", "**Instagram açıklaması:**", "", "```text", caption(no), "```"]
     out = os.path.join(ROOT, "SENARYOLAR.md")
     with open(out, "w", encoding="utf-8") as f:
         f.write("\n".join(md) + "\n")
     print("yazıldı:", out)
+    ig = ["# Instagram Açıklamaları · Ders 1-51", "",
+          "Her dersin açıklaması ve hashtag'leri ayrı kutuda. Kutunun sağ üstündeki kopyala simgesiyle al, Instagram'a yapıştır.",
+          "Her gönderide 5 hashtag var (Instagram'ın yeni sınırı).", ""]
+    for e in SERIES:
+        ig += [f"## Ders {e['no']:02d} · {e['title']}", "", "```text", caption(e["no"]), "```", ""]
+    out2 = os.path.join(ROOT, "INSTAGRAM_ACIKLAMALAR.md")
+    with open(out2, "w", encoding="utf-8") as f:
+        f.write("\n".join(ig))
+    print("yazıldı:", out2)
 
 
 if __name__ == "__main__":

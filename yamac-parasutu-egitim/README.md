@@ -84,6 +84,8 @@ Tüm seslendirme metinleri, ekran yazıları ve Instagram açıklamaları: **[SE
 
 Tüm dersler tek sayfada: https://claude.ai/artifact/NXChZtbA2gPHCBgefndWuP
 Bir derse dokun, video açılır; **Telefona kaydet** düğmesi videoyu cihaza indirir.
+Aynı sayfadaki **Instagram açıklamaları** sekmesinde her dersin metni ve 5 hashtag'i hazır; tek dokunuşla kopyalanır.
+Metinlerin hepsi ayrıca `INSTAGRAM_ACIKLAMALAR.md` dosyasında (kaynak: `episodes/instagram.py`).
 Sayfanın kaynağı `galeri/` klasöründe (`template.html` + `build_page.py`; video adresleri `urls.json`).
 
 ## Teknik özellikler
