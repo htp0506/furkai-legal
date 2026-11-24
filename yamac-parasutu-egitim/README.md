@@ -80,6 +80,12 @@ kendi anlatımımızla, modern görsellerle yeniden üretildi; eksik konular tam
 
 Tüm seslendirme metinleri, ekran yazıları ve Instagram açıklamaları: **[SENARYOLAR.md](SENARYOLAR.md)**
 
+## Telefondan izle ve kaydet
+
+Tüm dersler tek sayfada: https://claude.ai/artifact/NXChZtbA2gPHCBgefndWuP
+Bir derse dokun, video açılır; **Telefona kaydet** düğmesi videoyu cihaza indirir.
+Sayfanın kaynağı `galeri/` klasöründe (`template.html` + `build_page.py`; video adresleri `urls.json`).
+
 ## Teknik özellikler
 
 - 1080×1920 (9:16), 30 fps, H.264 (High) + AAC 48 kHz stereo, ses −14 LUFS (Instagram/YouTube standardı)
