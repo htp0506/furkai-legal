@@ -84,7 +84,7 @@ def statement(c, S):
     a = ease_back(remap(S.pts, 0.0, 0.5))
     if icon:
         c.save()
-        c.translate(540, 820)
+        c.translate(540, S.get("icon_y", 820))
         c.scale(0.6 + 0.4 * a, 0.6 + 0.4 * a)
         c.drawCircle(0, 0, 190, P(S.get("accent", "#FF6A1A"), 0.22 * clamp(a)))
         c.drawCircle(0, 0, 190, P(S.get("accent", "#FF6A1A"), 0.6 * clamp(a), stroke=6))
@@ -248,7 +248,9 @@ def cards(c, S):
     cw, ch = (430, S.get("ch", 250)) if cols == 2 else (290, S.get("ch", 250))
     gx = (W - cols * cw - (cols - 1) * 30) / 2
     y0 = S.get("y0", 560)
-    for i, (em, title) in enumerate(items):
+    for i, item in enumerate(items):
+        em, title = item[0], item[1]
+        tint = item[2] if len(item) > 2 else None
         if i >= shown:
             break
         r, k = divmod(i, cols)
@@ -268,10 +270,11 @@ def cards(c, S):
         c.save()
         c.translate(x + cw / 2, y + ch / 2 + (1 - a) * 30)
         c.scale(sc, sc)
-        glass(c, -cw / 2, -ch / 2, cw, ch, 36, tint="#FFB020" if is_f else "#0B1220", alpha=(0.22 if is_f else 0.5) * a * dim, blur=0,
-              border=0.5 if is_f else 0.12)
+        glass(c, -cw / 2, -ch / 2, cw, ch, 36, tint=tint or ("#FFB020" if is_f else "#0B1220"),
+              alpha=(0.55 if tint else (0.22 if is_f else 0.5)) * a * dim, blur=0, border=0.5 if is_f else 0.12)
         draw_text(c, em, 0, 22 - (250 - ch) * 0.25, 128 * min(1, ch / 250 + 0.1), "white", "bold", "center", a * dim)
-        draw_text(c, title, 0, ch / 2 - 30, 36, "white", "xbold", "center", a * dim)
+        ts = min(36.0, 36.0 * (cw - 36) / max(1.0, text_width(title, 36, "xbold")))
+        draw_text(c, title, 0, ch / 2 - 30, ts, "white", "xbold", "center", a * dim)
         c.restore()
 
 

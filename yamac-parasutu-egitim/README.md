@@ -1,14 +1,15 @@
 # Yamaç Paraşütü Eğitim Seti · Derin Yamaç Spor Kulübü
 
-Instagram Reels / YouTube Shorts için **24 derslik**, Türkçe seslendirmeli, animasyonlu yamaç paraşütü eğitim video seti.
+Instagram Reels / YouTube Shorts için **51 derslik**, Türkçe seslendirmeli, animasyonlu yamaç paraşütü eğitim video seti.
 Gönderilen *"Palya, yani flare"* reelinin anlatım tarzı (tek konu, kısa ve net cümleler, ikinci tekil şahıs, sonda yorum sorusu)
-temel alındı; görsel kalite modernleştirildi ve konu kapsamı temellerden acil durumlara kadar eksiksiz bir müfredata genişletildi.
+temel alındı; [@flynowturkey](https://www.instagram.com/flynowturkey) sayfasındaki 83 reel analiz edildi ve tüm eğitim konuları
+kendi anlatımımızla, modern görsellerle yeniden üretildi; eksik konular tamamlandı. Ayrıntılar: **[ANALIZ_flynowturkey.md](ANALIZ_flynowturkey.md)**
 
 ## Neler eklendi / iyileştirildi?
 
 | Orijinal reel | Bu set |
 |---|---|
-| Tek konu (palya) | 6 modül, 24 ders: temeller → meteoroloji → kalkış → uçuş → iniş → acil durum ve kurallar |
+| Tek konu (palya) | 12 modül, 51 ders: temeller → meteoroloji → kalkış → uçuş → iniş → acil durum → termik → ileri manevra → pilot ve ekipman |
 | Sabit 3D sahneler | Gerçek zamanlı 3D kanat modeli: kapanma, kulak katlama, stol, negatif, fren bükümü, yedek paraşüt |
 | Ekran yazısı + altyazı | Kelime kelime vurgulanan altyazı, büyük ekran yazıları, ayrıca `.srt` altyazı dosyası |
 | — | Canlı göstergeler: hız, fren yüzdesi, yükseklik, vario |
@@ -28,7 +29,7 @@ Tüm seslendirme metinleri, ekran yazıları ve Instagram açıklamaları: **[SE
 ## Teknik özellikler
 
 - 1080×1920 (9:16), 30 fps, H.264 (High) + AAC 48 kHz stereo, ses −14 LUFS (Instagram/YouTube standardı)
-- Her video 33–50 sn; Reels için ideal aralık
+- Her video 30–50 sn; Reels için ideal aralık
 - Altyazılar Reels arayüzünün güvenli alanında (alt bölüm ve sağ butonlar dışında)
 
 ## Kendin üretmek / değiştirmek
@@ -46,7 +47,9 @@ python tools/export_docs.py             # SENARYOLAR.md'yi yeniden üret
   "fler", "spid bar", "pe le fe" gibi yazımlar), `sub` (ekranda görünen altyazı), `k` (büyük ekran yazısı),
   `scene` ve `p` (sahne ve parametreleri).
 - **Marka:** `engine/brand.py` ya da ortam değişkenleri: `BRAND_LINE1`, `BRAND_LINE2`, `BRAND_HANDLE`, `BRAND_LOGO`.
-- **Ses:** `TTS_VOICE=tr_TR-fahrettin-medium` ile daha pes bir erkek sesine geçilebilir. Varsayılan: `tr_TR-fettah-medium`.
+- **Ses:** Varsayılan ücretsiz Piper sesi `tr_TR-fettah-medium`. Orijinaldeki gibi profesyonel kadın sesi için ElevenLabs:
+  `ELEVEN_VOICE_ID=<ses kimliği> python -m engine.build all` (API anahtarı `xi-api-key` başlığıyla gönderilir; her cümle
+  `assets/voice_cache/eleven/` altında önbelleğe alınır, yeniden render ücretsizdir).
 - **Müzik:** `assets/music/muzik_ana.mp3` (her ders parçanın farklı bir bölümünü kullanır).
 
 ## Yapı

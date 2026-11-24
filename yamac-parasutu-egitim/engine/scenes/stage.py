@@ -23,6 +23,14 @@ from .flight import widget_speed, widget_brake
 
 
 def _bg(c, S, t):
+    _bg_base(c, S, t)
+    rain = S.v("rain", 0.0, dur=0.8)
+    if rain > 0:
+        c.drawRect(skia.Rect.MakeWH(W, H), P("#1F2937", 0.45 * rain))
+        world.rain(c, (0, 250, W, 1500), t, alpha=0.55 * rain, n=int(60 + 140 * rain))
+
+
+def _bg_base(c, S, t):
     bg = S.get("bg", "sky")
     if bg == "studio":
         world.studio_bg(c, S.get("accent", "#FF6A1A"), S.t)
@@ -128,7 +136,8 @@ def stage(c, S):
     heading = S.v("heading", 0.0, dur=1.0) + S.get("spin", 0.0) * S.pts
     kw = dict(
         yaw=S.v("yaw", g3.REAR_34, dur=1.0), elev=S.v("elev", 0.18, dur=1.0),
-        pitch=S.v("pitch", 0.0) + shake * 0.06 * math.sin(t * 7), roll=S.v("roll", 0.0) + shake * 0.05 * math.sin(t * 9),
+        pitch=S.v("pitch", 0.0) + shake * 0.06 * math.sin(t * 7),
+        roll=S.v("roll", 0.0) + shake * 0.05 * math.sin(t * 9) + S.v("wingover", 0.0, dur=1.0) * math.sin(S.t * 2.1),
         heading=heading, brake_l=S.v("brake_l", 0.0, dur=0.5), brake_r=S.v("brake_r", 0.0, dur=0.5),
         fold_l=S.v("fold_l", 0.0, dur=S.get("fold_dur", 0.35)), fold_r=S.v("fold_r", 0.0, dur=S.get("fold_dur", 0.35)),
         fold_pos=S.get("fold_pos", 0.3),
@@ -205,10 +214,19 @@ def stage(c, S):
             world.vario(c, wx + 125, wy + 60, S.v("vario", -1.1, dur=1.2), t, wa, scale=0.85)
         elif name == "speed":
             widget_speed(c, wx, wy, S.v("kmh", 37, dur=1.0), wa)
+        elif name == "gmeter":
+            from .advanced import hud_gmeter
+            hud_gmeter(c, wx, wy - 30, S.v("g", 1.0, dur=1.4), wa)
+        elif name == "bank":
+            from .advanced import hud_bank
+            hud_bank(c, wx, wy - 30, S.v("bank_deg", 0.0, dur=1.2), wa)
         elif name == "brake_l":
             widget_brake(c, wx, wy, kw["brake_l"], wa, label="SOL FREN")
         elif name == "brake_r":
             widget_brake(c, wx, wy, kw["brake_r"], wa, label="SAĞ FREN")
+    if S.get("altbar"):
+        from .advanced import hud_altbar
+        hud_altbar(c, 900, 560, S.v("alt", 1200, dur=S.pd * 0.9), floor=S.get("alt_floor", 300), alpha=wa)
     legend = S.get("legend")
     if legend:
         la = ease_out(remap(S.pts, 0.2, 0.6))

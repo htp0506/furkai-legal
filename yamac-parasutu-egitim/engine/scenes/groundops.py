@@ -62,7 +62,13 @@ def launch(c, S):
     stand = 1.0 - smooth(remap(st, 4.0, 4.8))
     brake = 0.15 * smooth(remap(st, 3.6, 4.2)) + abort * 0.9
     lean = 0.25 * smooth(remap(st, 0.6, 1.2)) * (1 - smooth(remap(st, 2.0, 2.4)))
-    info = g3.render(c, px, py, scale, yaw=g3.SIDE + 0.3, elev=0.12, pitch=pitch, anchor="pilot", t=t, pose=stand,
+    cobra = S.get("cobra", False)
+    wing_heading = 0.0
+    if cobra:
+        # kanat yanda istifli başlar, açık uçtan yükselerek tepeye gelir
+        wing_heading = lerp(1.35, 0.0, smooth(remap(st, 0.2, 1.8)))
+        flat = max(flat, lerp(0.8, 0.0, smooth(remap(st, 0.0, 1.0))))
+    info = g3.render(c, px, py, scale, yaw=g3.SIDE + 0.3, elev=0.12, pitch=pitch, heading=wing_heading, anchor="pilot", t=t, pose=stand,
                      run=running, brake_l=brake, brake_r=brake, flat=flat, inflate=inflate, crumple=0.25 * (1 - inflate) + 0.2 * abort,
                      pilot_turn=turn, fold_l=S.v("tangle", 0.0) * 0.6, roll=-lean * 0.0)
     if S.get("look"):
@@ -212,11 +218,14 @@ def traffic(c, S):
     elif case == "thermal":
         cx, cy, R = 540, 980, 230
         c.drawCircle(cx, cy, R + 90, skia.Paint(AntiAlias=True, Shader=rad((cx, cy), R + 90, [C("#FB923C", 0.35), C("#FB923C", 0.0)])))
-        gl = [None, G_BLUE, G_GREEN]
-        for i in range(3):
-            th = S.t * 0.9 + i * 2 * math.pi / 3
-            x, y = cx + R * math.cos(th), cy + R * math.sin(th)
-            _top_glider(c, x, y, _hd(-math.sin(th), math.cos(th)), gl[i], t=t)
+        n = S.get("n", 3)
+        gl = [None, G_BLUE, G_GREEN, G_VIOLET]
+        for i in range(n):
+            th = S.t * 0.9 + i * 2 * math.pi / n
+            rr = R * (1.0 if i % 2 == 0 else 0.72)
+            x, y = cx + rr * math.cos(th), cy + rr * math.sin(th)
+            _top_glider(c, x, y, _hd(-math.sin(th), math.cos(th)), gl[i % 4], t=t, scale=26 if n <= 4 else 20,
+                        arrow_len=110 if n <= 4 else 0)
         path = skia.Path()
         path.addArc(skia.Rect.MakeXYWH(cx - R + 60, cy - R + 60, 2 * R - 120, 2 * R - 120), -60, 220)
         arrow(c, path, "#FFD23F", width=9, progress=1.0, head=30)

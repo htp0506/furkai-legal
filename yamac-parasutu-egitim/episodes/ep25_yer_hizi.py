@@ -1,0 +1,32 @@
+"""Ders 25 · Hava hızı ve yer hızı"""
+
+EP = dict(
+    slug="hava-hizi-yer-hizi", title="YER HIZI", subtitle="HAVA HIZI ≠ YER HIZI", module_label="MODÜL 7 · NAVİGASYON",
+    beats=[
+        dict(scene="hook", p=dict(bg="groundspeed", bgp=dict(air=38, wind=0)),
+             say="Hava hızı ile yer hızı aynı şey değil."),
+        dict(scene="groundspeed", p=dict(air=38, wind=0),
+             say="Kanat havaya göre hep aynı hızda uçar. Örnek kanatta saatte otuz sekiz kilometre.",
+             sub="Kanat havaya göre hep aynı hızda uçar. Örnek kanatta saatte 38 km.",
+             k=["HAVA HIZI", ("≈ 38 km/sa", "cyan")]),
+        dict(p=dict(wind=20),
+             say="Karşıdan yirmi kilometre rüzgar varsa, yere göre sadece on sekiz kilometreyle ilerlersin.",
+             sub="Karşıdan 20 km rüzgar varsa, yere göre sadece 18 km/sa ile ilerlersin.",
+             k=[("KARŞI RÜZGAR: YAVAŞ", "red")]),
+        dict(p=dict(wind=-20),
+             say="Rüzgar arkandaysa yer hızın elli sekiz kilometreye çıkar.",
+             sub="Rüzgar arkandaysa yer hızın 58 km/sa'e çıkar.",
+             k=[("ARKA RÜZGAR: HIZLI", "green")]),
+        dict(p=dict(wind=45),
+             say="Rüzgar kanadının hızını geçerse, ileri bakarken geriye gidersin.",
+             k=[("RÜZGAR > HAVA HIZI", "red")], sfx=[("alarm", 0.8, 0.5)]),
+        dict(p=dict(wind=-20),
+             say="Alçakta arka rüzgara dönersen yer hızın bir anda artar. İnişe yakın bunu asla yapma.",
+             k=[("ALÇAKTA ARKA RÜZGARA DÖNME", "red")]),
+        dict(scene="recap", p=dict(items=["Kanat havaya göre aynı hızda uçar", "Karşı rüzgar yer hızını düşürür",
+                                          "Arka rüzgar yer hızını artırır", "Rüzgar > hava hızı: geri gidersin"]),
+             say="Rüzgarı hesaba katan pilot, iniş alanını kaçırmaz."),
+        dict(scene="outro", p=dict(q="Hiç geri gittiğin oldu mu?", options=["Evet 😅", "Hayır", "Az kalsın", "Speedbar kurtardı"]),
+             say="Hiç ileri bakarken geri gittiğin oldu mu? Yorumlara yaz."),
+    ],
+)

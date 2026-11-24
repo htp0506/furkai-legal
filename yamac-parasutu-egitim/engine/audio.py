@@ -27,8 +27,59 @@ def _voice(name):
     return _VOICES[name]
 
 
+ELEVEN_VOICE = os.environ.get("ELEVEN_VOICE_ID")          # ayarlıysa ElevenLabs kullanılır
+ELEVEN_MODEL = os.environ.get("ELEVEN_MODEL", "eleven_multilingual_v2")
+CACHE_DIR = os.path.join(ROOT, "assets", "voice_cache")
+
+
+def _decode(path):
+    """Ses dosyasını ffmpeg ile float32 mono 48 kHz'e çöz."""
+    raw = subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", path, "-f", "f32le", "-ac", "1",
+                          "-ar", str(SR), "-"], check=True, capture_output=True).stdout
+    return np.frombuffer(raw, dtype=np.float32).copy()
+
+
+def _trim(a, thr=0.01):
+    idx = np.where(np.abs(a) > thr)[0]
+    if len(idx):
+        a = a[max(0, idx[0] - int(0.02 * SR)): min(len(a), idx[-1] + int(0.06 * SR))]
+    return a
+
+
+def eleven_tts(text, voice_id=None, model=None, stability=0.55, similarity=0.8, style=0.15, speed=1.0):
+    """ElevenLabs ile seslendir. Anahtar ortam proxy'si tarafından eklenir (xi-api-key).
+    Sonuç assets/voice_cache/eleven altında metin+ayar özetiyle önbelleğe alınır."""
+    import hashlib
+    import json
+    import urllib.request
+    voice_id = voice_id or ELEVEN_VOICE
+    model = model or ELEVEN_MODEL
+    key = json.dumps([voice_id, model, text, stability, similarity, style, speed], ensure_ascii=False)
+    h = hashlib.sha1(key.encode("utf-8")).hexdigest()[:16]
+    d = os.path.join(CACHE_DIR, "eleven", voice_id)
+    os.makedirs(d, exist_ok=True)
+    path = os.path.join(d, h + ".mp3")
+    if not os.path.exists(path):
+        body = json.dumps({"text": text, "model_id": model, "language_code": "tr",
+                           "voice_settings": {"stability": stability, "similarity_boost": similarity,
+                                              "style": style, "use_speaker_boost": True, "speed": speed}}).encode()
+        req = urllib.request.Request(
+            f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_192", data=body,
+            headers={"Content-Type": "application/json", "xi-api-key": os.environ.get("ELEVEN_API_KEY", "proxy-injected")})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            data = r.read()
+        with open(path + ".part", "wb") as f:
+            f.write(data)
+        os.replace(path + ".part", path)
+        with open(os.path.join(d, "index.tsv"), "a", encoding="utf-8") as f:
+            f.write(f"{h}\t{text}\n")
+    return _trim(_decode(path))
+
+
 def tts(text, voice=DEFAULT_VOICE, speed=1.0, seed_noise=0.55):
-    """Metni seslendir -> float32 mono @ 48 kHz."""
+    """Metni seslendir -> float32 mono @ 48 kHz. ELEVEN_VOICE_ID ayarlıysa ElevenLabs kullanılır."""
+    if ELEVEN_VOICE:
+        return eleven_tts(text, speed=max(0.85, min(1.15, speed)))
     from piper import SynthesisConfig
     v = _voice(voice)
     cfg = SynthesisConfig(length_scale=1.0 / speed, noise_scale=seed_noise, noise_w_scale=0.7, normalize_audio=True)
