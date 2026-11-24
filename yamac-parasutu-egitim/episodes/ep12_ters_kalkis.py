@@ -1,0 +1,30 @@
+"""Ders 12 · Ters kalkış"""
+
+EP = dict(
+    slug="ters-kalkis", title="TERS\nKALKIŞ", subtitle="GÜÇLÜ RÜZGARDA", module_label="MODÜL 3 · KALKIŞ",
+    beats=[
+        dict(scene="hook", p=dict(bg="launch", bgp=dict(stage=1.6, reverse=True, wind=0.75)),
+             say="Rüzgar artınca yüzünü kanadına dön: ters kalkış."),
+        dict(scene="launch", p=dict(stage=0.0, reverse=True, wind=0.75),
+             say="Kanada dönük durursun, askılar önünde çaprazlanır. Böylece kanadı görerek kaldırırsın.",
+             k=[("KANADI GÖREREK", "cyan")]),
+        dict(p=dict(stage=1.5, stage_dur=2.2, rise_arrow=True),
+             say="A askılarını yumuşakça çek. Rüzgar kanadı doldurur ve kanat yükselir.",
+             k=[("A'LARI ÇEK", "yellow")], sfx=[("whoosh_down", 0.6, 0.5)]),
+        dict(p=dict(stage=2.15, stage_dur=1.0, rise_arrow=False),
+             say="Kanat tepeye gelince frenle durdur. Bir tarafa kayarsa, o tarafa doğru adım at.",
+             k=["FRENLE DURDUR", ("KAYARSA ALTINA GİR", "dark")]),
+        dict(p=dict(turn=0.0, stage=4.7, stage_dur=4.2),
+             say="Kanat dengedeyse askıların açıldığı yöne dönersin ve rüzgara karşı kalkarsın.",
+             k=[("DÖN VE KALK", "green")]),
+        dict(scene="statement", p=dict(icon="🎯", text="Önce düz alanda yer hakimiyeti", accent="#FFB020"),
+             say="Bu tekniği önce düz bir alanda, yer hakimiyeti çalışarak öğren. Kanadı yerde yönetemeyen, havada da zorlanır.",
+             k=[("ÖNCE YER HAKİMİYETİ", "yellow")]),
+        dict(scene="recap", p=dict(items=["Kanada dönük dur, askılar çapraz", "A'ları yumuşak çek",
+                                          "Tepede frenle durdur", "Dön ve rüzgara karşı kalk"]),
+             say="Ters kalkış, güçlü rüzgarda kontrolü sana verir. Çalıştıkça kolaylaşır."),
+        dict(scene="outro", p=dict(q="Yer hakimiyetine haftada kaç saat ayırıyorsun?",
+                                   options=["0 😅", "1 saat", "2 saat", "3+ saat", "Her uçuştan önce"]),
+             say="Yer hakimiyetine haftada kaç saat ayırıyorsun? Yorumlara yaz."),
+    ],
+)

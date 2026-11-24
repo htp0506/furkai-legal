@@ -1,0 +1,33 @@
+"""Ders 15 · Süzülme oranı ve hızlandırıcı"""
+
+EP = dict(
+    slug="suzulme-orani", title="SÜZÜLME\nORANI", subtitle="VE HIZLANDIRICI", module_label="MODÜL 4 · UÇUŞ",
+    beats=[
+        dict(scene="hook", p=dict(bg="glide_ratio", bgp=dict(ratio=9, static=True)),
+             say="Bin metreden kaç kilometre uzağa gidebilirsin?"),
+        dict(scene="glide_ratio", p=dict(ratio=9, wind=0),
+             say="Süzülme oranı, bir metre alçalırken kaç metre ileri gittiğindir. Okul kanatlarında yaklaşık sekiz, dokuz.",
+             k=["SÜZÜLME ORANI"]),
+        dict(p=dict(),
+             say="Yani sakin havada bin metreden yaklaşık dokuz kilometre süzülürsün.",
+             k=[("1000 m → ≈ 9 km", "green")]),
+        dict(p=dict(wind=-15),
+             say="Karşı rüzgarda yere göre mesafen kısalır.",
+             k=[("KARŞI RÜZGAR: KISA", "red")]),
+        dict(p=dict(wind=15),
+             say="Arka rüzgarda ise uzar.",
+             k=[("ARKA RÜZGAR: UZUN", "green")]),
+        dict(scene="speedrange", p=dict(kmh0=37, kmh=48, bar=1.0, pitch=0.1, zone="HIZLANDIRICI", show_brake=False),
+             say="Karşı rüzgarda ilerlemek için hızlandırıcıyı, yani spid barı ayağınla itersin. Hücum açısı azalır, hızlanırsın.",
+             sub="Karşı rüzgarda ilerlemek için hızlandırıcıyı, yani speedbar'ı ayağınla itersin. Hücum açısı azalır, hızlanırsın.",
+             k=["HIZLANDIRICI", ("AYAKLA İT", "yellow")]),
+        dict(p=dict(crumple=0.12),
+             say="Ama hızlandırıcıdayken kanat kapanmalara daha açıktır. Türbülansta ve alçakta kullanma.",
+             k=[("TÜRBÜLANSTA KULLANMA", "red")]),
+        dict(scene="recap", p=dict(items=["1 : 9 → 1000 m'den ≈ 9 km", "Karşı rüzgar mesafeyi kısaltır",
+                                          "Hızlandırıcı: açı azalır, hız artar", "Türbülansta ve alçakta kullanma"]),
+             say="Süzülme oranını bilirsen, iniş alanına yetişip yetişemeyeceğini önceden hesaplarsın."),
+        dict(scene="outro", p=dict(q="En uzun süzülüşün kaç km?", options=["1 km", "3 km", "5 km", "10 km", "20 km+", "Henüz kısa 😅"]),
+             say="En uzun süzülüşün kaç kilometreydi? Yorumlara yaz."),
+    ],
+)

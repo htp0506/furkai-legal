@@ -1,0 +1,30 @@
+"""Ders 09 · Fırtına bulutu: Kümülonimbüs"""
+
+EP = dict(
+    slug="kumulonimbus", title="FIRTINA\nBULUTU", subtitle="KÜMÜLONİMBÜS", module_label="MODÜL 2 · METEOROLOJİ",
+    beats=[
+        dict(scene="hook", p=dict(bg="storm", bgp=dict(dark=1, growth=1, tall=1, anvil=1, rain=1, lightning=True)),
+             say="Bu bulutu gördüysen, hemen in."),
+        dict(scene="storm", p=dict(dark0=0.0, dark=0.35, growth0=0.5, growth=1.0, tall=0.6),
+             say="Kümülüs bulutları dikey büyümeye başlarsa, kararır ve kule gibi yükselirse dikkat.",
+             k=[("DİKEY BÜYÜME", "yellow")]),
+        dict(p=dict(tall=1.0, anvil=1.0, dark=0.8),
+             say="Bu bir fırtına bulutu, yani kümülonimbüs olabilir. Tepesi örs gibi yayılır.",
+             k=["KÜMÜLONİMBÜS", ("ÖRS ŞEKLİ", "red")]),
+        dict(p=dict(suck=1.0),
+             say="Altında çok güçlü emme olur. Pilotu buluta doğru çekebilir.",
+             k=[("BULUT EMMESİ", "red")], sfx=[("alarm", 0.3, 0.6)]),
+        dict(p=dict(suck=0.0, gust=1.0, rain=1.0),
+             say="Fırtınanın önündeki ani rüzgar cephesi, kilometrelerce uzağa ulaşabilir.",
+             k=[("RÜZGAR CEPHESİ", "red")]),
+        dict(p=dict(lightning=True, land_glider=True, gust=0.0),
+             say="Yağmur, şimşek ya da ani rüzgar dönüşü gördüğünde uçuşu bitir. Erken inmek, en iyi karar.",
+             k=[("ERKEN İN", "green")]),
+        dict(scene="recap", p=dict(items=["Dikey büyüyen, kararan bulut", "Örs şekli: kümülonimbüs",
+                                          "Bulut emmesi ve rüzgar cephesi", "İlk işarette in"]),
+             say="Gökyüzü değişiyorsa sen de planını değiştir. Erken in."),
+        dict(scene="outro", p=dict(q="Hava bozarken ilk neye bakarsın?",
+                                   options=["Bulutlar", "Rüzgar", "Tulum", "Radar", "Hava durumu", "Eğitmen"]),
+             say="Hava bozarken ilk neye bakarsın? Yorumlara yaz."),
+    ],
+)

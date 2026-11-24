@@ -1,0 +1,30 @@
+"""Ders 19 · PLF: güvenli yuvarlanma"""
+
+EP = dict(
+    slug="plf", title="PLF", subtitle="GÜVENLİ YUVARLANMA", module_label="MODÜL 5 · İNİŞ",
+    beats=[
+        dict(scene="hook", p=dict(bg="plf", bgp=dict(roll=0.0), title_y=760),
+             say="İnişin sert olacaksa, düşmeyi bilmek seni korur."),
+        dict(scene="plf", p=dict(roll=0.0, bend=0.2),
+             say="Pe, le, fe; yani paraşütçü iniş yuvarlanması. Darbeyi tek noktaya değil, tüm vücuda yayar.",
+             sub="PLF, yani paraşütçü iniş yuvarlanması. Darbeyi tek noktaya değil, tüm vücuda yayar.",
+             k=["PLF", ("DARBEYİ YAY", "green")]),
+        dict(p=dict(together=True, bend=0.4),
+             say="Ayakların ve dizlerin bitişik, dizler hafif bükük. Ayak tabanlarınla yere değ.",
+             k=[("DİZLER HAFİF BÜKÜK", "cyan")]),
+        dict(p=dict(together=False, roll=1.0, show_points=True, roll_arrow=True),
+             say="Değdiğin an yana dön ve sırayla yuvarlan: ayak, baldır, kalça ve sırt.",
+             sfx=[("thud", 0.4, 0.6)]),
+        dict(scene="plf", p=dict(roll0=0.25, roll=0.35, bad_hand=1.0),
+             say="Kollarını göğsünde tut. Elinle yere dayanma; bilek kırıkları böyle olur.",
+             k=[("ELLE DAYANMA", "red")]),
+        dict(scene="statement", p=dict(icon="🔁", text="Alçak bir basamaktan defalarca çalış", accent="#22C55E"),
+             say="Bunu yerde, alçak bir basamaktan atlayarak defalarca çalış. Refleks hâline gelsin.",
+             k=[("YERDE ÇALIŞ", "green")]),
+        dict(scene="recap", p=dict(items=["Ayaklar ve dizler bitişik", "Dizler hafif bükük",
+                                          "Ayak → baldır → kalça → sırt", "Elle dayanma"]),
+             say="İyi pilot düşmeyi planlamaz ama düşmeyi bilir."),
+        dict(scene="outro", p=dict(q="Sen PLF çalıştın mı?", options=["Evet", "Hayır", "Kursta", "Bu videodan sonra 😄"]),
+             say="Sen hiç pe le fe çalıştın mı? Yorumlara yaz.", sub="Sen hiç PLF çalıştın mı? Yorumlara yaz."),
+    ],
+)

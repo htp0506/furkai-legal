@@ -1,0 +1,32 @@
+"""Ders 11 · Önden kalkış"""
+
+EP = dict(
+    slug="onden-kalkis", title="ÖNDEN\nKALKIŞ", subtitle="HAFİF RÜZGARDA", module_label="MODÜL 3 · KALKIŞ",
+    beats=[
+        dict(scene="hook", p=dict(bg="launch", bgp=dict(stage=4.6)),
+             say="Hafif rüzgarda kalkışın adı: önden kalkış."),
+        dict(scene="launch", p=dict(stage=0.0),
+             say="Kanadını hilal şeklinde ser. Sırtın kanada dönük; A askıları ve frenler elinde.",
+             k=["HİLAL SERİM", ("A ASKILARI ELDE", "dark")]),
+        dict(p=dict(stage=1.3, stage_dur=2.4, rise_arrow=True),
+             say="Kollar geride, gövde öne eğik: kararlı adımlarla koşmaya başla. Kanat yükselir.",
+             k=[("ÖNE EĞİL · KOŞ", "yellow")], sfx=[("whoosh_down", 0.6, 0.5)]),
+        dict(p=dict(stage=2.2, stage_dur=1.0, rise_arrow=False, look=True),
+             say="Kanat başının üstüne gelince A'ları bırak ve kısa bir bakışla kanadı kontrol et.",
+             k=[("YUKARI BAK", "cyan")]),
+        dict(p=dict(stage=4.7, stage_dur=3.6, look=False),
+             say="Kanat düzgünse hızlanarak koşmaya devam et. Hafif fren verirsin ve ayakların yerden kesilir.",
+             k=[("HIZLAN · KALK", "green")]),
+        dict(scene="launch", p=dict(stage0=2.0, stage=2.0, abort=1.0, tangle=1.0),
+             say="Kanat düzgün değilse ya da bir hat dolanmışsa, kalkışı iptal et.",
+             k=[("ŞÜPHE = İPTAL", "red")]),
+        dict(scene="launch", p=dict(stage0=3.7, stage=4.25, stage_dur=2.5),
+             say="Havalandıktan sonra hemen oturağa yerleşme. Birkaç adım daha koşmaya hazır ol.",
+             k=[("HEMEN OTURMA", "yellow")]),
+        dict(scene="recap", p=dict(items=["Hilal serim, sırt kanada dönük", "Öne eğil, kararlı koş",
+                                          "Tepede kanadı kontrol et", "Şüphe varsa iptal"]),
+             say="Kalkışın yarısı hazırlıktır. Acele etme, kanadını gör, sonra koş."),
+        dict(scene="outro", p=dict(q="İlk kalkışında kaç deneme yaptın?", options=["1", "2", "3", "5+", "Saymadım 😅"]),
+             say="İlk kalkışında kaç deneme yaptın? Yorumlara yaz."),
+    ],
+)

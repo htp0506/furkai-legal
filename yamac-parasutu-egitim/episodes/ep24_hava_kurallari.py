@@ -1,0 +1,30 @@
+"""Ders 24 · Hava kuralları ve doğru karar"""
+
+EP = dict(
+    slug="hava-kurallari", title="HAVA\nKURALLARI", subtitle="GÖKYÜZÜNDE TRAFİK", module_label="MODÜL 6 · KURALLAR",
+    beats=[
+        dict(scene="hook", p=dict(bg="traffic", bgp=dict(case="thermal")),
+             say="Gökyüzünün de trafik kuralları var."),
+        dict(scene="traffic", p=dict(case="headon"),
+             say="Karşılaşma rotasındaysanız, iki pilot da sağa döner.",
+             k=[("KARŞILAŞMA: İKİNİZ DE SAĞA", "green")]),
+        dict(scene="traffic", p=dict(case="ridge"),
+             say="Yamaçta, yamacı sağında tutan pilotun geçiş önceliği vardır.",
+             k=[("YAMAÇ SAĞDA = ÖNCELİK", "orange")]),
+        dict(scene="traffic", p=dict(case="thermal"),
+             say="Termikte, ilk giren pilotun döndüğü yöne dönülür.",
+             k=[("TERMİK: İLKİN YÖNÜ", "yellow")]),
+        dict(scene="traffic", p=dict(case="landing"),
+             say="Alçaktaki ve inişteki pilotun her zaman önceliği vardır.",
+             k=[("ALÇAKTAKİ ÖNCELİKLİ", "cyan")]),
+        dict(scene="statement", p=dict(icon="🧠", text="Emin değilsen kalkma", accent="#22C55E"),
+             say="Ve en önemli kural: emin değilsen kalkma. Bugün inmeyi seçen pilot, yarın yine uçar.",
+             k=[("ŞÜPHEDEYSEN UÇMA", "green")]),
+        dict(scene="recap", p=dict(items=["Karşılaşmada ikiniz de sağa", "Yamaç sağdaki önceliklidir",
+                                          "Termikte ilk girenin yönü", "Alçaktaki pilot önceliklidir"]),
+             say="Kuralları bilen pilot, gökyüzünü herkes için güvenli kılar."),
+        dict(scene="outro", p=dict(q="Hangi ders sana en çok yardım etti?",
+                                   options=["Palya", "Termik", "Kapanmalar", "Yedek", "Kalkış", "Meteoroloji", "Kurallar"]),
+             say="Serinin hangi dersi sana en çok yardım etti? Yorumlara yaz."),
+    ],
+)

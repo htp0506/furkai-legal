@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+assets/voices/*.onnx
+assets/voices/*.onnx.json
+videolar/.tmp_*/

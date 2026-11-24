@@ -1,0 +1,30 @@
+"""Ders 04 · Hücum açısı"""
+
+EP = dict(
+    slug="hucum-acisi", title="HÜCUM\nAÇISI", subtitle="HER ŞEYİN ANAHTARI", module_label="MODÜL 1 · TEMELLER",
+    beats=[
+        dict(scene="hook", p=dict(bg="airfoil", bgp=dict(aoa=8, show_wind=0)),
+             say="Kanadının en önemli ayarı: hücum açısı."),
+        dict(scene="airfoil", p=dict(aoa=8, show_chord=1, show_aoa=1),
+             say="Hücum açısı, kanadın veter çizgisi ile karşıdan gelen hava arasındaki açıdır.",
+             k=["HÜCUM AÇISI = α"]),
+        dict(p=dict(aoa=13, brake=0.6, flow=0.7, show_lift=1),
+             say="Fren çektikçe firar kenarı bükülür, hücum açısı büyür ve kanat yavaşlar.",
+             k=["FREN ÇEK", ("AÇI BÜYÜR · HIZ DÜŞER", "yellow")]),
+        dict(p=dict(aoa=18, stall=1, brake=1, show_lift=0),
+             say="Açı çok büyürse hava kanadın üstünden kopar. Buna stol denir.",
+             k=[("AŞIRI AÇI = STOL", "red")], sfx=[("alarm", 0.5, 0.6)]),
+        dict(p=dict(aoa=1, stall=0, brake=0, lefold=0.9, flow=1.2),
+             say="Açı çok küçülürse, örneğin türbülansta, hücum kenarı içe kapanabilir.",
+             k=[("ÇOK KÜÇÜK = KAPANMA", "red")]),
+        dict(p=dict(aoa=8, lefold=0.0, flow=1.0, show_lift=1, show_pressure=1),
+             say="İyi pilot, hücum açısını ellerindeki frenle hep doğru aralıkta tutar.",
+             k=[("DOĞRU ARALIK", "green")]),
+        dict(scene="recap", p=dict(items=["Veter ile bağıl rüzgar arasındaki açı", "Fren çek: açı büyür, kanat yavaşlar",
+                                          "Aşırı açı: stol", "Çok küçük açı: kapanma"]),
+             say="Hücum açısını anlarsan stolu, kapanmayı ve palyayı da anlarsın."),
+        dict(scene="outro", p=dict(q="Sence en zor teknik hangisi?",
+                                   options=["Palya", "Ters kalkış", "Termik", "Kulak katlama", "Yer hakimiyeti", "Dönüş"]),
+             say="Sence yamaç paraşütünde en zor teknik hangisi? Yorumlara yaz."),
+    ],
+)

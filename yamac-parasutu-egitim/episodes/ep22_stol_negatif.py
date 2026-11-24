@@ -1,0 +1,37 @@
+"""Ders 22 · Stol ve negatif"""
+from ._common import SIDE_34, REAR
+
+EP = dict(
+    slug="stol-negatif", title="STOL &\nNEGATİF", subtitle="FAZLA FRENİN BEDELİ", module_label="MODÜL 6 · ACİL DURUM",
+    beats=[
+        dict(scene="hook", p=dict(bg="stage", bgp=dict(bg="high", yaw=SIDE_34, elev=0.2, stall=1, crumple=0.45, pitch=-0.6,
+                                                         brake_l=1, brake_r=1, y=1230, scale=44)),
+             say="Kanadı durduran şey: fazla fren."),
+        dict(scene="airfoil", p=dict(aoa=18, stall=1, brake=1, show_aoa=1, show_chord=1),
+             say="Frenleri çok derin çekersen hava kanadın üstünden kopar ve kanat uçmayı bırakır. Buna tam stol denir.",
+             k=[("TAM STOL", "red")], sfx=[("alarm", 1.2, 0.5)]),
+        dict(scene="stage", p=dict(bg="high", yaw=SIDE_34, elev=0.2, scale=58, brake_l=1.0, brake_r=1.0, stall0=0.0, stall=1.0,
+                                   pitch=-0.6, crumple=0.45, widgets=["vario"], vario0=-1.2, vario=-8.0),
+             say="Belirtileri: fren yumuşar, rüzgar sesi azalır ve kanat geriye kaçar.",
+             k=["FREN YUMUŞAR", ("SES KESİLİR", "dark")]),
+        dict(scene="stage", p=dict(bg="high", yaw=REAR, elev=0.42, scale=56, brake_r=1.0, brake_l=0.0, fold_r=0.4,
+                                   crumple=0.3, spin=3.4, widgets=["brake_l", "brake_r"]),
+             say="Tek tarafta fazla fren çekersen o taraf geri akar ve kanat kendi etrafında döner. Buna negatif denir.",
+             k=[("NEGATİF", "red")], sfx=[("alarm", 0.3, 0.6)]),
+        dict(p=dict(brake_r=0.0, fold_r=0.0, crumple=0.0, spin=0.0, pitch=0.3),
+             say="Negatifte freni hemen bırak. Kanat öne dalarsa kontra ile karşıla.",
+             k=[("FRENİ BIRAK", "green")]),
+        dict(scene="statement", p=dict(icon="🛡️", text="Yavaş uçarken derin fren tutma", accent="#F43F5E"),
+             say="Hepsinin önlemi aynı: yavaş uçarken derin fren tutma, özellikle alçakta.",
+             k=[("ALÇAKTA YAVAŞ UÇMA", "red")]),
+        dict(scene="statement", p=dict(icon="🌊", text="Stol çıkışını yalnızca güvenlik kursunda çalış", accent="#22D3EE"),
+             say="Tam stol çıkışını yalnızca eğitmenle, su üstündeki güvenlik kursunda çalış.",
+             k=[("SADECE SIV'DE", "cyan")]),
+        dict(scene="recap", p=dict(items=["Derin fren: tam stol", "Belirti: yumuşak fren, sessizlik",
+                                          "Tek taraf fazla fren: negatif", "Önlem: alçakta yavaş uçma"]),
+             say="Fren, kanadın en güçlü kontrolüdür; fazlası en büyük tehlikesi."),
+        dict(scene="outro", p=dict(q="Sence en tehlikeli hata hangisi?",
+                                   options=["Bacak tokası", "Alçakta dönüş", "Derin fren", "Kötü hava", "Yorgunluk"]),
+             say="Sence en tehlikeli pilot hatası hangisi? Yorumlara yaz."),
+    ],
+)

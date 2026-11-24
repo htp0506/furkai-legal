@@ -1,0 +1,30 @@
+"""Ders 05 · Rüzgarı oku: rüzgar tulumu"""
+
+EP = dict(
+    slug="ruzgar-tulumu", title="RÜZGARI\nOKU", subtitle="RÜZGAR TULUMU", module_label="MODÜL 2 · METEOROLOJİ",
+    beats=[
+        dict(scene="hook", p=dict(bg="sock", bgp=dict(strength=0.55, meter=False)),
+             say="Kalkıştan önce ilk bakacağın yer: rüzgar tulumu."),
+        dict(scene="sock", p=dict(strength=0.55, show_glider=True),
+             say="Tulum, rüzgarın nereden estiğini gösterir. Kalkış ve iniş her zaman rüzgara karşı yapılır.",
+             k=[("RÜZGARA KARŞI", "yellow")]),
+        dict(p=dict(strength=0.06, show_glider=False),
+             say="Tulum sarkıyorsa rüzgar çok hafif. Kalkışta daha çok koşman gerekir.",
+             k=["SARKIK", ("ÇOK HAFİF", "dark")]),
+        dict(p=dict(strength=0.5),
+             say="Yarı şişkin ve yumuşakça dalgalanıyorsa rüzgar düzenli ve uygun.",
+             k=["YARI ŞİŞKİN", ("UYGUN", "green")]),
+        dict(p=dict(strength=0.96),
+             say="Dimdik ve gergin duruyorsa rüzgar güçlü. Öğrenciysen bekle.",
+             k=["DİMDİK", ("GÜÇLÜ · BEKLE", "red")]),
+        dict(p=dict(strength=0.6, gusty=1.0),
+             say="Sürekli yön değiştiriyor ya da sertçe çırpınıyorsa rüzgar ani ve düzensiz. Bu, türbülans demek.",
+             k=["ÇIRPINIYOR", ("DÜZENSİZ · UÇMA", "red")]),
+        dict(scene="recap", p=dict(items=["Tulum rüzgarın geldiği yönü gösterir", "Kalkış ve iniş rüzgara karşı",
+                                          "Sarkık · yarı şişkin · dimdik", "Düzensizse uçma"]),
+             say="Unutma: uçuş limitlerini eğitmenin belirler. Şüphedeysen bekle."),
+        dict(scene="outro", p=dict(q="Senin sahanda rüzgar nereden eser?",
+                                   options=["Poyraz", "Lodos", "Karayel", "Kıble", "Kuzey", "Güney", "Doğu", "Batı"]),
+             say="Senin uçtuğun sahada rüzgar genelde nereden eser? Yorumlara yaz."),
+    ],
+)

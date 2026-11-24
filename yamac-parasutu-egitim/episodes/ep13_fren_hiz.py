@@ -1,0 +1,30 @@
+"""Ders 13 · Fren ve hız kontrolü"""
+
+EP = dict(
+    slug="fren-hiz", title="FREN\nVE HIZ", subtitle="ELLERİN = HIZ AYARI", module_label="MODÜL 4 · UÇUŞ",
+    beats=[
+        dict(scene="hook", p=dict(bg="speedrange", bgp=dict(kmh=37, show_brake=False)),
+             say="Ellerin yukarıdaysa hızlısın, aşağıdaysa yavaşsın."),
+        dict(scene="speedrange", p=dict(kmh0=37, kmh=37, brake=0.0, zone="TRİM"),
+             say="Frenler hiç çekilmemişken kanat trim hızında uçar. Bu, en verimli düz uçuştur.",
+             k=["TRİM HIZI", ("ELLER YUKARI", "green")]),
+        dict(p=dict(kmh=31, brake=0.25, zone="MİN. BATIŞ"),
+             say="Freni biraz çekersen kanat yavaşlar ve daha az alçalır. Buna minimum batış denir.",
+             k=["MİNİMUM BATIŞ", ("BİRAZ FREN", "yellow")]),
+        dict(p=dict(kmh=25, brake=0.78, zone="STOL"),
+             say="Daha fazla çekersen kanat iyice yavaşlar ve stol sınırına yaklaşır.",
+             k=[("DERİN FREN = STOL SINIRI", "red")], sfx=[("alarm", 1.0, 0.4)]),
+        dict(p=dict(kmh=24, crumple=0.15),
+             say="Freni hisset: basınç azalıyor ve rüzgar sesi kesiliyorsa, freni bırak.",
+             k=[("BASINÇ AZALDI → BIRAK", "red")]),
+        dict(p=dict(kmh=35, brake=0.15, crumple=0.0, zone=None),
+             say="Türbülansta hafif fren tutmak, kanadı gergin ve dengeli tutar. Buna aktif pilotaj denir.",
+             k=[("AKTİF PİLOTAJ", "cyan")]),
+        dict(scene="recap", p=dict(items=["Eller yukarı: trim hızı", "Biraz fren: minimum batış",
+                                          "Derin fren: stol sınırı", "Türbülansta hafif fren"]),
+             say="Frenler, kanadının gaz pedalı ve freni gibidir. Yumuşak kullan, hep hisset."),
+        dict(scene="outro", p=dict(q="Kanadının trim hızını biliyor musun?",
+                                   options=["35 km/sa", "36", "37", "38", "39", "40+", "Bilmiyorum"]),
+             say="Kanadının trim hızını biliyor musun? Yorumlara yaz."),
+    ],
+)

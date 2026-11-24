@@ -1,0 +1,33 @@
+"""Ders 07 · Termik nedir?"""
+
+EP = dict(
+    slug="termik", title="TERMİK", subtitle="GÜNEŞİN ASANSÖRÜ", module_label="MODÜL 2 · METEOROLOJİ",
+    beats=[
+        dict(scene="hook", p=dict(bg="thermal", bgp=dict(heat=1, column=1, cloud=1, circle=1, vario_widget=False, labels=False)),
+             say="Bulutlara kadar yükselmenin yolu: termik."),
+        dict(scene="thermal", p=dict(heat=1, labels=True, bubble=0.0, column=0.0, circle=0.0, cloud=0.0),
+             say="Güneş zemini eşit ısıtmaz. Tarla, kaya ve asfalt gibi yüzeyler daha çok ısınır.",
+             k=["FARKLI ISINMA"]),
+        dict(p=dict(bubble=1.0),
+             say="Isınan hava hafifler, bir baloncuk gibi kopar ve yükselir. İşte bu, termik.",
+             k=[("SICAK HAVA YÜKSELİR", "orange")]),
+        dict(p=dict(column=1, circle=1, circle_phase=2, vario=2.4, labels=False),
+             say="Termiğin içinde daireler çizersin. Vario öterek yükseldiğini söyler.",
+             k=[("DAİRE ÇİZ · YÜKSEL", "green")], sfx=[("vario_long", 0.4)]),
+        dict(p=dict(cloud=1.0),
+             say="Yükselen hava soğur, nemi yoğunlaşır ve tepede kümülüs bulutu oluşur. Bulut, termiğin işaretidir.",
+             k=[("KÜMÜLÜS = TERMİK", "cyan")]),
+        dict(p=dict(second=True, second_phase=4),
+             say="Termikte başka pilot varsa, onunla aynı yöne dön.",
+             k=[("AYNI YÖNE DÖN", "yellow")], sfx=[("vario", 0.3)]),
+        dict(scene="statement", p=dict(icon="☀️", text="Öğle saatlerinde termikler sertleşebilir", accent="#FFB020"),
+             say="Öğle saatlerinde termikler sertleşebilir. Öğrenci uçuşları genelde sabah ya da akşamüstü yapılır.",
+             k=[("ÖĞLE: SERT TERMİK", "red")]),
+        dict(scene="recap", p=dict(items=["Güneş zemini farklı ısıtır", "Sıcak hava baloncuk gibi yükselir",
+                                          "Daire çiz, varioyu dinle", "Kümülüs termiğin işaretidir"]),
+             say="Termik; güneş, zemin ve sabır demek. Gerisini vario söyler."),
+        dict(scene="outro", p=dict(q="Termikle en yüksek kaç metreye çıktın?",
+                                   options=["500 m", "1000 m", "1500 m", "2000 m", "2500 m", "3000 m+", "Henüz yok 😅"]),
+             say="Termikle en yüksek kaç metreye çıktın? Yorumlara yaz."),
+    ],
+)
