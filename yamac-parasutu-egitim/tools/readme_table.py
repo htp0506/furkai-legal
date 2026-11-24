@@ -18,8 +18,8 @@ for e in SERIES:
         m = json.load(open(meta))
         dur = f"{m['duration']:.0f} sn"
         total += m["duration"]
-        fn = f"[`{m['file']}`](videolar/{m['file']})"
-    rows.append(f"| {no:02d} | {MODULES[no].split('·')[1].strip().title()} | {e['title']} | {dur} | {fn} |")
+        fn = f"`{m['file']}`"
+    rows.append(f"| {no:02d} | {MODULES[no].split('·')[1].strip()} | {e['title']} | {dur} | {fn} |")
 rows.append(f"| | | **Toplam** | **{total / 60:.1f} dk** | |")
 table = "\n".join(rows)
 p = os.path.join(ROOT, "README.md")

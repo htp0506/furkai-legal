@@ -24,57 +24,57 @@ kendi anlatımımızla, modern görsellerle yeniden üretildi; eksik konular tam
 <!-- TABLO -->
 | Ders | Modül | Konu | Süre | Video |
 |---|---|---|---|---|
-| 01 | Temeller | Yamaç paraşütü nasıl uçar? | 41 sn | [`01_nasil-ucar.mp4`](videolar/01_nasil-ucar.mp4) |
-| 02 | Temeller | Kanadın anatomisi | 40 sn | [`02_kanat-anatomisi.mp4`](videolar/02_kanat-anatomisi.mp4) |
-| 03 | Temeller | Uçuş ekipmanı | 38 sn | [`03_ekipman.mp4`](videolar/03_ekipman.mp4) |
-| 04 | Temeller | Hücum açısı | 35 sn | [`04_hucum-acisi.mp4`](videolar/04_hucum-acisi.mp4) |
-| 05 | Meteoroloji̇ | Rüzgarı oku: rüzgar tulumu | 40 sn | [`05_ruzgar-tulumu.mp4`](videolar/05_ruzgar-tulumu.mp4) |
-| 06 | Meteoroloji̇ | Yamaç (dinamik) kaldırması | 39 sn | [`06_yamac-kaldirmasi.mp4`](videolar/06_yamac-kaldirmasi.mp4) |
-| 07 | Meteoroloji̇ | Termik nedir? | 44 sn | [`07_termik.mp4`](videolar/07_termik.mp4) |
-| 08 | Meteoroloji̇ | Rotor ve türbülans | 36 sn | [`08_rotor.mp4`](videolar/08_rotor.mp4) |
-| 09 | Meteoroloji̇ | Fırtına bulutu: Kümülonimbüs | 35 sn | [`09_kumulonimbus.mp4`](videolar/09_kumulonimbus.mp4) |
-| 10 | Kalkiş | Uçuş öncesi 5 nokta kontrol | 36 sn | [`10_bes-nokta-kontrol.mp4`](videolar/10_bes-nokta-kontrol.mp4) |
-| 11 | Kalkiş | Önden kalkış | 43 sn | [`11_onden-kalkis.mp4`](videolar/11_onden-kalkis.mp4) |
-| 12 | Kalkiş | Ters kalkış | 42 sn | [`12_ters-kalkis.mp4`](videolar/12_ters-kalkis.mp4) |
-| 13 | Uçuş | Fren ve hız kontrolü | 39 sn | [`13_fren-hiz.mp4`](videolar/13_fren-hiz.mp4) |
-| 14 | Uçuş | Dönüş tekniği | 36 sn | [`14_donus.mp4`](videolar/14_donus.mp4) |
-| 15 | Uçuş | Süzülme oranı ve hızlandırıcı | 41 sn | [`15_suzulme-orani.mp4`](videolar/15_suzulme-orani.mp4) |
-| 16 | Uçuş | Kulak katlama | 45 sn | [`16_kulak-katlama.mp4`](videolar/16_kulak-katlama.mp4) |
-| 17 | İni̇ş | İniş yaklaşması | 39 sn | [`17_inis-yaklasmasi.mp4`](videolar/17_inis-yaklasmasi.mp4) |
-| 18 | İni̇ş | Palya (Flare) | 51 sn | [`18_palya-flare.mp4`](videolar/18_palya-flare.mp4) |
-| 19 | İni̇ş | PLF: güvenli yuvarlanma | 40 sn | [`19_plf.mp4`](videolar/19_plf.mp4) |
-| 20 | Aci̇l Durum | Asimetrik kapanma | 45 sn | [`20_asimetrik-kapanma.mp4`](videolar/20_asimetrik-kapanma.mp4) |
-| 21 | Aci̇l Durum | Önden kapanma | 41 sn | [`21_onden-kapanma.mp4`](videolar/21_onden-kapanma.mp4) |
-| 22 | Aci̇l Durum | Stol ve negatif | 48 sn | [`22_stol-negatif.mp4`](videolar/22_stol-negatif.mp4) |
-| 23 | Aci̇l Durum | Yedek paraşüt atma | 46 sn | [`23_yedek-parasut.mp4`](videolar/23_yedek-parasut.mp4) |
-| 24 | Kurallar | Hava kuralları ve doğru karar | 34 sn | [`24_hava-kurallari.mp4`](videolar/24_hava-kurallari.mp4) |
-| 25 | Termi̇k | Hava hızı ve yer hızı | 39 sn | [`25_hava-hizi-yer-hizi.mp4`](videolar/25_hava-hizi-yer-hizi.mp4) |
-| 26 | Termi̇k | Termikte dönüş: 5 adım | 35 sn | [`26_termikte-donus.mp4`](videolar/26_termikte-donus.mp4) |
-| 27 | Termi̇k | Termik nasıl bulunur? | 32 sn | [`27_termik-bulma.mp4`](videolar/27_termik-bulma.mp4) |
-| 28 | Termi̇k | Kalabalık termikte kurallar | 34 sn | [`28_termik-trafigi.mp4`](videolar/28_termik-trafigi.mp4) |
-| 29 | İleri̇ Manevra | Derin spiral ve tam spiral | 42 sn | [`29_spiral.mp4`](videolar/29_spiral.mp4) |
-| 30 | İleri̇ Manevra | Derin stol ve tam stol | 33 sn | [`30_derin-stol.mp4`](videolar/30_derin-stol.mp4) |
-| 31 | İleri̇ Manevra | Wingover | 27 sn | [`31_wingover.mp4`](videolar/31_wingover.mp4) |
-| 32 | Kalkiş+ | Kalkışın üç yolu | 30 sn | [`32_kalkis-yollari.mp4`](videolar/32_kalkis-yollari.mp4) |
-| 33 | Kalkiş+ | Kobra kalkış | 31 sn | [`33_kobra-kalkis.mp4`](videolar/33_kobra-kalkis.mp4) |
-| 34 | Kalkiş+ | Yer hakimiyeti | 34 sn | [`34_yer-hakimiyeti.mp4`](videolar/34_yer-hakimiyeti.mp4) |
-| 35 | Kalkiş+ | Kalkıştan önce alanı ve rüzgarı oku | 35 sn | [`35_kalkis-oncesi.mp4`](videolar/35_kalkis-oncesi.mp4) |
-| 36 | Kalkiş+ | Koşmadan önce 5 saniye | 27 sn | [`36_bes-saniye.mp4`](videolar/36_bes-saniye.mp4) |
-| 37 | Kalkiş+ | İpler karıştı: nasıl çözülür? | 34 sn | [`37_ip-karisikligi.mp4`](videolar/37_ip-karisikligi.mp4) |
-| 38 | İni̇ş+ | İnişi havada planla | 30 sn | [`38_inis-planla.mp4`](videolar/38_inis-planla.mp4) |
-| 39 | İni̇ş+ | Frenin konumu: çeyrek, yarım, tam | 32 sn | [`39_fren-konumu.mp4`](videolar/39_fren-konumu.mp4) |
-| 40 | Meteoroloji̇+ | Rüzgarı 5 yoldan oku | 35 sn | [`40_ruzgari-oku.mp4`](videolar/40_ruzgari-oku.mp4) |
-| 41 | Meteoroloji̇+ | Türbülans nereden gelir? | 33 sn | [`41_turbulans.mp4`](videolar/41_turbulans.mp4) |
-| 42 | Meteoroloji̇+ | Toz hortumu | 33 sn | [`42_toz-hortumu.mp4`](videolar/42_toz-hortumu.mp4) |
-| 43 | Meteoroloji̇+ | Yağmurda uçulur mu? | 31 sn | [`43_yagmur.mp4`](videolar/43_yagmur.mp4) |
-| 44 | Meteoroloji̇+ | Yükseldikçe neden üşürsün? | 30 sn | [`44_irtifa-sicaklik.mp4`](videolar/44_irtifa-sicaklik.mp4) |
-| 45 | Meteoroloji̇+ | Eğitim neden sabah erken? | 29 sn | [`45_sabah-egitim.mp4`](videolar/45_sabah-egitim.mp4) |
-| 46 | Pi̇lot | Kanat sınıfları: A, B, C, D | 32 sn | [`46_kanat-siniflari.mp4`](videolar/46_kanat-siniflari.mp4) |
-| 47 | Pi̇lot | Ekipman bakımı: ipler ve yedek | 36 sn | [`47_ekipman-bakimi.mp4`](videolar/47_ekipman-bakimi.mp4) |
-| 48 | Pi̇lot | Pilot sağlığı: DEATH kuralı | 34 sn | [`48_death-kurali.mp4`](videolar/48_death-kurali.mp4) |
-| 49 | Pi̇lot | NOTAM ve hava sahası | 35 sn | [`49_notam.mp4`](videolar/49_notam.mp4) |
-| 50 | Pi̇lot | P2 ve P3: pilotluk seviyeleri | 33 sn | [`50_pilot-seviyeleri.mp4`](videolar/50_pilot-seviyeleri.mp4) |
-| 51 | Pi̇lot | Teorik dersler ve ilk uçuş | 34 sn | [`51_teori-dersleri.mp4`](videolar/51_teori-dersleri.mp4) |
+| 01 | TEMELLER | Yamaç paraşütü nasıl uçar? | 41 sn | `01_nasil-ucar.mp4` |
+| 02 | TEMELLER | Kanadın anatomisi | 40 sn | `02_kanat-anatomisi.mp4` |
+| 03 | TEMELLER | Uçuş ekipmanı | 38 sn | `03_ekipman.mp4` |
+| 04 | TEMELLER | Hücum açısı | 35 sn | `04_hucum-acisi.mp4` |
+| 05 | METEOROLOJİ | Rüzgarı oku: rüzgar tulumu | 40 sn | `05_ruzgar-tulumu.mp4` |
+| 06 | METEOROLOJİ | Yamaç (dinamik) kaldırması | 39 sn | `06_yamac-kaldirmasi.mp4` |
+| 07 | METEOROLOJİ | Termik nedir? | 44 sn | `07_termik.mp4` |
+| 08 | METEOROLOJİ | Rotor ve türbülans | 36 sn | `08_rotor.mp4` |
+| 09 | METEOROLOJİ | Fırtına bulutu: Kümülonimbüs | 35 sn | `09_kumulonimbus.mp4` |
+| 10 | KALKIŞ | Uçuş öncesi 5 nokta kontrol | 36 sn | `10_bes-nokta-kontrol.mp4` |
+| 11 | KALKIŞ | Önden kalkış | 43 sn | `11_onden-kalkis.mp4` |
+| 12 | KALKIŞ | Ters kalkış | 42 sn | `12_ters-kalkis.mp4` |
+| 13 | UÇUŞ | Fren ve hız kontrolü | 39 sn | `13_fren-hiz.mp4` |
+| 14 | UÇUŞ | Dönüş tekniği | 36 sn | `14_donus.mp4` |
+| 15 | UÇUŞ | Süzülme oranı ve hızlandırıcı | 41 sn | `15_suzulme-orani.mp4` |
+| 16 | UÇUŞ | Kulak katlama | 45 sn | `16_kulak-katlama.mp4` |
+| 17 | İNİŞ | İniş yaklaşması | 39 sn | `17_inis-yaklasmasi.mp4` |
+| 18 | İNİŞ | Palya (Flare) | 51 sn | `18_palya-flare.mp4` |
+| 19 | İNİŞ | PLF: güvenli yuvarlanma | 40 sn | `19_plf.mp4` |
+| 20 | ACİL DURUM | Asimetrik kapanma | 45 sn | `20_asimetrik-kapanma.mp4` |
+| 21 | ACİL DURUM | Önden kapanma | 41 sn | `21_onden-kapanma.mp4` |
+| 22 | ACİL DURUM | Stol ve negatif | 48 sn | `22_stol-negatif.mp4` |
+| 23 | ACİL DURUM | Yedek paraşüt atma | 46 sn | `23_yedek-parasut.mp4` |
+| 24 | KURALLAR | Hava kuralları ve doğru karar | 34 sn | `24_hava-kurallari.mp4` |
+| 25 | TERMİK | Hava hızı ve yer hızı | 39 sn | `25_hava-hizi-yer-hizi.mp4` |
+| 26 | TERMİK | Termikte dönüş: 5 adım | 35 sn | `26_termikte-donus.mp4` |
+| 27 | TERMİK | Termik nasıl bulunur? | 32 sn | `27_termik-bulma.mp4` |
+| 28 | TERMİK | Kalabalık termikte kurallar | 34 sn | `28_termik-trafigi.mp4` |
+| 29 | İLERİ MANEVRA | Derin spiral ve tam spiral | 42 sn | `29_spiral.mp4` |
+| 30 | İLERİ MANEVRA | Derin stol ve tam stol | 33 sn | `30_derin-stol.mp4` |
+| 31 | İLERİ MANEVRA | Wingover | 27 sn | `31_wingover.mp4` |
+| 32 | KALKIŞ+ | Kalkışın üç yolu | 30 sn | `32_kalkis-yollari.mp4` |
+| 33 | KALKIŞ+ | Kobra kalkış | 31 sn | `33_kobra-kalkis.mp4` |
+| 34 | KALKIŞ+ | Yer hakimiyeti | 34 sn | `34_yer-hakimiyeti.mp4` |
+| 35 | KALKIŞ+ | Kalkıştan önce alanı ve rüzgarı oku | 35 sn | `35_kalkis-oncesi.mp4` |
+| 36 | KALKIŞ+ | Koşmadan önce 5 saniye | 27 sn | `36_bes-saniye.mp4` |
+| 37 | KALKIŞ+ | İpler karıştı: nasıl çözülür? | 34 sn | `37_ip-karisikligi.mp4` |
+| 38 | İNİŞ+ | İnişi havada planla | 30 sn | `38_inis-planla.mp4` |
+| 39 | İNİŞ+ | Frenin konumu: çeyrek, yarım, tam | 32 sn | `39_fren-konumu.mp4` |
+| 40 | METEOROLOJİ+ | Rüzgarı 5 yoldan oku | 35 sn | `40_ruzgari-oku.mp4` |
+| 41 | METEOROLOJİ+ | Türbülans nereden gelir? | 33 sn | `41_turbulans.mp4` |
+| 42 | METEOROLOJİ+ | Toz hortumu | 33 sn | `42_toz-hortumu.mp4` |
+| 43 | METEOROLOJİ+ | Yağmurda uçulur mu? | 31 sn | `43_yagmur.mp4` |
+| 44 | METEOROLOJİ+ | Yükseldikçe neden üşürsün? | 30 sn | `44_irtifa-sicaklik.mp4` |
+| 45 | METEOROLOJİ+ | Eğitim neden sabah erken? | 29 sn | `45_sabah-egitim.mp4` |
+| 46 | PİLOT | Kanat sınıfları: A, B, C, D | 32 sn | `46_kanat-siniflari.mp4` |
+| 47 | PİLOT | Ekipman bakımı: ipler ve yedek | 36 sn | `47_ekipman-bakimi.mp4` |
+| 48 | PİLOT | Pilot sağlığı: DEATH kuralı | 34 sn | `48_death-kurali.mp4` |
+| 49 | PİLOT | NOTAM ve hava sahası | 35 sn | `49_notam.mp4` |
+| 50 | PİLOT | P2 ve P3: pilotluk seviyeleri | 33 sn | `50_pilot-seviyeleri.mp4` |
+| 51 | PİLOT | Teorik dersler ve ilk uçuş | 34 sn | `51_teori-dersleri.mp4` |
 | | | **Toplam** | **31.1 dk** | |
 <!-- /TABLO -->
 
