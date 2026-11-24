@@ -34,6 +34,7 @@ def launch(c, S):
     path.lineTo(1140, H)
     path.close()
     c.drawPath(path, skia.Paint(AntiAlias=True, Shader=lin((0, 1000), (0, H), [C("#7BC96F"), C("#2F7D43")])))
+    world.textured_fill(c, path, "grass", 0.9, 0.65)
     c.drawPath(smooth_path(pts), P("#FFFFFF", 0.3, stroke=4))
     world.windsock(c, 980, _slope_y(980), 0.8, strength=S.get("wind", 0.55), t=t, direction=-1, pole=220)
     line_arrow(c, 1040, 760, 820, 760 + 0.42 * -220 * 0 - 40, color="#FFD23F", width=10, alpha=0.9, head=30)
@@ -96,8 +97,10 @@ def _mp(x, y):
 
 def _field(c, t):
     c.drawRect(skia.Rect.MakeWH(W, H), skia.Paint(Shader=lin((0, 0), (W, H), [C("#4E8F4F"), C("#6DB36A"), C("#4C8A4A")])))
-    for k in range(-8, 16):
-        c.drawLine(k * 110, 0, k * 110 + 400, H, P("#FFFFFF", 0.03, stroke=40))
+    full = skia.Path()
+    full.addRect(skia.Rect.MakeWH(W, H))
+    world.textured_fill(c, full, "fields", 1.4, 0.75, skia.BlendMode.kSrcOver)
+    c.drawRect(skia.Rect.MakeWH(W, H), P("#1F3B26", 0.18))
     c.save()
     c.translate(540, MAP_CY)
     c.scale(MAP_K, MAP_K)

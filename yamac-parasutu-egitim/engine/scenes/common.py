@@ -27,6 +27,16 @@ def hook(c, S):
     sub = ep.get("subtitle")
     module = ep.get("module_label")
     ty = S.get("title_y", 860)
+    # kulüp logosu (açılış damgası)
+    from ..ui import brand_badge
+    la = ease_back(remap(t, 0.0, 0.45))
+    if la > 0:
+        c.save()
+        c.translate(540, ty - 335)
+        c.scale(0.5 + 0.5 * la, 0.5 + 0.5 * la)
+        c.drawCircle(0, 0, 92, P("#FFFFFF", 0.18 * clamp(la), blur=18))
+        brand_badge(c, 0, 0, 70, clamp(la))
+        c.restore()
     # modül etiketi
     a0 = ease_out(remap(t, 0.15, 0.55))
     if module:
@@ -65,9 +75,12 @@ def sky_glider(c, S):
     theme = S.get("theme", "day")
     world.sky(c, theme)
     world.clouds(c, t, 0, alpha=0.85, count=4, y_range=(250, 760), speed=10)
-    world.mountains(c, base_y=S.get("mbase", 1420), camx=t * 40)
-    if S.get("ground", True):
-        world.ground(c, S.get("gy", 1560), camx=t * 120)
+    if S.get("coast", True):
+        world.ground_plane(c, 1330, "fields", camx=t * 30, sea=0.42, far_w=1700, ratio=7.0, tex_scale=1.2, haze="#D6EAF7")
+    else:
+        world.mountains(c, base_y=S.get("mbase", 1420), camx=t * 40)
+        if S.get("ground", True):
+            world.ground(c, S.get("gy", 1560), camx=t * 120)
     x = S.get("x", 540) + math.sin(t * 0.6) * 30
     y = S.get("y", 1250) + math.sin(t * 1.1) * 12
     g3.render(c, x, y, S.get("scale", 42), yaw=S.get("yaw", g3.SIDE_34), elev=S.get("elev", 0.22),
@@ -195,6 +208,22 @@ def outro(c, S):
     draw_text(c, BRAND.handle, 540, 1350, 34, "white", "bold", "center", a3 * 0.95)
     draw_text(c, "Bu video bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.", 540, 1398, 24,
               "#CBD5E1", "medium", "center", a3 * 0.8)
+    # --- logolu bitiş kartı (son ~1.7 sn)
+    ea = smooth(remap(t, S.T - 1.75, S.T - 1.25))
+    if ea > 0:
+        from ..ui import brand_badge
+        c.drawRect(skia.Rect.MakeWH(W, H), P("#0B1220", 0.92 * ea))
+        c.drawCircle(540, 820, 520, skia.Paint(Shader=rad((540, 820), 520, [C("#FF6A1A", 0.28 * ea), C("#FF6A1A", 0.0)])))
+        k = ease_back(remap(t, S.T - 1.6, S.T - 1.1))
+        rr = 150 * (0.7 + 0.3 * k)
+        for i in range(3):
+            ph = ((t * 0.7 + i / 3) % 1.0)
+            c.drawCircle(540, 820, rr + 30 + ph * 120, P("#FFB020", 0.35 * (1 - ph) * ea, stroke=4))
+        brand_badge(c, 540, 820, rr, ea)
+        from ..gfx import tr_upper
+        draw_text(c, tr_upper(BRAND.full), 540, 1080, 54, "white", "black", "center", ea)
+        draw_text(c, BRAND.city, 540, 1140, 34, "#FFB020", "bold", "center", ea)
+        chip(c, "➕ Takip et  " + BRAND.handle, 540, 1260, 38, "orange", "white", alpha=ea, weight="black")
 
 
 @scene("compare")

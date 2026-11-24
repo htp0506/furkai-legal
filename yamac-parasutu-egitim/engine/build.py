@@ -18,16 +18,17 @@ import skia
 
 from . import audio
 from .core import SCENES, SceneState
-from .gfx import W, H, FPS, ease_out, ease_io, clamp, smooth, remap
+from .gfx import W, H, FPS, ease_out, ease_in, ease_io, clamp, smooth, remap
+import math
 from . import ui
 from . import scenes  # noqa: F401  (sahneleri kaydeder)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MUSIC = os.path.join(ROOT, "assets", "music", "muzik_ana.mp3")
-LEAD_IN = 0.5
-GAP = 0.24
-OUTRO_HOLD = 2.2
-TRANS = 0.42
+LEAD_IN = 0.35
+GAP = 0.16
+OUTRO_HOLD = 3.6
+TRANS = 0.36
 
 
 def load_episode(no):
@@ -124,8 +125,29 @@ class Renderer:
         g = self.groups[gi]
         fn = SCENES[g["scene"]]
         st = SceneState(min(t, g["t1"] - 1e-3), g["t0"], g["t1"], g["phases"], self.ep, g["beats"])
+        if g["scene"] in ("outro",):
+            c.save()
+            fn(c, st)
+            c.restore()
+            return
+        # sahneyi düz bir ara yüzeye çiz, "kamera" hareketini tek seferde uygula (hızlı)
+        if not hasattr(self, "_scene_surf"):
+            self._scene_surf = skia.Surface(W, H)
+        sc = self._scene_surf.getCanvas()
+        sc.save()
+        fn(sc, st)
+        sc.restore()
+        img = self._scene_surf.makeImageSnapshot()
+        u = clamp((t - g["t0"]) / max(0.1, g["t1"] - g["t0"]))
+        e = ease_io(u)
+        zin = gi % 2 == 0
+        z = 1.0 + 0.065 * (e if zin else 1 - e)
+        dx = (18 if gi % 3 else -18) * (e - 0.5)
         c.save()
-        fn(c, st)
+        c.translate(540 + dx, 900)
+        c.scale(z, z)
+        c.translate(-540, -900)
+        c.drawImage(img, 0, 0, skia.SamplingOptions(skia.FilterMode.kLinear), None)
         c.restore()
 
     def snapshot(self, gi):
@@ -141,18 +163,28 @@ class Renderer:
         self.draw_scene(c, gi, t)
         g = self.groups[gi]
         if gi > 0 and t - g["t0"] < TRANS:
+            # hızlı "whip" geçiş: eski kare hareket bulanıklığıyla sola kayar, yenisi arkadan gelir
             k = (t - g["t0"]) / TRANS
             img = self.snapshot(gi - 1)
             e = ease_io(k)
+            dirx = -1 if gi % 2 else 1
+            blur = skia.ImageFilters.Blur(60 * math.sin(k * math.pi) + 0.1, 0.1, skia.TileMode.kClamp)
+            paint = skia.Paint(Alphaf=clamp(1 - e * 1.1), ImageFilter=blur)
             c.save()
+            c.translate(dirx * W * 0.55 * e, 0)
             c.translate(540, 960)
-            sc = 1 + 0.10 * e
-            c.scale(sc, sc)
+            c.scale(1 + 0.08 * e, 1 + 0.08 * e)
             c.translate(-540, -960)
-            c.drawImage(img, 0, 0, skia.SamplingOptions(skia.FilterMode.kLinear), skia.Paint(Alphaf=1 - e))
+            c.drawImage(img, 0, 0, skia.SamplingOptions(skia.FilterMode.kLinear), paint)
             c.restore()
-            # ışık süpürmesi
-            c.drawRect(skia.Rect.MakeWH(W, H), skia.Paint(Color=skia.ColorSetARGB(int(60 * (1 - abs(2 * k - 1))), 255, 255, 255)))
+            # ışık çizgisi
+            fl = math.sin(k * math.pi)
+            if fl > 0.02:
+                xx = 540 + dirx * (k - 0.5) * W * 1.4
+                c.drawRect(skia.Rect.MakeXYWH(xx - 160, 0, 320, H), skia.Paint(
+                    Shader=skia.GradientShader.MakeLinear([skia.Point(xx - 160, 0), skia.Point(xx + 160, 0)],
+                                                          [skia.ColorSetARGB(0, 255, 255, 255), skia.ColorSetARGB(int(70 * fl), 255, 246, 220),
+                                                           skia.ColorSetARGB(0, 255, 255, 255)])))
         # üst katmanlar
         scene_name = g["scene"]
         ui.vignette(c, 0.28 if scene_name not in ("hook", "outro") else 0.2)

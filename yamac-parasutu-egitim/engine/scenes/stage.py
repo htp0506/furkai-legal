@@ -39,9 +39,9 @@ def _bg_base(c, S, t):
     world.sky(c, theme)
     drift = t * S.get("drift", 30)
     if bg == "high":
-        world.clouds(c, t, 1, alpha=0.55, count=3, y_range=(1350, 1700), speed=20, scale=0.7, camx=drift)
-        world.mountains(c, base_y=1880, camx=drift,
-                        layers=[(11, 300, "#9BBCE6", "#C3DAF3", 0.15), (23, 240, "#7FA3CF", "#A5C1E3", 0.3)])
+        world.ground_plane(c, S.get("horizon", 1230), "fields", camx=drift * 0.6, sea=S.get("sea", 0.42), far_w=1700, ratio=7.0,
+                           tex_scale=1.2, haze="#D6EAF7")
+        world.clouds(c, t, 1, alpha=0.5, count=3, y_range=(1300, 1650), speed=20, scale=0.6, camx=drift)
         world.clouds(c, t, 0, alpha=0.85, count=4, y_range=(250, 900), speed=14, camx=drift * 2)
     else:
         world.clouds(c, t, 0, alpha=0.85, count=5, y_range=(250, 1300), speed=14, camx=drift * 2)
@@ -135,7 +135,7 @@ def stage(c, S):
     scale = S.v("scale", 62, dur=1.0)
     heading = S.v("heading", 0.0, dur=1.0) + S.get("spin", 0.0) * S.pts
     kw = dict(
-        yaw=S.v("yaw", g3.REAR_34, dur=1.0), elev=S.v("elev", 0.18, dur=1.0),
+        yaw=S.v("yaw", g3.REAR_34, dur=1.0) + S.get("orbit", 0.16) * math.sin(S.t * 0.35), elev=S.v("elev", 0.18, dur=1.0),
         pitch=S.v("pitch", 0.0) + shake * 0.06 * math.sin(t * 7),
         roll=S.v("roll", 0.0) + shake * 0.05 * math.sin(t * 9) + S.v("wingover", 0.0, dur=1.0) * math.sin(S.t * 2.1),
         heading=heading, brake_l=S.v("brake_l", 0.0, dur=0.5), brake_r=S.v("brake_r", 0.0, dur=0.5),

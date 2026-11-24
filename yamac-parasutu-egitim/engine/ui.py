@@ -1,5 +1,6 @@
 """Videonun üst katmanları: marka başlığı, ilerleme çubuğu, ekran yazıları (kicker), altyazı."""
 import math
+import re
 import skia
 from .gfx import (C, P, W, H, cached, draw_text, text_width, wrap, glass, chip, rrect, lin, rad, clamp, lerp,
                   ease_out, ease_back, smooth, remap, tr_upper)
@@ -40,14 +41,11 @@ def brand_badge(c, x, y, r, alpha=1.0):
 def header(c, ep_no, total_eps, progress, alpha=1.0, module=None):
     if alpha <= 0:
         return
-    y = 150
-    # sol: marka
-    nm1, nm2 = BRAND.line1, BRAND.line2
-    w1 = max(text_width(nm1, 30, "black"), text_width(nm2, 21, "semi")) + 130
-    glass(c, 40, y - 48, w1, 96, 48, alpha=0.42 * alpha, blur=22)
-    brand_badge(c, 88, y, 34, alpha)
-    draw_text(c, nm1, 136, y - 4, 30, "white", "black", "left", alpha)
-    draw_text(c, nm2, 136, y + 26, 21, "#E2E8F0", "semi", "left", alpha * 0.9)
+    y = 152
+    # sol: büyük kulüp logosu + ad (filigran tarzı)
+    brand_badge(c, 104, y, 58, alpha)
+    draw_text(c, BRAND.line1, 180, y - 6, 34, "white", "black", "left", alpha, shadow=(0, 3, 0.55, 8))
+    draw_text(c, BRAND.line2, 180, y + 28, 22, "#F1F5F9", "bold", "left", alpha * 0.95, shadow=(0, 2, 0.55, 6))
     # sağ: ders sayacı
     s1 = f"DERS {ep_no:02d}"
     s2 = f"/{total_eps}"
@@ -56,7 +54,7 @@ def header(c, ep_no, total_eps, progress, alpha=1.0, module=None):
     draw_text(c, s1, W - 40 - tw + 28, y + 12, 34, "white", "black", "left", alpha)
     draw_text(c, s2, W - 40 - 28, y + 11, 24, "#FFB020", "bold", "right", alpha)
     # ilerleme çubuğu
-    by = 228
+    by = 238
     rrect(c, 60, by, W - 120, 7, 4, P("#FFFFFF", 0.22 * alpha))
     pw = (W - 120) * clamp(progress)
     if pw > 2:
@@ -65,10 +63,34 @@ def header(c, ep_no, total_eps, progress, alpha=1.0, module=None):
         c.drawCircle(60 + pw, by + 3.5, 8, P("#FFFFFF", alpha))
 
 
+def step_badge(c, num, t_in, t_out, now):
+    """Orijinal formattaki gibi sağ üstte adım numarası rozeti."""
+    a = ease_back(remap(now, t_in, t_in + 0.4))
+    out = smooth(remap(now, t_out - 0.2, t_out)) if t_out is not None else 0.0
+    al = clamp(a) * (1 - out)
+    if al <= 0:
+        return
+    x, y, r = 975, 330, 54 * (0.6 + 0.4 * a)
+    c.drawCircle(x, y + 6, r + 4, P("#000000", 0.35 * al, blur=10))
+    c.drawCircle(x, y, r, skia.Paint(AntiAlias=True, Shader=lin((x - r, y - r), (x + r, y + r), [C("#FF8A3D", al), C("#E8590C", al)])))
+    c.drawCircle(x, y, r, P("#FFFFFF", 0.9 * al, stroke=4))
+    draw_text(c, str(num), x, y + r * 0.36, r * 1.05, "white", "black", "center", al)
+
+
+_STEP = re.compile(r"^(\d+)\s*·\s*(.+)$")
+
+
 def kicker(c, items, t_in, t_out, now, y=360, gap=22):
-    """Ekran yazıları. items: ['BAŞLIK', ('ETİKET','red'), ...]."""
+    """Ekran yazıları. items: ['BAŞLIK', ('ETİKET','red'), ...]. 'N · METİN' -> rozet + metin."""
     if not items:
         return
+    items = list(items)
+    first = items[0]
+    ftxt = first if isinstance(first, str) else first[0]
+    m = _STEP.match(ftxt)
+    if m:
+        step_badge(c, m.group(1), t_in, t_out, now)
+        items[0] = m.group(2) if isinstance(first, str) else (m.group(2), first[1])
     out = smooth(remap(now, t_out - 0.22, t_out)) if t_out is not None else 0.0
     cy = y
     for i, it in enumerate(items):
@@ -156,12 +178,21 @@ def subtitles(c, text, t0, t1, now, y=1500):
             ww = text_width(seg, size, "bold")
             w_start, w_end = k, k + len(wd)
             if spoken >= w_end:
-                col, a = "white", 1.0
+                col, a, sc = "white", 1.0, 1.0
             elif spoken >= w_start:
                 col, a = "#FFD23F", 1.0
+                sc = 1.0 + 0.045 * math.sin(clamp((spoken - w_start) / max(1, w_end - w_start)) * math.pi)
             else:
-                col, a = "white", 0.62
-            draw_text(c, wd, x, yy, size, col, "bold", "left", alpha * a)
+                col, a, sc = "white", 0.62, 1.0
+            if sc > 1.001:
+                wwd = text_width(wd, size, "bold")
+                c.save()
+                c.translate(x + wwd / 2, yy - size * 0.35)
+                c.scale(sc, sc)
+                draw_text(c, wd, -wwd / 2, size * 0.35, size, col, "bold", "left", alpha * a)
+                c.restore()
+            else:
+                draw_text(c, wd, x, yy, size, col, "bold", "left", alpha * a)
             x += ww
             k += len(seg)
 

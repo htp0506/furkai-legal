@@ -385,13 +385,19 @@ def render(c, x, y, scale, *, yaw=-math.pi / 2, elev=0.12, pitch=0.0, roll=0.0, 
                 if kind == "helmet":
                     oc.drawCircle(x1, y1, rr, skia.Paint(AntiAlias=True, Shader=skia.GradientShader.MakeRadial(
                         skia.Point(x1 - rr * 0.35, y1 - rr * 0.4), rr * 1.3, [C("#FFFFFF", alpha), C("#CBD5E1", alpha)])))
-                    # vizör / turuncu şerit
-                    fwd = np.array([0, 0, 1.0]) @ R.T
+                    # hilal vizör + turuncu şerit (kask içine kırpılmış)
+                    fwd = np.array([0, 0, 1.0]) @ RP.T
                     vx, vy = -fwd[0], -fwd[1]
-                    if fwd[2] > -0.3:
-                        oc.drawCircle(x1 + vx * rr * 0.45, y1 + vy * rr * 0.45 + rr * 0.15, rr * 0.55,
-                                      P("#0F172A", alpha * clamp(0.6 + fwd[2])))
-                    oc.drawCircle(x1, y1, rr, P(PAL["orange"], alpha, stroke=rr * 0.18))
+                    oc.save()
+                    clip = skia.Path()
+                    clip.addCircle(x1, y1, rr)
+                    oc.clipPath(clip, skia.ClipOp.kIntersect, True)
+                    if fwd[2] > -0.5:
+                        oc.drawCircle(x1 + vx * rr * 0.9, y1 + vy * rr * 0.9 + rr * 0.25, rr * 0.8,
+                                      P("#0F172A", alpha * clamp(0.75 + fwd[2] * 0.5)))
+                    oc.drawCircle(x1 - vx * rr * 0.85, y1 - vy * rr * 0.85 - rr * 0.35, rr * 0.55, P(PAL["orange"], alpha))
+                    oc.restore()
+                    oc.drawCircle(x1, y1, rr, P("#0F172A", 0.5 * alpha, stroke=max(1, rr * 0.08)))
                 else:
                     oc.drawCircle(x1, y1, rr, P(col, alpha))
             else:

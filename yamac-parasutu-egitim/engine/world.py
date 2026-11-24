@@ -23,6 +23,13 @@ def sky(c, theme="day", sun=(860, 300), sun_alpha=1.0, y0=0, y1=H):
             sx, sy = sun[0], sun[1] - y0
             cv.drawCircle(sx, sy, 520, skia.Paint(Shader=rad((sx, sy), 520, [C("#FFF6D8", 0.55 * sun_alpha), C("#FFF6D8", 0.0)])))
             cv.drawCircle(sx, sy, 70, P("#FFFBEA", 0.95 * sun_alpha, blur=6))
+            cv.drawCircle(sx, sy, 150, P("#FFF7D6", 0.25 * sun_alpha, blur=40))
+            # lens parlaması: güneşten merkeze doğru diskler
+            vx, vy = 540 - sx, 960 - sy
+            for f, r, a_, col in ((0.35, 40, 0.10, "#FFE8A3"), (0.6, 24, 0.12, "#BAE6FD"), (0.85, 70, 0.06, "#FDE68A"),
+                                  (1.15, 34, 0.09, "#FBCFE8")):
+                cv.drawCircle(sx + vx * f, sy + vy * f, r, P(col, a_ * sun_alpha, blur=4))
+            cv.drawRect(skia.Rect.MakeXYWH(sx - 420, sy - 2, 840, 4), P("#FFF7D6", 0.18 * sun_alpha, blur=3))
     img = cached(("sky", theme, tuple(sun) if sun else None, round(sun_alpha, 2), y0, y1), W, y1 - y0, draw)
     c.drawImage(img, 0, y0)
 
@@ -132,7 +139,21 @@ def _mountain_layer_img(seed, hgt, ctop, cbot, i):
         path.lineTo(period + W, hh)
         path.close()
         cv.drawPath(path, skia.Paint(AntiAlias=True, Shader=lin((0, top - hgt), (0, top + 60), [C(ctop), C(cbot)])))
-    return cached(("mtn", seed, hgt, ctop, cbot, i), period + W, hh, draw), top, hh
+        if i >= 1:
+            textured_fill(cv, path, "fields" if i == 2 else "grass", 0.5 + 0.2 * i, 0.25 + 0.12 * i)
+        ridge = skia.Path()
+        first = True
+        for k in range(steps + 1):
+            sx = k * (period + W) / steps
+            u = (sx % period) / period
+            idx = u * (n - 1)
+            i0 = int(idx)
+            fr = idx - i0
+            v = prof[i0] * (1 - fr) + prof[min(i0 + 1, n - 1)] * fr
+            (ridge.moveTo if first else ridge.lineTo)(sx, top - v * hgt - i * 10)
+            first = False
+        cv.drawPath(ridge, P("#FFFFFF", 0.18 + 0.05 * i, stroke=3))
+    return cached(("mtn2", seed, hgt, ctop, cbot, i), period + W, hh, draw), top, hh
 
 
 def mountains(c, base_y=1150, camx=0.0, layers=None, haze="#BFE3FF"):
@@ -155,23 +176,27 @@ def mountains(c, base_y=1150, camx=0.0, layers=None, haze="#BFE3FF"):
     c.drawImage(cached(("haze", haze), W, 220, hz), 0, base_y - 140)
 
 
-def ground(c, y=1350, camx=0.0, color_top="#6CC46A", color_bot="#2F7D43", stripes=True):
-    def gd(cv):
-        cv.drawRect(skia.Rect.MakeWH(W, 1000), skia.Paint(Shader=lin((0, 0), (0, 1000), [C(color_top), C(color_bot)])))
-    if y < H:
-        c.drawImageRect(cached(("ground", color_top, color_bot), W, 1000, gd), skia.Rect.MakeXYWH(0, y, W, max(1, H - y)), SAMPLING)
-    if stripes:
-        # perspektif biçilmiş çim şeritleri
-        p = skia.Path()
-        for k in range(-12, 13):
-            x0 = 540 + k * 160 - (camx * 1.0) % 160
-            p.moveTo(x0, y)
-            p.lineTo(x0 + 80, y)
-            p.lineTo(540 + (x0 + 80 - 540) * 3.2, H)
-            p.lineTo(540 + (x0 - 540) * 3.2, H)
-            p.close()
-        c.drawPath(p, P("#FFFFFF", 0.045))
-    c.drawRect(skia.Rect.MakeXYWH(0, y - 2, W, 6), P("#FFFFFF", 0.18))
+def ground(c, y=1350, camx=0.0, color_top="#6CC46A", color_bot="#2F7D43", stripes=True, kind="grass", tex_scale=0.9):
+    """Zemin: ufuk çizgisinden aşağı perspektifli dokulu düzlem."""
+    if y >= H:
+        return
+    c.drawRect(skia.Rect.MakeXYWH(0, y, W, H - y), skia.Paint(Shader=lin((0, y), (0, H), [C(color_top), C(color_bot)])))
+    if color_top == "#6CC46A":
+        ground_plane(c, y, kind, camx=camx * 0.5, far_w=1300, ratio=9.0, tex_scale=tex_scale, haze="#D8EEF7", haze_a=0.4)
+    c.drawRect(skia.Rect.MakeXYWH(0, y - 2, W, 4), P("#FFFFFF", 0.12))
+
+
+def textured_fill(c, path, kind="grass", scale=0.7, alpha=0.55, mode=skia.BlendMode.kOverlay):
+    """Bir şeklin içini doku ile zenginleştir (tepe, yamaç, dağ)."""
+    lm = skia.Matrix()
+    lm.setScale(scale, scale)
+    sh = _tex(kind).makeShader(skia.TileMode.kRepeat, skia.TileMode.kRepeat,
+                               skia.SamplingOptions(skia.FilterMode.kLinear, skia.MipmapMode.kLinear), lm)
+    c.save()
+    c.clipPath(path, skia.ClipOp.kIntersect, True)
+    b = path.getBounds()
+    c.drawRect(b, skia.Paint(Shader=sh, Alphaf=alpha, BlendMode=mode))
+    c.restore()
 
 
 def tree(c, x, y, s=1.0, color="#2E7D4F", alpha=1.0):
@@ -365,6 +390,7 @@ def draw_hill(c, pts, base, col_top="#4F9A5B", col_bot="#2E6B3C", rock=False, al
     path.close()
     top_y = min(p[1] for p in pts)
     c.drawPath(path, skia.Paint(AntiAlias=True, Shader=lin((0, top_y), (0, base + 200), [C(col_top, alpha), C(col_bot, alpha)])))
+    textured_fill(c, path, "grass", 0.8, 0.6 * alpha)
     c.drawPath(smooth_path(pts), P("#FFFFFF", 0.22 * alpha, stroke=4))
 
 
@@ -385,3 +411,155 @@ def vario(c, x, y, value, t=0.0, alpha=1.0, scale=1.0):
         bob = math.sin(t * 8) * 4 * scale
         pts = [(ax, y + d * 22 * scale + bob), (ax - 16 * scale, y - d * 8 * scale + bob), (ax + 16 * scale, y - d * 8 * scale + bob)]
         c.drawPath(poly(pts), P(col, alpha))
+
+
+# ---------------------------------------------------------------- gerçekçi zemin (perspektif + doku)
+_TEX = {}
+
+
+def _value_noise(n, cells, seed):
+    from PIL import Image
+    rng = np.random.default_rng(seed)
+    g = rng.random((cells, cells)).astype(np.float32)
+    g = np.pad(g, ((0, 1), (0, 1)), mode="wrap")
+    im = Image.fromarray((g * 255).astype(np.uint8)).resize((n + n // cells, n + n // cells), Image.BICUBIC)
+    a = np.asarray(im, dtype=np.float32)[:n, :n] / 255.0
+    return a
+
+
+def _fbm(n, seed, octaves=((4, 0.5), (12, 0.3), (40, 0.15), (128, 0.05))):
+    out = np.zeros((n, n), np.float32)
+    for i, (cells, amp) in enumerate(octaves):
+        out += amp * _value_noise(n, cells, seed + i * 17)
+    return out / sum(a for _, a in octaves)
+
+
+def _to_image(rgb):
+    rgba = np.dstack([np.clip(rgb, 0, 255).astype(np.uint8), np.full(rgb.shape[:2], 255, np.uint8)])
+    img = skia.Image.fromarray(np.ascontiguousarray(rgba), colorType=skia.ColorType.kRGBA_8888_ColorType)
+    return img.withDefaultMipmaps()
+
+
+def _tex(kind):
+    if kind in _TEX:
+        return _TEX[kind]
+    n = 1024
+    if kind == "grass":
+        f = _fbm(n, 5)
+        fine = _value_noise(n, 256, 99)
+        c1, c2, c3 = np.array([108, 186, 98]), np.array([58, 128, 64]), np.array([150, 190, 92])
+        t = np.clip((f - 0.35) * 2.2, 0, 1)[..., None]
+        rgb = c1 * (1 - t) + c2 * t
+        dry = np.clip((_fbm(n, 31) - 0.62) * 5, 0, 1)[..., None]
+        rgb = rgb * (1 - dry * 0.5) + c3 * dry * 0.5
+        rgb *= (0.88 + 0.24 * fine)[..., None]
+    else:  # "fields" ya da "coast": üstten tarla dokusu
+        rng = np.random.default_rng(7)
+        rgb = np.zeros((n, n, 3), np.float32)
+        base = _fbm(n, 11)
+        rgb[:] = (np.array([96, 150, 80]) * (0.85 + 0.3 * base[..., None]))
+        palette = [(120, 170, 80), (170, 180, 90), (196, 170, 104), (88, 140, 70), (140, 160, 70), (110, 120, 60)]
+        for _ in range(240):
+            x, y = rng.integers(0, n, 2)
+            w, h = rng.integers(30, 120, 2)
+            col = np.array(palette[rng.integers(0, len(palette))], np.float32)
+            xs, ys = np.arange(x, x + w) % n, np.arange(y, y + h) % n
+            rgb[np.ix_(ys, xs)] = rgb[np.ix_(ys, xs)] * 0.25 + col * 0.75
+        forest = np.clip((_fbm(n, 23) - 0.58) * 6, 0, 1)[..., None]
+        rgb = rgb * (1 - forest) + np.array([46, 92, 52]) * forest
+        rgb *= (0.9 + 0.2 * _value_noise(n, 200, 5))[..., None]
+        if kind == "coast":
+            yy, xx = np.mgrid[0:n, 0:n].astype(np.float32)
+            edge = 0.55 * n + 0.12 * n * np.sin(xx / n * 2 * np.pi * 2 + 1.3) + 0.06 * n * (_fbm(n, 41) - 0.5) * 4
+            d = yy - edge
+            sea = np.clip(d / 6.0, 0, 1)[..., None]
+            sand = (np.clip(1 - np.abs(d + 6) / 10.0, 0, 1))[..., None]
+            depth = np.clip(d / (0.35 * n), 0, 1)[..., None]
+            water = np.array([64, 186, 214]) * (1 - depth) + np.array([20, 92, 156]) * depth
+            water = water * (0.93 + 0.1 * _value_noise(n, 300, 8)[..., None])
+            rgb = rgb * (1 - sea) + water * sea
+            rgb = rgb * (1 - sand) + np.array([228, 214, 170]) * sand
+    img = _to_image(rgb)
+    _TEX[kind] = img
+    return img
+
+
+_GP_SURF = {}
+
+
+def ground_plane(c, horizon_y, kind="grass", camx=0.0, near_y=H + 200, far_w=1500.0, ratio=11.0,
+                 tex_scale=1.0, haze="#CFE6F5", alpha=1.0, fwd=0.0, sea=0.0, detail=0.35, haze_a=0.75):
+    """Perspektifli dokulu zemin: yarım çözünürlükte çizilip büyütülür (yumuşak doku, 4 kat hızlı)."""
+    horizon_y = int(horizon_y)
+    hgt = H - horizon_y
+    if hgt <= 2:
+        return
+    key = (W // 2, (hgt + 1) // 2)
+    surf = _GP_SURF.get(key)
+    if surf is None:
+        if len(_GP_SURF) > 8:
+            _GP_SURF.clear()
+        surf = _GP_SURF[key] = skia.Surface(key[0], key[1])
+    hc = surf.getCanvas()
+    hc.clear(skia.ColorTRANSPARENT)
+    hc.save()
+    hc.scale(0.5, 0.5)
+    hc.translate(0, -horizon_y)
+    _ground_plane_full(hc, horizon_y, kind, camx, near_y, far_w, ratio, tex_scale, alpha, fwd, sea, detail)
+    hc.restore()
+    c.drawImageRect(surf.makeImageSnapshot(), skia.Rect.MakeWH(key[0], key[1]), skia.Rect.MakeXYWH(0, horizon_y, W, key[1] * 2),
+                    SAMPLING)
+    # ufuk sisi (ufkun hem üstü hem altı)
+    c.drawRect(skia.Rect.MakeXYWH(0, horizon_y - 90, W, 90), skia.Paint(Shader=lin((0, horizon_y - 90), (0, horizon_y),
+                                                                                  [C(haze, 0.0), C(haze, haze_a)])))
+    hz = 300
+    c.drawRect(skia.Rect.MakeXYWH(0, horizon_y, W, hz), skia.Paint(Shader=lin((0, horizon_y), (0, horizon_y + hz),
+                                                                             [C(haze, haze_a), C(haze, 0.0)])))
+
+
+def _ground_plane_full(c, horizon_y, kind, camx, near_y, far_w, ratio, tex_scale, alpha, fwd, sea, detail):
+    img = _tex(kind)
+    D = 4096.0
+    Wt = far_w * 2.2
+    src = [skia.Point(0, 0), skia.Point(Wt, 0), skia.Point(Wt, D), skia.Point(0, D)]
+    near_w = far_w * ratio
+    dst = [skia.Point(540 - far_w / 2 * 2.2, horizon_y), skia.Point(540 + far_w / 2 * 2.2, horizon_y),
+           skia.Point(540 + near_w / 2 * 2.2, near_y), skia.Point(540 - near_w / 2 * 2.2, near_y)]
+    m = skia.Matrix()
+    m.setPolyToPoly(src, dst)
+    lm = skia.Matrix()
+    lm.setScale(tex_scale * 1.6, tex_scale * 1.6)
+    lm.postTranslate(-camx * 2.0, -fwd)
+    shader = img.makeShader(skia.TileMode.kRepeat, skia.TileMode.kRepeat,
+                            skia.SamplingOptions(skia.FilterMode.kLinear, skia.MipmapMode.kLinear), lm)
+    c.save()
+    c.clipRect(skia.Rect.MakeLTRB(0, horizon_y, W, H))
+    c.concat(m)
+    c.drawRect(skia.Rect.MakeWH(Wt, D), skia.Paint(Shader=shader, Alphaf=alpha))
+    if detail > 0 and kind != "grass":
+        dl = skia.Matrix()
+        dl.setScale(0.35, 0.35)
+        dl.postTranslate(-camx * 2.0, -fwd)
+        dsh = _tex("grass").makeShader(skia.TileMode.kRepeat, skia.TileMode.kRepeat,
+                                       skia.SamplingOptions(skia.FilterMode.kLinear, skia.MipmapMode.kLinear), dl)
+        c.drawRect(skia.Rect.MakeXYWH(0, D * 0.35, Wt, D * 0.65),
+                   skia.Paint(Shader=dsh, Alphaf=detail * alpha, BlendMode=skia.BlendMode.kOverlay))
+    if sea > 0:
+        # kıyı şeridi: uzak bölge deniz
+        zc = D * sea
+        pts = []
+        for i in range(0, 41):
+            x = Wt * i / 40
+            pts.append((x, zc + D * 0.04 * math.sin(i * 0.7 + 1.1 + camx * 0.002) + D * 0.025 * math.sin(i * 1.9)))
+        path = skia.Path()
+        path.moveTo(0, 0)
+        for x, z in pts:
+            path.lineTo(x, z)
+        path.lineTo(Wt, 0)
+        path.close()
+        c.drawPath(path, skia.Paint(AntiAlias=True, Shader=lin((0, 0), (0, zc + D * 0.05),
+                                                                [C("#1D4E89"), C("#2B78B5"), C("#4CC3D9")], [0, 0.7, 1.0]),
+                                    Alphaf=alpha))
+        c.drawPath(poly(pts, close=False), P("#EADFB8", 0.95 * alpha, stroke=D * 0.006))
+        c.drawPath(poly([(x, z - D * 0.012) for x, z in pts], close=False), P("#FFFFFF", 0.45 * alpha, stroke=D * 0.004))
+    c.restore()
