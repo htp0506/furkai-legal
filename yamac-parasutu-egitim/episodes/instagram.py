@@ -272,24 +272,50 @@ def hashtags(no):
     return " ".join(BASE_TAGS + CAPTIONS[no][4])
 
 
+# Akışta ilk görünen satır: emojili, büyük harfli dikkat çekici başlık.
+HEADLINES = {
+    1: "🪂 MOTORSUZ UÇMANIN SIRRI", 2: "🧩 KANADIN İÇİNDE NELER VAR?", 3: "🎒 UÇUŞ ÇANTASI KONTROLÜ",
+    4: "📐 KANADIN GİZLİ AYARI", 5: "🌬️ RÜZGARI OKUMAYAN UÇAMAZ!", 6: "⛰️ SAATLERCE HAVADA KALMANIN SIRRI",
+    7: "☀️ GÜNEŞ SENİ NASIL YÜKSELTİR?", 8: "🌀 DAĞIN ARKASINDA NE SAKLANIR?",
+    9: "⛈️ GÖKYÜZÜNÜN EN TEHLİKELİ BULUTU", 10: "✅ HER UÇUŞTA 5 KONTROL, İSTİSNASIZ!",
+    11: "🏃 KOŞ, KALK, UÇ!", 12: "🔄 RÜZGAR SERTLEŞTİ Mİ?", 13: "🎚️ HIZIN ELLERİNDE!",
+    14: "↪️ KUSURSUZ DÖNÜŞÜN FORMÜLÜ", 15: "📏 1000 METREDEN 9 KİLOMETRE!", 16: "👂 KANADA KULAK VER: BIG EARS",
+    17: "🛬 8 ÇİZ, RÜZGARA DÖN, YUMUŞAK İN", 18: "🦶 TÜY GİBİ İNİŞİN SIRRI", 19: "🤸 DÜŞMEYİ BİLEN PİLOT KAZANIR",
+    20: "⚠️ BİR TARAF KAPANDI: PANİK YOK!", 21: "😱 KANADIN ÖNÜ ÇÖKTÜ!", 22: "🛑 FRENİ FAZLA ÇEKERSEN NE OLUR?",
+    23: "🆘 HAYATINI KURTARACAK 4 HAREKET", 24: "🚦 HAVADA KİMİN YOLU ÖNCE?", 25: "💨 RÜZGARDA GERİ GİTMEK MÜMKÜN MÜ?",
+    26: "🌀 TERMİKTE KUSURSUZ DAİRE", 27: "🔍 GÖRÜNMEYENİ GÖRMEK: TERMİK AVI", 28: "👥 TERMİKTE ÇARPIŞMAMANIN 5 KURALI",
+    29: "🌪️ EN HIZLI ALÇALMA, EN BÜYÜK RİSK", 30: "🧊 KANAT HAVADA DURURSA?", 31: "🎢 GÖKYÜZÜNDE SALINCAK: WINGOVER",
+    32: "🛫 RÜZGAR SEÇER, SEN KALKARSIN", 33: "🐍 USTALARIN KALKIŞI: KOBRA", 34: "🐎 İYİ PİLOT YERDE BELLİ OLUR",
+    35: "👀 ÖNCE GÖZLE, SONRA UÇ", 36: "⏱️ KALKIŞI KURTARAN 5 SANİYE", 37: "🪢 EN SİNİR BOZUCU AN: İP KARIŞIKLIĞI",
+    38: "🗺️ 200 METREDE 2 DAKİKAN VAR!", 39: "✋ ELLERİN NEREDE, KANADIN ÖYLE UÇAR", 40: "🌬️ TULUM YOKSA RÜZGARI NASIL OKURSUN?",
+    41: "🌊 HAVA NEDEN SARSAR?", 42: "🌪️ SICAK GÜNLERİN SİNSİ TEHLİKESİ", 43: "🌧️ ISLAK KANAT = TEHLİKE!",
+    44: "🥶 YAZ ORTASINDA HAVADA ÜŞÜMEK", 45: "🌅 ERKEN KALKAN PİLOT KAZANIR!", 46: "🏷️ HANGİ KANATLA BAŞLAMALI?",
+    47: "🔧 100 SAATTE BİR NE YAPILIR?", 48: "☠️ BU 5 ŞEYDEN BİRİ VARSA UÇMA!", 49: "📢 HER PİLOTUN BİLMESİ GEREKEN: NOTAM",
+    50: "🎓 PİLOTLUKTA SEVİYE ATLAMAK", 51: "📖 ALTI DERS, BİR SINAV, İLK UÇUŞ!",
+}
+
+
 def caption(no):
     first, items, extra, question, _ = CAPTIONS[no]
     title = next(e["title"] for e in SERIES if e["no"] == no)
     mi, mname = module_of(no)
-    lines = [f"🪂 {first}", "", f"📚 Ders {no:02d}/{TOTAL} · {title}", f"Modül {mi}: {mname}", ""]
+    lines = [HEADLINES[no], "", f"{first} 👇", "",
+             f"📚 Ders {no:02d}/{TOTAL} · {title}", f"🗂️ Modül {mi}: {mname}", ""]
     lines += [_bullet(i) for i in items]
     if extra:
         lines += ["", f"👉 {extra}"]
     lines += ["", f"💬 {question} Yorumlara yaz!",
-              "🔖 Kaydet, uçuştan önce tekrar izle. Serinin tamamı profilimizde.",
+              "🔖 Kaydet, uçuştan önce tekrar izle.",
+              "🔔 Serinin tamamı için takip et.",
               "📍 Derin Yamaç Spor Kulübü · Merzifon",
-              "⚠️ Bilgilendirme amaçlıdır. Uçuş eğitimini lisanslı eğitmenle al.",
+              "⚠️ Bilgilendirme amaçlıdır; uçuş eğitimini lisanslı eğitmenle al.",
               "", hashtags(no)]
     return "\n".join(lines)
 
 
 if __name__ == "__main__":
     assert set(CAPTIONS) == set(range(1, TOTAL + 1)), "eksik ders"
+    assert set(HEADLINES) == set(CAPTIONS), "eksik başlık"
     for n in range(1, TOTAL + 1):
         assert len(BASE_TAGS + CAPTIONS[n][4]) == 5
     print(caption(18))
