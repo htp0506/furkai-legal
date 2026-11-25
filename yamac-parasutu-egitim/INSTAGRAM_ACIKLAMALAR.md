@@ -39,7 +39,7 @@ Kanadını parça parça tanımadan, ona güvenemezsin. 👇
 
 ✅ Hücum kenarı ve hücre ağızları
 ✅ Firar kenarı: frenle bükülür
-🔸 A · B · C ve fren hatları
+✅ A · B · C ve fren hatları
 ✅ Askılar ve karabinalar
 
 💬 Senin kanadının rengi ne? Yorumlara yaz!

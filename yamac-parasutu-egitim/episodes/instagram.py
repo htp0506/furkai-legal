@@ -261,7 +261,7 @@ def module_of(no):
 def _bullet(item):
     if item[:1] in _NUM and item[1:4] == " · ":
         return f"{_NUM[item[0]]} {item[4:]}"
-    if len(item) > 4 and item[0].isupper() and item[1:4] == " · ":
+    if len(item) > 4 and item[0].isupper() and item[1:4] == " · " and "(" in item:
         return f"🔸 {item}"
     if item.startswith("x "):
         return f"❌ {item[2:]}"
